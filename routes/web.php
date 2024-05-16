@@ -2,9 +2,15 @@
 
 declare(strict_types=1);
 
-use App\Livewire\HomePage;
+use App\Http\Middleware\SetLocale;
+use App\Livewire\Pages;
 use Illuminate\Support\Facades\Route;
 
-Route::prefix('{locale?}')->group(function () {
-    Route::get('/', HomePage::class)->name('home');
+Route::group([
+    'prefix' => '{locale?}',
+    'middleware' => SetLocale::class,
+], function () {
+    Route::get('/', Pages\Home::class)->name('home');
+    Route::get('/about', Pages\About::class)->name('about');
+    Route::get('/partners', Pages\Partners::class)->name('partners');
 });

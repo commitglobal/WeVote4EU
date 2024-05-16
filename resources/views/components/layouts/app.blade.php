@@ -14,24 +14,30 @@
         [x-cloak] {
             display: none !important;
         }
+
+        :root {
+            --font-family: 'Inter';
+        }
     </style>
-    @vite(['resources/css/filament/admin/theme.css', 'resources/js/app.js'])
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap" rel="stylesheet" />
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 </head>
 
-<body class="antialiased">
-    <header class="bg-white shadow">
-        <div class="container flex justify-between gap-4 py-4">
-            <a href="{{ route('home') }}" class="flex items-center gap-2">
-                <x-icon-logo class="h-7 md:h-10" />
-            </a>
+<body class="flex flex-col min-h-screen font-sans antialiased bg-gray-50">
+    <x-site.skip-to-content />
 
-            <nav></nav>
-        </div>
+    <x-site.header />
 
-    </header>
+    <main id="content" class="flex-1 mb-12 lg:mb-16">
+        {{ $slot }}
+    </main>
 
-    {{ $slot }}
+    <x-site.footer />
 
     @livewireScripts
 </body>
