@@ -7,7 +7,6 @@ namespace App\Imports;
 use Exception;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Maatwebsite\Excel\Concerns\Importable;
 use Maatwebsite\Excel\Concerns\RegistersEventListeners;
@@ -91,7 +90,7 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
                 });
         });
 
-        Storage::put("countries/{$country}.json", json_encode($this->steps, \JSON_PRETTY_PRINT));
+        File::put(resource_path("trees/{$country}.json"), json_encode($this->steps, \JSON_PRETTY_PRINT));
 
         collect($this->translations)
             ->each(function (array $translations, string $lang) use ($country) {

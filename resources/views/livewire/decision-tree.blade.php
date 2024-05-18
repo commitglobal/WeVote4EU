@@ -15,7 +15,7 @@
                 <div class="grid gap-4 sm:grid-cols-3">
                     @foreach (app('countries') as $code => $country)
                         <x-decision-tree.choice
-                            :href="localizedRoute('home', ['country' => Str::slug($country['name'])])">
+                            :href="localizedRoute('country', ['country' => Str::slug($country['name'])])">
                             <x-dynamic-component :component="'icon-flags.' . $code" class="w-8 h-8" />
                             <span>{{ $country['name'] }}</span>
                         </x-decision-tree.choice>

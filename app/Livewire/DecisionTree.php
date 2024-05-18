@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Livewire;
 
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 use Livewire\Component;
 
 class DecisionTree extends Component
@@ -25,12 +25,12 @@ class DecisionTree extends Component
 
     public function getCountry()
     {
-        $file = "countries/{$this->country}.json";
+        $file = resource_path("trees/{$this->country}.json");
 
-        if (! Storage::exists($file)) {
+        if (! File::exists($file)) {
             return null;
         }
 
-        return collect(Storage::json($file));
+        return collect(File::json($file));
     }
 }
