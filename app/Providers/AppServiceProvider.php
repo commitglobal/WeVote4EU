@@ -13,6 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        $this->registerCountries();
         $this->registerLanguages();
     }
 
@@ -22,6 +23,93 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+    }
+
+    protected function registerCountries(): void
+    {
+        $this->app->singleton('countries', fn () => [
+            'at' => [
+                'name' => 'Austria',
+            ],
+            'be' => [
+                'name' => 'Belgium',
+            ],
+            'bg' => [
+                'name' => 'Bulgaria',
+            ],
+            'hr' => [
+                'name' => 'Croatia',
+            ],
+            'cy' => [
+                'name' => 'Cyprus',
+            ],
+            'cz' => [
+                'name' => 'Czechia',
+            ],
+            'dk' => [
+                'name' => 'Denmark',
+            ],
+            'ee' => [
+                'name' => 'Estonia',
+            ],
+            'fi' => [
+                'name' => 'Finland',
+            ],
+            'fr' => [
+                'name' => 'France',
+            ],
+            'de' => [
+                'name' => 'Germany',
+            ],
+            'gr' => [
+                'name' => 'Greece',
+            ],
+            'hu' => [
+                'name' => 'Hungary',
+            ],
+            'ie' => [
+                'name' => 'Ireland',
+            ],
+            'it' => [
+                'name' => 'Italy',
+            ],
+            'lv' => [
+                'name' => 'Latvia',
+            ],
+            'lt' => [
+                'name' => 'Lithuania',
+            ],
+            'lu' => [
+                'name' => 'Luxembourg',
+            ],
+            'mt' => [
+                'name' => 'Malta',
+            ],
+            'nl' => [
+                'name' => 'Netherlands',
+            ],
+            'pl' => [
+                'name' => 'Poland',
+            ],
+            'pt' => [
+                'name' => 'Portugal',
+            ],
+            'ro' => [
+                'name' => 'Romania',
+            ],
+            'sk' => [
+                'name' => 'Slovakia',
+            ],
+            'si' => [
+                'name' => 'Slovenia',
+            ],
+            'es' => [
+                'name' => 'Spain',
+            ],
+            'se' => [
+                'name' => 'Sweden',
+            ],
+        ]);
     }
 
     protected function registerLanguages(): void

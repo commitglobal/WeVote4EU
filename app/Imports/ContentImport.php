@@ -84,7 +84,10 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
                         return;
                     }
 
-                    $this->translations[$locale][$country][$this->prefix . $key] = Str::markdown($text);
+                    $this->translations[$locale][$country][$this->prefix . $key] = Str::of($text)
+                        ->markdown()
+                        ->trim()
+                        ->value();
                 });
         });
 
