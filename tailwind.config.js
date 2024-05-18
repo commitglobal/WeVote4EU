@@ -1,6 +1,7 @@
 export default {
     content: [
         //,
+        './app/Livewire/**/*.php',
         './app/View/Components/**/*.php',
         './resources/views/**/*.blade.php',
     ],

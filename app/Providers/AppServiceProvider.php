@@ -13,31 +13,44 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        $this->registerLanguages();
+    }
+
+    /**
+     * Bootstrap any application services.
+     */
+    public function boot(): void
+    {
+        //
+    }
+
+    protected function registerLanguages(): void
+    {
         $this->app->singleton('languages', fn () => [
             'bg' => [
                 'name' => 'Bulgarian',
                 'nativeName' => 'Български',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'hr' => [
                 'name' => 'Croatian',
                 'nativeName' => 'Hrvatski',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'cs' => [
                 'name' => 'Czech',
                 'nativeName' => 'Čeština',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'da' => [
                 'name' => 'Danish',
                 'nativeName' => 'Dansk',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'nl' => [
                 'name' => 'Dutch',
                 'nativeName' => 'Nederlands',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'en' => [
                 'name' => 'English',
@@ -47,101 +60,93 @@ class AppServiceProvider extends ServiceProvider
             'et' => [
                 'name' => 'Estonian',
                 'nativeName' => 'Eesti',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'fi' => [
                 'name' => 'Finnish',
                 'nativeName' => 'Suomi',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'fr' => [
                 'name' => 'French',
                 'nativeName' => 'Français',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'de' => [
                 'name' => 'German',
                 'nativeName' => 'Deutsch',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'el' => [
                 'name' => 'Greek',
                 'nativeName' => 'Ελληνικά',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'hu' => [
                 'name' => 'Hungarian',
                 'nativeName' => 'Magyar',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'ga' => [
                 'name' => 'Irish',
                 'nativeName' => 'Gaeilge',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'it' => [
                 'name' => 'Italian',
                 'nativeName' => 'Italiano',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'lv' => [
                 'name' => 'Latvian',
                 'nativeName' => 'Latviešu',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'lt' => [
                 'name' => 'Lithuanian',
                 'nativeName' => 'Lietuvių',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'mt' => [
                 'name' => 'Maltese',
                 'nativeName' => 'Malti',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'pl' => [
                 'name' => 'Polish',
                 'nativeName' => 'polPolskiski',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'pt' => [
                 'name' => 'Portuguese',
                 'nativeName' => 'Português',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'ro' => [
                 'name' => 'Romanian',
                 'nativeName' => 'Română',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'sk' => [
                 'name' => 'Slovak',
                 'nativeName' => 'Slovenčina',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'sl' => [
                 'name' => 'Slovene',
                 'nativeName' => 'Slovenščina',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'es' => [
                 'name' => 'Spanish',
                 'nativeName' => 'Español',
-                'enabled' => false,
+                'enabled' => true,
             ],
             'sv' => [
                 'name' => 'Swedish',
                 'nativeName' => 'Svenska',
-                'enabled' => false,
+                'enabled' => true,
             ],
         ]);
-    }
-
-    /**
-     * Bootstrap any application services.
-     */
-    public function boot(): void
-    {
-        //
     }
 }

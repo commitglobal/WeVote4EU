@@ -10,7 +10,7 @@ Route::group([
     'prefix' => '{locale?}',
     'middleware' => SetLocale::class,
 ], function () {
-    Route::get('/', Pages\Home::class)->name('home');
+    Route::get('/{country?}', Pages\Home::class)->name('home');
     Route::get('/about', Pages\About::class)->name('about');
     Route::get('/partners', Pages\Partners::class)->name('partners');
 });
