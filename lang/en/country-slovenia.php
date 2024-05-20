@@ -40,7 +40,7 @@ return [
   's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
   's8' => '<p>I am eligible to and want to vote in <strong>Slovenian</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
   's8.1' => '<p>I am an expatriate voter (Registered permanent residence in Slovenia, but temporarily abroad)</p>',
-  's8.2' => '<p>I am an Emigrated voter (Slovenian Citizens without Registered Permanent Residence in Slovenia):</p>',
+  's8.2' => '<p>I am an emigrated voter (Slovenian citizens without registered permanent residence in Slovenia):</p>',
   's9' => '<p><strong>Where do I vote?</strong></p>
 <p>You can vote at the diplomatic or consular representation of Slovenia or by post from abroad, but you have to inform the State Election Commission about your intention to vote.</p>
 <p><a href="https://www.dvk-rs.si/en/election-education/">Postal voting</a> has to be requested from the local electoral commission no later than ten days before election day.</p>
