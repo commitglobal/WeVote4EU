@@ -15,6 +15,7 @@ use Maatwebsite\Excel\Concerns\ToCollection;
 use Maatwebsite\Excel\Concerns\WithEvents;
 use Maatwebsite\Excel\Concerns\WithHeadingRow;
 use Maatwebsite\Excel\Concerns\WithProgressBar;
+use Maatwebsite\Excel\Events\BeforeImport;
 use Maatwebsite\Excel\Events\BeforeSheet;
 
 class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHeadingRow, WithProgressBar
@@ -33,6 +34,8 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
 
     public array $steps = [];
 
+    public ?string $cursor = null;
+
     public array $translations = [];
 
     public function rules(): array
@@ -40,6 +43,13 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
         return [
             'step_code' => ['required', 'string'],
         ];
+    }
+
+    public function beforeImport(BeforeImport $event)
+    {
+        File::cleanDirectory(resource_path('trees'));
+
+        File::delete(File::glob(lang_path('**/country-*.php')));
     }
 
     public function beforeSheet(BeforeSheet $event)
@@ -63,18 +73,24 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
 
             unset($row['step_code'], $row['target']);
 
-            if (\array_key_exists($this->prefix . $key, $this->steps)) {
+            $this->cursor = $this->prefix . $key;
+
+            if (\array_key_exists($this->cursor, $this->steps)) {
                 throw new Exception("Duplicate step code: {$key}");
             }
 
             if (Str::contains($key, '.')) {
                 $parts = explode('.', $key);
                 $this->steps[$this->prefix . $parts[0]][] = [
-                    'label' => $this->prefix . $key,
+                    'label' => $this->cursor,
                     'target' => $this->prefix . $target,
                 ];
             } else {
-                $this->steps[$this->prefix . $key] = [];
+                $this->steps[$this->cursor] = [];
+            }
+
+            if ($target === 'other') {
+                $this->steps[$this->cursor] = $this->countriesList(except: $country);
             }
 
             collect($row)
@@ -123,5 +139,18 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
         );
 
         return "<?php\n\nreturn {$export};\n";
+    }
+
+    protected function countriesList(string $except): array
+    {
+        return collect(app('countries'))
+            ->reject(fn (string $name, string $code) => $name === $except)
+            ->map(fn (string $name, string $code) => [
+                'label' => $name,
+                'target' => Str::slug($name),
+                'flag' => $code,
+            ])
+            ->values()
+            ->all();
     }
 }

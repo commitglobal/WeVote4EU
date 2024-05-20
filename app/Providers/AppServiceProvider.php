@@ -28,87 +28,33 @@ class AppServiceProvider extends ServiceProvider
     protected function registerCountries(): void
     {
         $this->app->singleton('countries', fn () => [
-            'at' => [
-                'name' => 'Austria',
-            ],
-            'be' => [
-                'name' => 'Belgium',
-            ],
-            'bg' => [
-                'name' => 'Bulgaria',
-            ],
-            'hr' => [
-                'name' => 'Croatia',
-            ],
-            'cy' => [
-                'name' => 'Cyprus',
-            ],
-            'cz' => [
-                'name' => 'Czechia',
-            ],
-            'dk' => [
-                'name' => 'Denmark',
-            ],
-            'ee' => [
-                'name' => 'Estonia',
-            ],
-            'fi' => [
-                'name' => 'Finland',
-            ],
-            'fr' => [
-                'name' => 'France',
-            ],
-            'de' => [
-                'name' => 'Germany',
-            ],
-            'gr' => [
-                'name' => 'Greece',
-            ],
-            'hu' => [
-                'name' => 'Hungary',
-            ],
-            'ie' => [
-                'name' => 'Ireland',
-            ],
-            'it' => [
-                'name' => 'Italy',
-            ],
-            'lv' => [
-                'name' => 'Latvia',
-            ],
-            'lt' => [
-                'name' => 'Lithuania',
-            ],
-            'lu' => [
-                'name' => 'Luxembourg',
-            ],
-            'mt' => [
-                'name' => 'Malta',
-            ],
-            'nl' => [
-                'name' => 'Netherlands',
-            ],
-            'pl' => [
-                'name' => 'Poland',
-            ],
-            'pt' => [
-                'name' => 'Portugal',
-            ],
-            'ro' => [
-                'name' => 'Romania',
-            ],
-            'sk' => [
-                'name' => 'Slovakia',
-            ],
-            'si' => [
-                'name' => 'Slovenia',
-            ],
-            'es' => [
-                'name' => 'Spain',
-            ],
-            'se' => [
-                'name' => 'Sweden',
-            ],
+            'at' => 'austria',
+            'be' => 'belgium',
+            'bg' => 'bulgaria',
+            'hr' => 'croatia',
+            'cy' => 'cyprus',
+            'cz' => 'czechia',
+            'dk' => 'denmark',
+            'ee' => 'estonia',
+            'fi' => 'finland',
+            'fr' => 'france',
+            'de' => 'germany',
+            'gr' => 'greece',
+            'hu' => 'hungary',
+            'ie' => 'ireland',
+            'it' => 'italy',
+            'lv' => 'latvia',
+            'lt' => 'lithuania',
+            'lu' => 'luxembourg',
+            'mt' => 'malta',
+            'nl' => 'netherlands',
+            'pl' => 'poland',
+            'pt' => 'portugal',
+            'ro' => 'romania',
+            'sk' => 'slovakia',
+            'si' => 'slovenia',
+            'es' => 'spain',
+            'se' => 'sweden',
         ]);
     }
 

@@ -13,11 +13,11 @@
         <div class="container">
             @if (!$country)
                 <div class="grid gap-4 sm:grid-cols-3">
-                    @foreach (app('countries') as $code => $country)
+                    @foreach (app('countries') as $code => $name)
                         <x-decision-tree.choice
-                            :href="localizedRoute('country', ['country' => Str::slug($country['name'])])">
+                            :href="localizedRoute('country', ['country' => $name])">
                             <x-dynamic-component :component="'icon-flags.' . $code" class="w-8 h-8" />
-                            <span>{{ $country['name'] }}</span>
+                            <span>{{ __("countries.{$code}") }}</span>
                         </x-decision-tree.choice>
                     @endforeach
                 </div>
@@ -27,29 +27,33 @@
                         current: null,
                         steps: @js($items->keys()),
                         isCurrent(step) {
+                            console.log(this.current, step, this.current === step);
                             return this.current === step;
                         },
-                        goTo(step) {
+                        goTo(step, replace = false) {
                             this.current = step;
+                    
+                            const url = new URL(window.location.href);
+                            url.hash = step;
+                    
+                            if (replace) {
+                                history.replaceState(null, document.title, url.toString());
+                            } else {
+                                history.pushState(null, document.title, url.toString());
+                            }
                         },
-                        updateHash() {
+                        updateHash(replaceState = false) {
                             const hash = location.hash.substring(1);
                     
                             this.goTo(this.steps.includes(hash) ? hash : this.steps[0]);
-                        }
+                        },
                     }"
                         x-on:popstate.window="updateHash"
-                        x-init="$watch('current', (value) => {
-                            const url = new URL(window.location.href);
-                        
-                            url.hash = value;
-                            history.pushState(null, document.title, url.toString());
-                        });
-                        
-                        updateHash();">
+                        x-init="updateHash(true)">
 
                         @foreach ($items as $id => $options)
                             <div
+                                id="{{ $id }}"
                                 class="flex flex-col gap-2 py-2"
                                 x-show="isCurrent(@js($id))"
                                 x-cloak>
@@ -57,13 +61,27 @@
                                     <h2 class="text-lg font-medium text-left text-gray-900 border-b">
                                         {!! __("country-{$country}.$id") !!}
                                     </h2>
-
-                                    @foreach ($options as $option)
-                                        <x-decision-tree.choice
-                                            x-on:click="goTo({{ Js::from($option['target'])->toHtml() }})">
-                                            {!! __("country-{$country}.{$option['label']}") !!}
-                                        </x-decision-tree.choice>
-                                    @endforeach
+                                    <div @class([
+                                        'grid gap-4',
+                                        count($options) === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-3',
+                                    ])>
+                                        @foreach ($options as $option)
+                                            @if (array_key_exists('flag', $option))
+                                                <x-decision-tree.choice
+                                                    :href="localizedRoute('country', [
+                                                        'country' => $option['target'],
+                                                    ])">
+                                                    <x-dynamic-component :component="'icon-flags.' . $option['flag']" class="w-8 h-8" />
+                                                    <span>{{ $option['label'] }}</span>
+                                                </x-decision-tree.choice>
+                                            @else
+                                                <x-decision-tree.choice
+                                                    x-on:click="goTo({{ Js::from($option['target'])->toHtml() }})">
+                                                    {!! __("country-{$country}.{$option['label']}") !!}
+                                                </x-decision-tree.choice>
+                                            @endif
+                                        @endforeach
+                                    </div>
                                 @else
                                     <div class="prose max-w-none">
                                         {!! __("country-{$country}.$id") !!}

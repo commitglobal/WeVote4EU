@@ -29,8 +29,8 @@ return [
 <p>For further information call +357 22 867713.</p>
 <p><strong>What documents should I bring?</strong> Bring your national ID card or the voting card.</p>',
   's8' => '<p>You must have registered for an electoral roll before the 02 April 2024. Unfortunately, without the registration, you can not vote.</p>',
-  's9.1' => '<p>I am eligible to and want to vote in <strong>Cypriot</strong> EU elections <strong>fromanother EU/non-EU country.</strong></p>',
-  's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's9.1' => '<p>I am eligible to and want to vote in <strong>Cypriot</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
+  's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
   's10' => '<p>Have you registered for an entry in an electoral roll by April 2nd, 2024?</p>',
   's10.1' => '<p>Yes</p>',
   's10.2' => '<p>No</p>',
