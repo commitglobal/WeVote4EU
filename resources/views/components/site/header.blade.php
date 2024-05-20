@@ -4,7 +4,7 @@
             <x-icon-logo class="h-7 md:h-10" />
         </a>
 
-        <div class="flex items-center gap-2">
+        <div class="relative flex items-center gap-2">
             <div class="items-center hidden gap-2 md:flex">
                 <x-navigation-item route="home" label="Homepage" />
                 <x-navigation-item route="about" label="About this platform" />
@@ -25,7 +25,7 @@
                     x-show="langOpen"
                     x-collapse
                     x-cloak>
-                    <ul class="overflow-y-auto shadow-lg max-h-[90vh] ">
+                    <ul class="overflow-y-auto shadow-lg max-h-[75vh]">
                         @foreach ($alternateUrls as $locale => $item)
                             <li class="text-sm">
                                 <a
