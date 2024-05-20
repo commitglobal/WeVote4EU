@@ -10,9 +10,12 @@ class Home extends Component
 {
     public ?string $country = null;
 
-    public function mount(?string $country = null)
+    public ?string $step = null;
+
+    public function mount(?string $country = null, ?string $step = null)
     {
         $this->country = $country;
+        $this->step = $step;
     }
 
     public function render()

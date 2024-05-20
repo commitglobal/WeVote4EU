@@ -11,5 +11,5 @@
         </div>
     </div>
 
-    <livewire:decision-tree :country="$country" />
+    <livewire:decision-tree :country="$country" :step="$step" />
 </div>
