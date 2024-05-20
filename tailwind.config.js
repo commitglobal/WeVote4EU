@@ -13,9 +13,6 @@ export default {
                 sm: '1.5rem',
                 lg: '2rem',
             },
-            screens: {
-                DEFAULT: theme('screens.xl'),
-            },
         }),
         extend: {
             colors: {

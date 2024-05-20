@@ -1,4 +1,4 @@
-<header x-data="{ menuOpen: false }" class="fixed inset-x-0 z-40 bg-white shadow">
+<header x-data="{ menuOpen: false }" class="fixed inset-x-0 z-40 bg-white shadow md:relative">
     <nav class="container flex justify-between gap-4 py-4">
         <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2">
             <x-icon-logo class="h-7 md:h-10" />
