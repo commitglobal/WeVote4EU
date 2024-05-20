@@ -21,11 +21,11 @@
                 </button>
 
                 <div
-                    class="absolute right-0 w-48 mt-2 origin-top-right bg-white shadow-xs"
+                    class="absolute right-0 w-48 mt-2 origin-top-right bg-white shadow-lg"
                     x-show="langOpen"
                     x-collapse
                     x-cloak>
-                    <ul class="overflow-y-auto shadow-lg max-h-[75vh]">
+                    <ul class="overflow-y-auto  max-h-[75vh]">
                         @foreach ($alternateUrls as $locale => $item)
                             <li class="text-sm">
                                 <a
