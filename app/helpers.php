@@ -13,6 +13,14 @@ if (! function_exists('locales')) {
     }
 }
 
+if (! function_exists('currentLocale')) {
+    function currentLocale(): ?array
+    {
+        return collect(app('languages'))
+            ->get(App::getLocale());
+    }
+}
+
 if (! function_exists('localizedRoute')) {
     function localizedRoute($name, array $parameters = [], ?string $locale = null, bool $absolute = true): string
     {

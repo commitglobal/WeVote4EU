@@ -148,7 +148,7 @@ class AppServiceProvider extends ServiceProvider
             ],
             'pl' => [
                 'name' => 'Polish',
-                'nativeName' => 'polPolskiski',
+                'nativeName' => 'Polski',
                 'enabled' => true,
             ],
             'pt' => [

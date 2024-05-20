@@ -1,6 +1,6 @@
 <a
     {{ $attributes->merge([
-            'href' => route($route),
+            'href' => localizedRoute($route),
         ])->class([
             'px-5 py-3 rounded-xl',
             'text-lg font-medium leading-tight',
