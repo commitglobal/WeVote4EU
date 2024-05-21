@@ -5,7 +5,7 @@ return [
   's1.1' => '<p>Ich bin unter 16</p>',
   's1.2' => '<p>Ich bin 16 oder älter als 16</p>',
   's2' => '<p>Sie können nicht abstimmen: Vielen Dank für Ihr Interesse, sich zu engagieren! Wir freuen uns darauf, Sie bei den nächsten Wahlen zu sehen. Bleiben Sie in der Zwischenzeit ein aktiver Bürger!</p>',
-  's3' => '<p>Aus welchem Land wollen Sie am Tag der Wahl wählen?</p>',
+  's3' => '<p>In welchem Land wollen Sie am Tag der Wahl wählen?</p>',
   's3.1' => '<p>Österreich</p>',
   's3.2' => '<p>Außerhalb Österreichs</p>',
   's4' => '<p>Haben Sie eine Behinderung oder Einschränkungen, die Sie daran hindern, ein Wahllokal zu erreichen?</p>',
@@ -30,7 +30,7 @@ return [
   's9' => '<p>Außerhalb Österreichs</p>',
   's9.1' => '<p>Ich bin wahlberechtigt und möchte an den <strong>Österreichischen</strong> EU-Wahlen <strong>aus einem anderen EU-/Nicht-EU-Land</strong> teilnehmen.</p>',
   's9.2' => '<p>Ich bin wahlberechtigt und möchte an den EU-Wahlen <strong>für einen anderen EU-Mitgliedstaat</strong> teilnehmen.</p>',
-  's7' => '<p><strong>Wo kann ich wählen?</strong> Um an einer Europawahl teilnehmen zu können, ist eine Eintragung in die europäische Wählerevidenz erforderlich. Österreicherinnen und Österreicher mit Hauptwohnsitz im Ausland (Auslandsösterreicherinnen und Auslandsösterreicher) müssen einen Antrag stellen, um in die (europäische) Wählerevidenz aufgenommen zu werden. Weitere Informationen zum Thema „<a href="https://www.oesterreich.gv.at/themen/transparenz_und_partizipation_in_der_demokratie/demokratie-und-wahlen/wahlen/2/2/Seite.320321.html">Eintragung in die (europäische) Wählerevidenz</a>“.</p>
+  's7' => '<p><strong>Wo kann ich wählen?</strong> Um an einer Europawahl teilnehmen zu können, ist eine Eintragung in die Europa-Wählerevidenz erforderlich. Österreicherinnen und Österreicher mit Hauptwohnsitz im Ausland (Auslandsösterreicherinnen und Auslandsösterreicher) müssen einen Antrag stellen, um in die (europäische) Wählerevidenz aufgenommen zu werden. Weitere Informationen zum Thema „<a href="https://www.oesterreich.gv.at/themen/transparenz_und_partizipation_in_der_demokratie/demokratie-und-wahlen/wahlen/2/2/Seite.320321.html">Eintragung in die (europäische) Wählerevidenz</a>“.</p>
 <p><strong>Die versiegelte Wahlkarte muss rechtzeitig an die empfangsberechtigte Wahlbehörde gesandt werden, und die Wähler müssen eine eidesstattliche Erklärung</strong> unterschreiben, dass sie die Wahlkarte persönlich, unbeobachtet und unbeeinflusst ausgefüllt haben.</p>
 <p>Die Briefwahlkarte kann auch <strong>bei jeder österreichischen Botschaft, jedem Konsulat oder Honorarkonsulat</strong> abgegeben werden, die sie kostenlos an die Wahlbehörde weiterleitet.</p>
 <p><strong>Welche Unterlagen muss ich mitbringen?</strong> Die Stimmabgabe per <strong>Briefwahl</strong> kann sofort nach Erhalt der Wahlkarte erfolgen.</p>

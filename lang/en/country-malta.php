@@ -21,7 +21,7 @@ return [
 <p>Additional <strong>info for EU</strong> citizen voting in Maltese EU elections: You have to be registered and included in the rolling Electoral Register to be published not later than 15th April 2024. To find out how, check regularly the <a href="https://electoral.gov.mt/">website of the Electoral Commission Malta</a>.</p>
 <p><strong>What documents should I bring?</strong> Voting document (obligatry) and ID card (recommended).</p>',
   's7' => '<p>Outside Malta</p>',
-  's7.1' => '<p>I am eligible to and want to vote in <strong>Maltese</strong> EU elections <strong>fromanother EU/non-EU country.</strong></p>',
+  's7.1' => '<p>I am eligible to and want to vote in <strong>Maltese</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
   's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
   's8' => '<p>Voting in the European elections from another country is not possible.
 Will you return back to Malta to vote In elections?</p>',

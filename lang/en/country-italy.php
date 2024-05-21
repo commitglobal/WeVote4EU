@@ -13,11 +13,11 @@ return [
   's4.1' => '<p>Yes</p>',
   's4.2' => '<p>No</p>',
   's5' => '<p>Yes, I have a disability or experience any limitations preventing me from reaching a polling station</p>',
-  's5.1' => '<p>I am a voter in in a hospitals or a nursing home</p>',
+  's5.1' => '<p>I am a voter in a hospitals or a nursing home</p>',
   's5.2' => '<p>I am a non-ambulatory voter</p>',
-  's5.3' => '<p>I am a physically Impaired voter</p>',
+  's5.3' => '<p>I am a physically impaired voter</p>',
   's5.4' => '<p>I am a visually impaired voter</p>',
-  's6' => '<p>or Italian and other EU citizens:</p>
+  's6' => '<p>For Italian and other EU citizens:</p>
 <p><strong>Where do I vote?</strong> Those enrolled in the electoral list of any municipality nationwide can vote at their place of hospitalization. This will also be indicated on the electoral card that voters receive before the elections.</p>
 <p><strong>What documents should I bring?</strong> Voters need to present their electoral card and a specific certificate issued by the mayor upon request.</p>',
   's7' => '<p>For Italian and other EU citizens:</p>
@@ -32,8 +32,8 @@ return [
 <p><strong>Where do I vote?</strong> You have to vote at the polling station in which you are registered (you do not need to register in advance as your municipal authorities automatically register you.) which is indicated on your <strong>electoral card</strong> and corresponds to your place of residence. If you do not yet receive your electoral card and would like to know where is your polling station, you need to contact your electoral municipality.</p>
 <p><strong>What documents should I bring?</strong> A valid identity document and your electoral card.</p>',
   's11' => '<p>Another EU country</p>',
-  's11.1' => '<p>I am eligible to and want to vote in <strong>Italian</strong> EU elections <strong>from</strong> <strong>another EU country.</strong></p>',
-  's11.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's11.1' => '<p>I am eligible to and want to vote in <strong>Italian</strong> EU elections <strong>from another EU country.</strong></p>',
+  's11.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's12' => '<p>Are you permanently or temporarily residing in another EU country?</p>',
   's12.1' => '<p>Permanently residing in another EU country</p>',
   's12.2' => '<p>Temporarily residing in another EU country</p>',

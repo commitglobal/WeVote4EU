@@ -5,7 +5,7 @@ return [
   's1.1' => '<p>Ich bin unter 18</p>',
   's2' => '<p>Sie können nicht abstimmen: Vielen Dank für Ihr Interesse, sich zu engagieren! Wir freuen uns darauf, Sie bei den nächsten Wahlen zu sehen. Bleiben Sie in der Zwischenzeit ein aktiver Bürger!</p>',
   's1.2' => '<p>Ich bin 18 oder über 18</p>',
-  's3' => '<p>Aus welchem Land wollen Sie am Tag der Wahl wählen?</p>',
+  's3' => '<p>In welchem Land wollen Sie am Tag der Wahl wählen?</p>',
   's3.1' => '<p>Luxemburg</p>',
   's3.2' => '<p>Außerhalb Luxemburgs</p>',
   's4' => '<p>Haben Sie eine Behinderung oder Einschränkungen, die Sie daran hindern, ein Wahllokal zu erreichen?</p>',

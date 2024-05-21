@@ -24,7 +24,7 @@ return [
   's7.2' => '<p>Mám právo a chcem voliť vo voľbách do EÚ <strong>za</strong> iný členský štát EÚ**.**</p>',
   's8' => '<p>Hlasovanie zo zahraničia nie je možné. Vysťahovalci môžu voliť len na Slovensku. Vrátite sa na Slovensko na voľby do EÚ?</p>',
   's8.1' => '<p>áno</p>',
-  's8.2' => '<p>noe</p>',
+  's8.2' => '<p>nie</p>',
   's9' => '<p>Hlasovanie zo zahraničia žiaľ nie je možné</p>',
   's10' => '<p>Na voľbách v ktorej krajine EÚ sa zúčastníte ako volič?</p>',
 ];

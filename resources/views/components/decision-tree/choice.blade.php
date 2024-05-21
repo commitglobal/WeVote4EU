@@ -2,7 +2,7 @@
 
 @php
     $class = [
-        'group',
+        'group text-lg',
         'flex items-center w-full gap-4 px-4 py-5',
         'text-start bg-white rounded-lg shadow-md',
         'ring-2 ring-inset ring-transparent',

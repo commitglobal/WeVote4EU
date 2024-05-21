@@ -47,9 +47,8 @@ return [
   's10' => '<p>Uden for EU</p>',
   's10.1' => '<p>Jeg er berettiget til og ønsker at stemme til det <strong>danske</strong> EU-valg <strong>fra et land uden for EU</strong>.</p>',
   's10.2' => '<p>Jeg er berettiget til og ønsker at stemme til EU-valg <strong>for et andet EU-medlemsland</strong>.</p>',
-  's11' => '<p><strong>Where do I vote?</strong>
-If you live outside the EU, you can only vote under certain conditions. Citizens who stay abroad but will return to Denmark within two years of their departure can vote. In addition, citizens who work abroad for a Danish institution or company, students and those working for a Danish charity organization may maintain their right to vote under certain conditions. In order to vote, you have to apply in the Danish municipality you lived in before moving out of the country. Once on the voting list, you can vote in person or by post via the Danish embassies and consulates abroad.</p>
-<p>In case you meet those conditions, your application needs to be processed at least seven days before election day. So make sure to apply in due time, as it might take a while.</p>
-<p>To find out more, visit the page &quot;&quot;<a href="https://elections.im.dk/advance-voting">Advance Voting</a>&quot;&quot; (available in English and Danish).&quot;</p>',
+  's11' => '<p><strong>Hvor stemmer jeg?</strong> Hvis du bor uden for EU, kan du kun stemme under visse betingelser. Borgere, der opholder sig i udlandet, men som vender tilbage til Danmark inden for to år efter deres udrejse, kan stemme. Derudover kan borgere, der arbejder i udlandet for en dansk institution eller virksomhed, studerende og personer, der arbejder for en dansk velgørenhedsorganisation, opretholde deres stemmeret under visse betingelser. For at kunne stemme skal man ansøge i den danske kommune, man boede i, før man flyttede ud af landet. Når man er optaget på valglisten, kan man stemme personligt eller pr. brev via de danske ambassader og konsulater i udlandet.</p>
+<p>Hvis du opfylder disse betingelser, skal din ansøgning behandles mindst syv dage før valgdagen. Så sørg for at ansøge i god tid, da det kan tage et stykke tid.</p>
+<p>Du kan læse mere på siden &quot;&quot;<a href="https://elections.im.dk/advance-voting">Advance Voting</a>&quot;&quot; (findes på dansk og engelsk).</p>',
   's12' => '<p>Hvilket EU-lands valg vil du deltage i som vælger?</p>',
 ];

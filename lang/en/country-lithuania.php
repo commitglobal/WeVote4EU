@@ -38,7 +38,7 @@ return [
 </ul>',
   's7' => '<p>Outside Lithuania</p>',
   's7.1' => '<p>I am eligible to and want to vote in <strong>Lithuanian</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
-  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's8' => '<p><strong>Where do I vote?</strong> You can vote from another EU country in Lithuanian diplomatic missions or consulates, in person or by post. Lithuanian voters who live abroad or who will be abroad on election day should register in advance on <a href="https://www.rinkejopuslapis.lt/rinkimai-i-europos-parlamenta">Voter\'s website</a>. For postal voting, different registration deadlines apply for different countries of residence. Voters should send their postal vote to the diplomatic mission or consular by post until election day (9 June 2024) at the latest. These votes should then be delivered to an embassy or consular office within the following five days. For more information please visit the <a href="https://keliauk.urm.lt/">&quot;Voting from abroad&quot; page of the Lithuanian Foreign Ministry website</a> (in Lithuanian).</p>
 <p><strong>What documents should I bring?</strong> ID card, passport, driver\'s license or other document issued by a state institution or an institution authorised by it.</p>',
   's9' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
