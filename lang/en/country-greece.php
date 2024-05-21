@@ -29,5 +29,5 @@ You have two options: You can vote at a polling station or via postal voting.</p
   's8' => '<p><strong>Where should I vote?</strong> You must register on the special postal vote electoral rolls via the <a href="https://epistoliki.ypes.gov.gr/login">Ministry of Interior\'s online platform</a> by 29 April 2024.</p>
 <p>Polling stations will not be set up in foreign countries, inside or outside the European Union.</p>
 <p>For more information, see the <a href="https://www.ypes.gr/en/elections/eu-elections">website of the Ministry of the Interior</a>.</p>',
-  's9' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's9' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

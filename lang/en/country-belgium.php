@@ -38,7 +38,7 @@ return [
 </ul>
 <p><strong>What documents should I bring?</strong> An <strong>ID document and the letter of the municipal administration</strong> calling you up to come to vote to that specific polling station.</p>',
   's11.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
-  's8' => '<p>Which EU countries\'s elections will you be participating in is as a voter?</p>',
+  's8' => '<p>Which EU countries\'s elections will you be participating in as a voter?</p>',
   's3.3' => '<p>Outside the EU</p>',
   's12' => '<p>Outside the EU</p>',
   's12.1' => '<p>I am eligible to and want to vote in <strong>Belgian</strong> EU elections <strong>from outside of the EU</strong>.</p>',
@@ -51,5 +51,5 @@ return [
 </ul>
 <p><strong>What documents should I bring?</strong> An <strong>ID document and the letter of the municipal administration</strong> calling you up to come to vote to that specific polling station.</p>',
   's12.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
-  's10' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's10' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

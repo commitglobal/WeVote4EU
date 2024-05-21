@@ -5,6 +5,7 @@ return [
   's1.1' => '<p>Ho meno di 18 anni</p>',
   's1.2' => '<p>Ho 18 anni o più di 18 anni</p>',
   's2' => '<p>Non puoi votare: Grazie per il tuo interesse a partecipare! Ci auguriamo di vederti alle prossime elezioni. Nel frattempo, continua ad essere un cittadino attivo!</p>',
+  's3' => '<p>Il giorno delle elezioni, da quale paese vuole votare?</p>',
   's3.1' => '<p>Italia</p>',
   's3.2' => '<p>Un altro paese dell\'UE</p>',
   's3.3' => '<p>Fuori dall\'UE</p>',

@@ -1,54 +1,51 @@
 <?php
 
 return [
-  's1' => '<p>A választás napján betöltötte a 18. életévét?</p>',
+  's1' => '<p>A választás napján betöltötted a 18. életévedet?</p>',
   's1.1' => '<p>18 év alatti vagyok</p>',
   's1.2' => '<p>18 éves vagy elmúltam 18 éves</p>',
-  's2' => '<p>Nem szavazhatsz:Köszönjük, hogy részt kíván venni a választásokon! Várjuk Önt a következő választásokon.Addig is, maradjon továbbra is aktív polgár!</p>',
+  's2' => '<p>Nem szavazhatsz: Köszönjük, hogy részt kívánsz venni a választásokon! Várunk  a következő választásokon.Addig is, maradj továbbra is aktív polgár!</p>',
   's3' => '<p>A választás napján melyik országból szeretnél szavazni?</p>',
   's3.1' => '<p>Magyarország</p>',
   's3.2' => '<p>Egy másik uniós ország</p>',
   's3.3' => '<p>Az EU-n kívülről</p>',
-  's4' => '<p>Van-e fogyatékossága, vagy tapasztal-e olyan korlátozást, ami miatt nem tud eljutni a szavazóhelyiségbe?</p>',
+  's4' => '<p>Fogyatékossággal rendelkezel, vagy tapasztaltál-e olyan korlátozást, ami miatt nem tudsz eljutni a szavazóhelyiségben?</p>',
   's4.1' => '<p>Igen</p>',
   's4.2' => '<p>Nem</p>',
-  's5' => '<p>Για πολίτες της Ουγγαρίας και άλλων χωρών της ΕΕ:</p>
-<p>**Πού ψηφίζω; **</p>
-<p>Μπορείτε να ψηφίσετε αυτοπροσώπως <strong>στο εκλογικό τμήμα που αντιστοιχεί στον τόπο κατοικίας σας.</strong> Η τοποθεσία του <strong>εκλογικού σας τμήματος βρίσκεται στην επιστολή παροχής συμβουλών.</strong> Εάν θέλετε να ψηφίσετε σε άλλο εκλογικό τμήμα, πρέπει να υποβάλετε σχετική αίτηση. Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο στις ουγγρικές πρεσβείες ή προξενεία ή σε οποιοδήποτε τοπικό εκλογικό γραφείο στην Ουγγαρία, ή ταχυδρομικώς ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά). Η εγγραφή πρέπει να γίνει μέχρι τις 15/05/2024 16:00.</p>
-<p><em>Πρόσθετες</em> <strong><em>πληροφορίες για τους πολίτες της ΕΕ</em></strong> <em>πολίτες που ψηφίζουν στις ουγγρικές εκλογές της ΕΕ:</em> Πρέπει να εγγραφείτε στον εκλογικό κατάλογο. Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο σε οποιοδήποτε τοπικό εκλογικό γραφείο ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά). Πρέπει να εγγραφείτε μέχρι τις 24/05/2024 16:00.</p>
-<p>**Τι έγγραφα πρέπει να φέρω; ** Φέρτε το <strong>έγγραφο ταυτοποίησής σας</strong> (έγκυρη ταυτότητα, διαβατήριο ή άδεια οδήγησης) <strong>και την κάρτα διαμονής σας</strong>.</p>
-<p><strong>Πληροφορίες για την προσβασιμότητα:</strong> Μπορείτε να ζητήσετε την ακόλουθη βοήθεια για να ασκήσετε το εκλογικό σας δικαίωμα:</p>
+  's5' => '<p>Magyar és más Uniós polgárok számára:</p>
+<p><strong>Hol szavazzak?</strong></p>
+<p>Személyesen szavazhatok <strong>a lakóhelyem szerinti szavazóhelyiségben.</strong> A <strong>szavazóhelyiség helyét az ajánlólevélben találom.</strong> Ha más szavazóhelyiségben szeretnék szavazni, kérelmet kell benyújtanom. Regisztrálni személyesen vagy meghatalmazott útján a magyar nagykövetségeken vagy konzulátusokon, bármelyik magyarországi helyi választási irodában, illetve postai úton vagy online a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> lehetséges. A regisztrációra 2024. május 15-én 16:00 óráig van lehetőség.</p>
+<p><em>Kiegészítő</em> <strong><em>infó az EU</em></strong> <em>a magyarországi Uniós választásokon szavazó állampolgárok számára:</em> Be kell jelentkezned a választói névjegyzékbe. A regisztráció személyesen vagy meghatalmazott útján bármely helyi választási irodában vagy online a [Nemzeti Választási Iroda honlapján] (<a href="https://www.valasztas.hu/home">https://www.valasztas.hu/home</a>) (magyar nyelven) lehetséges. A regisztrációra 2024. május 24-én 16:00 óráig van lehetőség.</p>
+<p><strong>Milyen dokumentumokat kell magammal vinnem?</strong> Hozzd magaddal <strong>az azonosító okmányodat</strong> (érvényes személyi igazolvány, útlevél vagy vezetői engedély) **és a lakcímkártyádat **.</p>
+<p><strong>Az akadálymentesítéssel kapcsolatos információk:</strong> Szavazati jogodnak gyakorlásához a következő segítséget kérheted:</p>
 <ul>
-<li>Ειδοποίηση σε μεταγραφή Braille που αποστέλλεται στη διεύθυνσή σας</li>
-<li>Απλοποιημένο ενημερωτικό υλικό που αποστέλλεται στη διεύθυνσή σας</li>
-<li>Χρήση προτύπου ψηφοφορίας σε γραφή Braille στο εκλογικό τμήμα ή κατά τη διάρκεια της κινητής ψηφοφορίας</li>
-<li>Χρήση προσβάσιμου εκλογικού κέντρου</li>
-<li>Χρήση κινητής κάλπης</li>
+<li>Értesítés Braille-írással a lakcímedre küldött átiratban</li>
+<li>Egyszerűsített tájékoztató anyagot küldünk a lakcímedre</li>
+<li>Braille-írásos szavazósablon használata a szavazóhelyiségben vagy a mobil szavazás során</li>
+<li>akadálymentes szavazóhelyiség használata</li>
+<li>Mobil szavazóurna használata</li>
 </ul>
-<p>Μάθετε περισσότερα στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Γραφείου Εκλογών</a> (στα ουγγρικά).</p>',
-  's6' => '<p>Για πολίτες της Ουγγαρίας και άλλων χωρών της ΕΕ:</p>
-<p>**Πού ψηφίζω; **</p>
-<p>Μπορείτε να ψηφίσετε αυτοπροσώπως <strong>στο εκλογικό τμήμα που αντιστοιχεί στον τόπο κατοικίας σας.</strong> Η τοποθεσία του <strong>εκλογικού σας τμήματος βρίσκεται στην επιστολή παροχής συμβουλών.</strong> Εάν θέλετε να ψηφίσετε σε άλλο εκλογικό τμήμα, πρέπει να υποβάλετε σχετική αίτηση. Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο στις ουγγρικές πρεσβείες ή προξενεία ή σε οποιοδήποτε τοπικό εκλογικό γραφείο στην Ουγγαρία, ή ταχυδρομικώς ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά). Η εγγραφή πρέπει να γίνει μέχρι τις 15/05/2024 16:00.</p>
-<p><em>Πρόσθετες</em> <strong><em>πληροφορίες για τους πολίτες της ΕΕ</em></strong> <em>πολίτες που ψηφίζουν στις ουγγρικές εκλογές της ΕΕ:</em> Πρέπει να εγγραφείτε στον εκλογικό κατάλογο. Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο σε οποιοδήποτε τοπικό εκλογικό γραφείο ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά). Πρέπει να εγγραφείτε μέχρι τις 24/05/2024 16:00.</p>
-<p>**Τι έγγραφα πρέπει να φέρω μαζί μου; **
-Πρέπει να έχετε μαζί σας το <strong>έγγραφο ταυτοποίησης</strong> (έγκυρο δελτίο ταυτότητας, διαβατήριο ή άδεια οδήγησης) <strong>και την κάρτα διαμονής</strong>.</p>',
-  's7' => '<p>Άλλη χώρα της ΕΕ</p>',
-  's7.1' => '<p>Έχω το δικαίωμα και θέλω να ψηφίσω στις <strong>ουγγρικές</strong> εκλογές της ΕΕ <strong>από άλλη χώρα της ΕΕ</strong>.</p>',
-  's7.2' => '<p>Έχω δικαίωμα ψήφου και θέλω να ψηφίσω στις εκλογές της ΕΕ <strong>από άλλο κράτος μέλος της ΕΕ</strong>.</p>',
-  's8' => '<p>**Πού ψηφίζω; **</p>
-<p>Εάν έχετε ουγγρική διεύθυνση αλλά θέλετε να ψηφίσετε από το εξωτερικό, πρέπει να το κάνετε αυτοπροσώπως <strong>σε εκλογικά κέντρα που οργανώνονται από την ουγγρική πρεσβεία ή το προξενείο της χώρας στην οποία βρίσκεστε</strong>. Πρέπει να ζητήσετε εκ των προτέρων να συμπεριληφθείτε στον κατάλογο ψηφοφόρων της πρεσβείας ή του προξενείου της χώρας στην οποία βρίσκεστε, έως τις 31/05/2024 16:00. Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο στις ουγγρικές πρεσβείες ή τα προξενεία ή σε οποιοδήποτε τοπικό εκλογικό γραφείο στην Ουγγαρία, ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά).</p>
-<p>Εάν ζείτε σε άλλη χώρα της ΕΕ και δεν έχετε επίσημη διεύθυνση στην Ουγγαρία, δεν μπορείτε να ψηφίσετε για τους ουγγρικούς καταλόγους.</p>
-<p>**Τι έγγραφα πρέπει να φέρω μαζί μου; **
-Φέρτε μαζί σας <strong>το έγγραφο ταυτοποίησης</strong> (έγκυρη ταυτότητα, διαβατήριο ή άδεια οδήγησης) <strong>και την κάρτα διαμονής</strong>.</p>',
-  's9' => '<p>Σε ποιες εκλογές της ΕΕ θα συμμετάσχετε ως ψηφοφόρος;</p>',
-  's10' => '<p>Εκτός ΕΕ</p>',
-  's10.1' => '<p>Έχω δικαίωμα ψήφου και θέλω να ψηφίσω στις εκλογές της ΕΕ <strong>για άλλο κράτος μέλος της ΕΕ</strong>.</p>',
-  's10.2' => '<p>Έχω δικαίωμα και θέλω να ψηφίσω στις εκλογές της <strong>Ουγγαρίας</strong> της ΕΕ <strong>από χώρα εκτός ΕΕ</strong>.</p>',
-  's11' => '<p>Σε ποιες εκλογές της ΕΕ θα συμμετάσχετε ως ψηφοφόρος;</p>',
-  's12' => '<p>**Πού ψηφίζω; **</p>
-<p>Εάν ζείτε εκτός της ΕΕ και δεν έχετε επίσημη διεύθυνση στην Ουγγαρία, μπορείτε να ψηφίσετε <strong>με επιστολική ψήφο</strong>. Πρέπει να εγγραφείτε στον εκλογικό κατάλογο έως τις 15/05/2024 16:00.</p>
-<p>Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο στις ουγγρικές πρεσβείες ή προξενεία ή σε οποιοδήποτε τοπικό εκλογικό γραφείο στην Ουγγαρία, ή ταχυδρομικώς ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά).</p>
-<p>Εάν έχετε ουγγρική διεύθυνση/κατοικία, αλλά θέλετε να ψηφίσετε από το εξωτερικό, πρέπει να το κάνετε αυτοπροσώπως <strong>σε εκλογικά τμήματα που οργανώνονται από την ουγγρική πρεσβεία ή το προξενείο της χώρας στην οποία βρίσκεστε</strong>. Πρέπει να ζητήσετε εκ των προτέρων να συμπεριληφθείτε στον κατάλογο ψηφοφόρων της πρεσβείας ή του προξενείου της χώρας όπου βρίσκεστε, έως τις 31/05/2024 16:00. Η εγγραφή είναι δυνατή αυτοπροσώπως ή με πληρεξούσιο στις ουγγρικές πρεσβείες ή τα προξενεία ή σε οποιοδήποτε τοπικό εκλογικό γραφείο στην Ουγγαρία, ή ηλεκτρονικά στον <a href="https://www.valasztas.hu/home">δικτυακό τόπο του Εθνικού Εκλογικού Γραφείου</a> (στα ουγγρικά).</p>
-<p>**Τι πρέπει να φέρω μαζί μου; **
-Το <strong>έγγραφο ταυτοποίησής σας</strong> (έγκυρο δελτίο ταυτότητας, διαβατήριο ή άδεια οδήγησης) <strong>και την κάρτα διαμονής σας</strong>.</p>',
+<p>További információ a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> (magyar nyelven).</p>',
+  's6' => '<p>Magyar és más uniós polgárok számára:</p>
+<p><strong>Hol szavazzak?</strong></p>
+<p>Személyesen szavazhatok <strong>a lakóhelyem szerinti szavazóhelyiségben.</strong> A <strong>szavazóhelyiség helyét az ajánlólevélben találom.</strong> Ha más szavazóhelyiségben szeretnék szavazni, kérelmet kell benyújtanom. Regisztrálni személyesen vagy meghatalmazott útján a magyar nagykövetségeken vagy konzulátusokon, bármelyik magyarországi helyi választási irodában, illetve postai úton vagy online a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> lehetséges. A regisztrációra 2024. május 15-én 16:00 óráig van lehetőség.</p>
+<p><em>Kiegészítő</em> <strong><em>infó az EU</em></strong> <em>a magyarországi uniós választásokon szavazó állampolgárok számára:</em> Be kell jelentkezned a választói névjegyzékbe. A regisztráció személyesen vagy meghatalmazott útján bármely helyi választási irodában vagy online a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> (magyar nyelven) lehetséges. A regisztrációra 2024. május 24-én 16:00 óráig van lehetőség.</p>
+<p><strong>Milyen dokumentumokat kell magammal hoznom?</strong> Magaddal kell hozni <strong>az azonosító okmányodat</strong> (érvényes személyi igazolvány, útlevél vagy vezetői engedély) <strong>és a lakcímkártyádat</strong>.</p>',
+  's7' => '<p>Egy másik uniós ország</p>',
+  's7.1' => '<p>Szavazásra jogosult vagyok és szavazni szeretnék a <strong>magyarországi</strong> uniós választásokon <strong>egy másik uniós országból</strong>.</p>',
+  's7.2' => '<p>Jogosult vagyok és szavazni szeretnék az uniós választásokon <strong>egy másik EU-tagállamban</strong>.</p>',
+  's8' => '<p><strong>Hol szavazzak?</strong></p>
+<p>Ha magyarországi lakcímmel rendelkezel, de külföldről szeretnél szavazni, akkor személyesen <strong>az adott ország magyar nagykövetsége vagy konzulátusa által szervezett szavazóhelyiségben</strong> kell szavaznod. Előzetesen, 2024. május 31-én 16:00 óráig kell kérned, hogy felvegyenek a tartózkodási helyed szerinti ország nagykövetségének vagy konzulátusának szavazólistájára. Regisztrálni személyesen vagy meghatalmazott útján a magyar nagykövetségeken vagy konzulátusokon, illetve bármely magyarországi helyi választási irodában, vagy online a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> lehet.</p>
+<p>Ha más uniós országban élsz, és nincs magyarországi hivatalos lakcímed, nem szavazhatsz magyar listára.</p>
+<p><strong>Milyen dokumentumokat kell magammal vinnem?</strong> Hozza magával <strong>azonosító okmányát</strong> (érvényes személyi igazolvány, útlevél vagy vezetői engedély) <strong>és tartózkodási engedélyét</strong></p>',
+  's9' => '<p>Melyik Uniós ország választásán vesszel részt szavazóként?</p>',
+  's10' => '<p>Az EU-n kívülről</p>',
+  's10.1' => '<p>Jogosult vagyok és szavazni szeretnék az uniós választásokon <strong>egy másik EU-tagállamban</strong>.</p>',
+  's10.2' => '<p>Jogosult vagyok és szavazni szeretnék a <strong>magyar</strong> Uniós választásokon <strong>az EU-n kívülről</strong>.</p>',
+  's11' => '<p>Melyik Uniós ország választásán vesszel részt szavazóként?</p>',
+  's12' => '<p><strong>Hol szavazzak?</strong></p>
+<p>Ha az EU-n kívül észl, és nincs hivatalos magyarországi lakcímd, akkor <strong>postai úton</strong> szavazhatsz. A választói névjegyzékbe 2024. május 15-én 16:00 óráig kell feliratkoznod.</p>
+<p>A regisztráció személyesen vagy meghatalmazott útján lehetséges a magyar nagykövetségeken vagy konzulátusokon, bármely magyarországi helyi választási irodában, illetve postai úton, vagy online a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> (magyar nyelven) lehetséges.</p>
+<p>Ha magyarországi lakcímmel/ tartózkodási hellyel rendelkezel, de külföldről szeretnél szavazni, akkor személyesen <strong>az adott ország magyar nagykövetsége vagy konzulátusa által szervezett szavazóhelyiségben</strong> kell szavaznod. Előzetesen, 2024. május 31-én 16:00 óráig kell kérned, hogy felvegyenek a tartózkodási helyed szerinti ország nagykövetségének vagy konzulátusának szavazólistájára. Regisztrálni személyesen vagy meghatalmazott útján a magyar nagykövetségeken vagy konzulátusokon, illetve bármely magyarországi helyi választási irodában, vagy online a <a href="https://www.valasztas.hu/home">Nemzeti Választási Iroda honlapján</a> lehetséges.</p>
+<p><strong>Mit kell magammal vinnem?</strong>  <strong>az azonosító okmányokat</strong> (érvényes személyi igazolvány, útlevél vagy jogosítvány) <strong>és a lakcímkártyádat</strong>.</p>',
 ];

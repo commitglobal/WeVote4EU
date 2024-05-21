@@ -48,5 +48,5 @@ return [
   's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
   's10' => '<p><strong>Where do I vote?</strong> If you live abroad, you may register permanently as a \'Dutch voter abroad\' on <a href="https://www.denhaag.nl/nl/verkiezingen/kiezers-buiten-nederland/registreren-als-kiezer-buiten-nederland">the municipal website of the Hague</a> no later than 25 April 2024. Once successfully registered, you will automatically <strong>receive your postal voting pass and return envelope by post before each election.</strong></p>
 <p>If you are temporarily abroad, e.g. on holiday, you can <strong>only vote by proxy.</strong> You can authorize another person to vote on your behalf (i.e. by proxy) using either the back of your voting pass or you can request a written authorization (schriftelijke volmacht) using a separate form (model L8). The authorization form must be submitted to your municipality no later than 3 June 2024. Find further information <a href="https://www.government.nl/topics/elections/voting-in-european-parliament-elections">here</a>.</p>',
-  's11' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's11' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

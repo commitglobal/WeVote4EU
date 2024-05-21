@@ -29,5 +29,5 @@ return [
   's8.1' => '<p>Yes</p>',
   's8.2' => '<p>No</p>',
   's9' => '<p>Unfortunately, voting from abroad is not possible</p>',
-  's10' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's10' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

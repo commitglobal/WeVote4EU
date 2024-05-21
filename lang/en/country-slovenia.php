@@ -53,5 +53,5 @@ return [
 <p>For more information on procedures for voting from abroad please consult the <a href="https://www.dvk-rs.si/en/election-education/">website of the State Election Commission</a>.</p>
 <p><strong>What documents should I bring?</strong></p>
 <p>Any official identity document, for example your ID, passport or driver\'s licence.</p>',
-  's11' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's11' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

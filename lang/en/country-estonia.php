@@ -91,5 +91,5 @@ return [
   's12' => '<p><strong>Where do I vote?</strong> If you\'re are an Estonian citizen living abroad, no advance registration is necessary; authorities handle it automatically. You have three <strong>voting options: online, in person at an embassy/consulate, or by post</strong>. To vote by post, <strong>submit an application</strong> to the Estonian foreign mission <strong>by May 10, 2024</strong>, at the latest.</p>
 <p>For more information, check out <a href="https://www.valimised.ee/en/estonian-elections-nutshell/advance-voting/voting-foreign-states">this page of the website of the State Electoral Office</a>.</p>
 <p><strong>What documents should I bring?</strong> <strong>Valid ID</strong> when voting at the polling station.</p>',
-  's13' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's13' => '<p>Which EU country\'s elections will you be participating in a voter?</p>',
 ];

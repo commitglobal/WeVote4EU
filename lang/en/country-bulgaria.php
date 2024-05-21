@@ -30,7 +30,7 @@ return [
 <p><strong>If you are not included in the electoral lists, you can be added on the day of the elections in the polling station upon presentation of a Bulgarian identification document and filling in a standard declaration that you meet the eligibility criteria</strong>: that you have resided for at least three months in Bulgaria or in another EU country before election day and that you have not voted and will not vote elsewhere for the same European elections.</p>
 <p>For more information on the process of voting from another EU country you can check the website of the <a href="https://www.cik.bg/bg/epns2024">Central Electoral Commission</a>.</p>
 <p><strong>What documents should I bring?</strong> You should bring your <strong>ID</strong>. Voters outside the country can also certify their identity by presenting a passport or a military card.</p>',
-  's8' => '<p>Which EU countries\' elections will you be participating in is as a voter?</p>',
+  's8' => '<p>Which EU countries\' elections will you be participating in as a voter?</p>',
   's3.3' => '<p>Outside the EU</p>',
   's12' => '<p>Outside the EU</p>',
   's12.1' => '<p>I am eligible to and want to vote in <strong>Bulgarian</strong> EU elections <strong>from outside of the EU.</strong></p>',
@@ -38,5 +38,5 @@ return [
   's9' => '<p><strong>Where do I vote?</strong> Only if you have lived in the EU at least three months immediately before the European election, but on the election date you are in a country outside the EU, you can vote in the Bulgarian foreign representations in this country. Otherwise, you can\'t vote.</p>
 <p>For more information on where to vote if you are outside the EU check the website of the <a href="https://www.cik.bg/en/">Central Electoral Commission</a>.</p>
 <p><strong>What documents should I bring?</strong> You should bring your <strong>ID</strong>. Voters outside the country can also certify their identity by presenting a passport or a military card.</p>',
-  's10' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's10' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

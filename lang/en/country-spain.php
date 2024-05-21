@@ -50,5 +50,5 @@ return [
   's10' => '<p><strong>Where do I vote?</strong> In order to vote, Spanish citizens who are abroad temporarily must register as a non-resident at the consulate corresponding to your temporary residence abroad. Additionally, you need to make a request to the consulate no later than the 25th day after the elections have been called to receive the voting documents at your address abroad. Finally, you must send your vote by registered post to the polling station in Spain no later than the third day prior to the election.</p>
 <p><strong>What documents should I bring?</strong> bring your original ID, passport or driver license.</p>
 <p>You can also present the miDGT application and the residence card (in the case of European Union citizens who have it).</p>',
-  's11' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's11' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

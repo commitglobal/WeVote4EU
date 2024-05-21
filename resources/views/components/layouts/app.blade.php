@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="h-screen overflow-hidden">
 
 <head>
     <meta charset="utf-8">
@@ -28,7 +28,7 @@
     @livewireStyles
 </head>
 
-<body class="flex flex-col min-h-screen font-sans antialiased bg-gray-50">
+<body class="flex flex-col h-screen overflow-y-scroll font-sans antialiased bg-gray-50 scroll-smooth">
     <x-site.skip-to-content />
 
     <x-site.header />

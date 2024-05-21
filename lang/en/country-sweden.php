@@ -40,5 +40,5 @@ return [
 <p>For further information, please consult the <a href="https://www.val.se/att-rosta/var-rostar-jag/rosta-fran-utlandet.html">website of the Swedish election authority</a> (in Swedish, English and 10 more).</p>
 <p><strong>What documents should I bring?</strong> Your <strong>ID document</strong>.</p>
 <p>For further information, please consult the <a href="https://www.val.se/servicelankar/servicelankar/other-languages/att-rosta/how-to-vote-engelska.html">website of the Swedish election authority</a> (in Swedish, English and 10 more).</p>',
-  's10' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's10' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

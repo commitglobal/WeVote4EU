@@ -38,11 +38,11 @@ return [
 <p>If you have a Hungarian address but want to vote from abroad, you have to do so in person <strong>at polling stations organized by the Hungarian embassy or consulate of the country where you are</strong>. You need to request in advance to be included on the voter\'s list of the embassy or consulate of the country where you are, by 31/05/2024 16:00. Registration is possible in person or by proxy in the Hungarian embassies or consulates or in any local election office in Hungary, or online on the <a href="https://www.valasztas.hu/home">website of the National Election Office</a> (in Hungarian).</p>
 <p>If you live in another EU country and have no official address in Hungary, you can not vote for Hungarian lists.</p>
 <p><strong>What documents should I bring?</strong> Bring your <strong>identification document</strong> (valid ID card, passport or driving licence) <strong>and your residence card</strong>.</p>',
-  's9' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's9' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
   's10' => '<p>Outside the EU</p>',
   's10.1' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
   's10.2' => '<p>I am eligible to and want to vote in <strong>Hungarian</strong> EU elections <strong>from outside of the EU</strong>.</p>',
-  's11' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's11' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
   's12' => '<p><strong>Where do I vote?</strong></p>
 <p>If you live outside the EU and have no official address in Hungary, you can vote <strong>by post</strong>. You have to register on the electoral roll by 15/05/2024 16:00.</p>
 <p>Registration is possible in person or by proxy in the Hungarian embassies or consulates or in any local election office in Hungary, or by post or online on the <a href="https://www.valasztas.hu/home">website of the National Election Office</a> (in Hungarian).</p>

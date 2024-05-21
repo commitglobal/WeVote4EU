@@ -1,94 +1,184 @@
 {
-    "s1": [
-        {
-            "label": "s1.1",
-            "target": "s2"
-        },
-        {
-            "label": "s1.2",
-            "target": "s3"
-        }
+    "code": "it",
+    "languages": [
+        "en",
+        "it"
     ],
-    "s2": [],
-    "s3": [
-        {
-            "label": "s3.1",
-            "target": "s4"
-        },
-        {
-            "label": "s3.2",
-            "target": "s11"
-        },
-        {
-            "label": "s3.3",
-            "target": "s16"
-        }
-    ],
-    "s4": [
-        {
-            "label": "s4.1",
-            "target": "s5"
-        },
-        {
-            "label": "s4.2",
-            "target": "s10"
-        }
-    ],
-    "s5": [
-        {
-            "label": "s5.1",
-            "target": "s6"
-        },
-        {
-            "label": "s5.2",
-            "target": "s7"
-        },
-        {
-            "label": "s5.3",
-            "target": "s8"
-        },
-        {
-            "label": "s5.4",
-            "target": "s9"
-        }
-    ],
-    "s6": [],
-    "s7": [],
-    "s8": [],
-    "s9": [],
-    "s10": [],
-    "s11": [
-        {
-            "label": "s11.1",
-            "target": "s12"
-        },
-        {
-            "label": "s11.2",
-            "target": "s15"
-        }
-    ],
-    "s12": [
-        {
-            "label": "s12.1",
-            "target": "s13"
-        },
-        {
-            "label": "s12.2",
-            "target": "s14"
-        }
-    ],
-    "s13": [],
-    "s14": [],
-    "s15": [],
-    "s16": [
-        {
-            "label": "s16.1",
-            "target": "s3.1"
-        },
-        {
-            "label": "s16.2",
-            "target": "s17"
-        }
-    ],
-    "s17": []
+    "dates": {
+        "start": "2024-06-08",
+        "end": "2024-06-09"
+    },
+    "steps": {
+        "s1": [
+            {
+                "label": "s1.1",
+                "target": "s2"
+            },
+            {
+                "label": "s1.2",
+                "target": "s3"
+            }
+        ],
+        "s2": [],
+        "s3": [
+            {
+                "label": "s3.1",
+                "target": "s4"
+            },
+            {
+                "label": "s3.2",
+                "target": "s11"
+            },
+            {
+                "label": "s3.3",
+                "target": "s16"
+            }
+        ],
+        "s4": [
+            {
+                "label": "s4.1",
+                "target": "s5"
+            },
+            {
+                "label": "s4.2",
+                "target": "s10"
+            }
+        ],
+        "s5": [
+            {
+                "label": "s5.1",
+                "target": "s6"
+            },
+            {
+                "label": "s5.2",
+                "target": "s7"
+            },
+            {
+                "label": "s5.3",
+                "target": "s8"
+            },
+            {
+                "label": "s5.4",
+                "target": "s9"
+            }
+        ],
+        "s6": [],
+        "s7": [],
+        "s8": [],
+        "s9": [],
+        "s10": [],
+        "s11": [
+            {
+                "label": "s11.1",
+                "target": "s12"
+            },
+            {
+                "label": "s11.2",
+                "target": "s15"
+            }
+        ],
+        "s12": [
+            {
+                "label": "s12.1",
+                "target": "s13"
+            },
+            {
+                "label": "s12.2",
+                "target": "s14"
+            }
+        ],
+        "s13": [],
+        "s14": [],
+        "s15": [
+            {
+                "country": "at"
+            },
+            {
+                "country": "be"
+            },
+            {
+                "country": "bg"
+            },
+            {
+                "country": "hr"
+            },
+            {
+                "country": "cy"
+            },
+            {
+                "country": "cz"
+            },
+            {
+                "country": "dk"
+            },
+            {
+                "country": "ee"
+            },
+            {
+                "country": "fi"
+            },
+            {
+                "country": "fr"
+            },
+            {
+                "country": "de"
+            },
+            {
+                "country": "gr"
+            },
+            {
+                "country": "hu"
+            },
+            {
+                "country": "ie"
+            },
+            {
+                "country": "lv"
+            },
+            {
+                "country": "lt"
+            },
+            {
+                "country": "lu"
+            },
+            {
+                "country": "mt"
+            },
+            {
+                "country": "nl"
+            },
+            {
+                "country": "pl"
+            },
+            {
+                "country": "pt"
+            },
+            {
+                "country": "ro"
+            },
+            {
+                "country": "sk"
+            },
+            {
+                "country": "si"
+            },
+            {
+                "country": "es"
+            },
+            {
+                "country": "se"
+            }
+        ],
+        "s16": [
+            {
+                "label": "s16.1",
+                "target": "s3.1"
+            },
+            {
+                "label": "s16.2",
+                "target": "s17"
+            }
+        ],
+        "s17": []
+    }
 }

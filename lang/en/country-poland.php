@@ -81,17 +81,17 @@ return [
 <p><strong>What documents should I bring?</strong> ID card or passport</p>',
   's14' => '<p>Another EU country</p>',
   's14.1' => '<p>I am eligible to and want to vote in <strong>Polish</strong> EU elections <strong>from another EU country.</strong></p>',
-  's14.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's14.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's15' => '<p><strong>Where do I vote?</strong> A voter staying in another EU country, holding a valid Polish passport or identity card may vote for candidates running in the elections in Poland if they entered in the register of electors drawn up by the territorially competent consul. The entry is made on the basis of a personal application submitted orally, in writing, by telephone, telegraph, telefax or in <a href="https://www.gov.pl/web/gov/uslugi-dla-obywatela/#meldunek-i-wybory/">electronic form</a> (in Polish). The application can be made no later than on the third day before election day.</p>
 <p>List of Polish posts abroad can be found on <a href="https://www.gov.pl/web/dyplomacja/polskie-przedstawicielstwa-na-swiecie">the website of Ministry of Foreign Affairs</a> (in Polish).</p>
 <p><strong>What documents should I bring?</strong> ID card or passport</p>',
-  's16' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's16' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
   's17' => '<p>Outside EU</p>',
   's17.1' => '<p>I am eligible to and want to vote in <strong>Polish</strong> EU elections <strong>from outside of the EU</strong>.</p>',
-  's17.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's17.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's18' => '<p><strong>Where do I vote?</strong> If you\'re a Polish citizen living outside Poland, you can vote in elections if there\'s a designated district for your area. The district needs to have at least 15 voters and be able to send the voting results to the election commission right after the vote. Consuls <strong>will let you know about these districts at least 21 days before the election.</strong> Voting abroad is possible in person in embassies and consulates, but also in other places (e.g. churches and parish buildings, Polish cultural centres, etc.). Polish voters who are staying</p>
 <p>abroad must request to be registered on the electoral roll drawn up by the competent consul no later than the fifth day before elections. The entry is made on the basis of a personal application submitted orally, in writing, by telephone, telegraph, telefax or <a href="https://www.gov.pl/web/gov/uslugi-dla-obywatela/#meldunek-i-wybory/">electronically</a> (in Polish).Moreover, voters who change the place where they are staying close to the elections may request a certificate stating their right to vote between 44 and three days before the elections. If a voter is registered on an electoral roll</p>
 <p>abroad, the certificate is issued by the competent consul, allowing the person to vote in any other polling station abroad or in Poland.</p>
 <p><strong>What documents should I bring?</strong> ID card or passport</p>',
-  's19' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's19' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

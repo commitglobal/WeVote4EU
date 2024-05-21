@@ -45,5 +45,5 @@ return [
   's14' => '<p><strong>Where do I vote?</strong> If you don\'t have a registered domicile in Germany, you must formally apply for entry into the voters\' register before each election, through the municipality where you were last registered before moving abroad. You need to request inclusion in the voters\' register by the 21st day before election day. Upon receiving your polling card, you <strong>vote by postal ballot</strong>, ensuring it reaches the competent authority by 18:00 on the Sunday of the election (9 June 2024).</p>
 <p>The Berlin municipal authority (‘Bezirksamt Mitte’) oversees German expatriates who haven\'t lived in Germany for at least three months. Adult Germans living abroad can vote if they resided in Germany for at least three uninterrupted months, not more than 25 years ago from their 14th birthday, or if they\'re personally familiar with German politics and affected by it.</p>
 <p>You can find more information for Germans living abroad on this <a href="https://www.bundeswahlleiterin.de/en/europawahlen/2024/informationen-waehler/deutsche-im-ausland.html">page of the website of the Federal Returning Officer</a>.</p>',
-  's15' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's15' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

@@ -42,12 +42,12 @@ return [
 <p>Your application needs to be processed at least <strong>16 days before election day</strong>.</p>
 <p>To find out more, visit the page &quot;<a href="https://elections.im.dk/advance-voting">Advance Voting</a>&quot; (available in English and Danish).</p>
 <p><strong>What documents should I bring?</strong> It is recommended to bring your <strong>voting card</strong>. It is also recommended to bring <strong>ID</strong>, e.g. social security card (sundhedskort), passport or a driver\'s license.</p>',
-  's9' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's9' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
   's10' => '<p>Outside the EU</p>',
   's10.1' => '<p>I am eligible to and want to vote in <strong>Danish</strong> EU elections <strong>from outside of the EU</strong>.</p>',
   's10.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state</strong>.</p>',
   's11' => '<p><strong>Where do I vote?</strong> If you live outside the EU, you can only vote under certain conditions. Citizens who stay abroad but will return to Denmark within two years of their departure can vote. In addition, citizens who work abroad for a Danish institution or company, students and those working for a Danish charity organization may maintain their right to vote under certain conditions. In order to vote, you have to apply in the Danish municipality you lived in before moving out of the country. Once on the voting list, you can vote in person or by post via the Danish embassies and consulates abroad.</p>
 <p>In case you meet those conditions, your application needs to be processed at least seven days before election day. So make sure to apply in due time, as it might take a while.</p>
 <p>To find out more, visit the page &quot;<a href="https://elections.im.dk/advance-voting">Advance Voting</a>&quot; (available in English and Danish).</p>',
-  's12' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's12' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

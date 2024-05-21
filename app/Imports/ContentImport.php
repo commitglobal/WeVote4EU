@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Imports;
 
+use Carbon\CarbonImmutable;
 use Exception;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
@@ -32,7 +33,7 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
 
     public ?string $sheet = null;
 
-    public array $steps = [];
+    public array $tree = [];
 
     public ?string $cursor = null;
 
@@ -65,7 +66,23 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
 
         $country = Str::slug($country);
 
-        $this->steps = [];
+        $dates = explode('_', $date);
+
+        $startDate = CarbonImmutable::parse($dates[0]);
+        $endDate = \count($dates) > 1 ? $startDate->setDay((int) $dates[1]) : null;
+
+        $this->tree = [
+            'code' => app('countries')
+                ->where('name', $country)
+                ->keys()
+                ->first(),
+            'languages' => [],
+            'dates' => [
+                'start' => $startDate->toDateString(),
+                'end' => $endDate?->toDateString(),
+            ],
+            'steps' => [],
+        ];
 
         $collection->each(function (Collection $row) use ($country) {
             $key = (string) $row['step_code'];
@@ -75,25 +92,29 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
 
             $this->cursor = $this->prefix . $key;
 
-            if (\array_key_exists($this->cursor, $this->steps)) {
+            if (\array_key_exists($this->cursor, $this->tree['steps'])) {
                 throw new Exception("Duplicate step code: {$key}");
             }
 
             if (Str::contains($key, '.')) {
                 $parts = explode('.', $key);
-                $this->steps[$this->prefix . $parts[0]][] = [
+                $this->tree['steps'][$this->prefix . $parts[0]][] = [
                     'label' => $this->cursor,
                     'target' => $this->prefix . $target,
                 ];
             } else {
-                $this->steps[$this->cursor] = [];
+                $this->tree['steps'][$this->cursor] = [];
             }
 
             if ($target === 'other') {
-                $this->steps[$this->cursor] = $this->countriesList(except: $country);
+                $this->tree['steps'][$this->cursor] = $this->countriesList(except: $country);
             }
 
             collect($row)
+                ->filter()
+                ->tap(function ($locales) {
+                    $this->tree['languages'] = $locales->keys()->all();
+                })
                 ->each(function ($text, $locale) use ($country, $key) {
                     if (! $text) {
                         return;
@@ -106,7 +127,7 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
                 });
         });
 
-        File::put(resource_path("trees/{$country}.json"), json_encode($this->steps, \JSON_PRETTY_PRINT));
+        File::put(resource_path("trees/{$country}.json"), json_encode($this->tree, \JSON_PRETTY_PRINT));
 
         collect($this->translations)
             ->each(function (array $translations, string $lang) use ($country) {
@@ -143,12 +164,10 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
 
     protected function countriesList(string $except): array
     {
-        return collect(app('countries'))
-            ->reject(fn (string $name, string $code) => $name === $except)
-            ->map(fn (string $name, string $code) => [
-                'label' => $name,
-                'target' => Str::slug($name),
-                'flag' => $code,
+        return app('countries')
+            ->reject(fn (array $country, string $code) => $country['name'] === $except)
+            ->map(fn (array $country, string $code) => [
+                'country' => $code,
             ])
             ->values()
             ->all();

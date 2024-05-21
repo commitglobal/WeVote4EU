@@ -22,11 +22,11 @@ return [
 <p><strong>What documents should I bring?</strong> Voting document (obligatry) and ID card (recommended).</p>',
   's7' => '<p>Outside Malta</p>',
   's7.1' => '<p>I am eligible to and want to vote in <strong>Maltese</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
-  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state</p>',
   's8' => '<p>Voting in the European elections from another country is not possible.
 Will you return back to Malta to vote In elections?</p>',
   's8.1' => '<p>Yes, I will go to Malta to vote in EU elections</p>',
   's8.2' => '<p>No, I will not be able to go to Malta to vote in EU elections</p>',
   's9' => '<p>Unfortunately, voting in the European elections from another country is not possible.</p>',
-  's10' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's10' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

@@ -27,35 +27,43 @@ class AppServiceProvider extends ServiceProvider
 
     protected function registerCountries(): void
     {
-        $this->app->singleton('countries', fn () => [
-            'at' => 'austria',
-            'be' => 'belgium',
-            'bg' => 'bulgaria',
-            'hr' => 'croatia',
-            'cy' => 'cyprus',
-            'cz' => 'czechia',
-            'dk' => 'denmark',
-            'ee' => 'estonia',
-            'fi' => 'finland',
-            'fr' => 'france',
-            'de' => 'germany',
-            'gr' => 'greece',
-            'hu' => 'hungary',
-            'ie' => 'ireland',
-            'it' => 'italy',
-            'lv' => 'latvia',
-            'lt' => 'lithuania',
-            'lu' => 'luxembourg',
-            'mt' => 'malta',
-            'nl' => 'netherlands',
-            'pl' => 'poland',
-            'pt' => 'portugal',
-            'ro' => 'romania',
-            'sk' => 'slovakia',
-            'si' => 'slovenia',
-            'es' => 'spain',
-            'se' => 'sweden',
-        ]);
+        $this->app->singleton(
+            'countries',
+            fn () => collect([
+                'at' => 'austria',
+                'be' => 'belgium',
+                'bg' => 'bulgaria',
+                'hr' => 'croatia',
+                'cy' => 'cyprus',
+                'cz' => 'czechia',
+                'dk' => 'denmark',
+                'ee' => 'estonia',
+                'fi' => 'finland',
+                'fr' => 'france',
+                'de' => 'germany',
+                'gr' => 'greece',
+                'hu' => 'hungary',
+                'ie' => 'ireland',
+                'it' => 'italy',
+                'lv' => 'latvia',
+                'lt' => 'lithuania',
+                'lu' => 'luxembourg',
+                'mt' => 'malta',
+                'nl' => 'netherlands',
+                'pl' => 'poland',
+                'pt' => 'portugal',
+                'ro' => 'romania',
+                'sk' => 'slovakia',
+                'si' => 'slovenia',
+                'es' => 'spain',
+                'se' => 'sweden',
+            ])
+                ->map(fn (string $name, string $code) => [
+                    'name' => $name,
+                    'label' => __("countries.{$code}"),
+                ])
+                ->sortBy('label')
+        );
     }
 
     protected function registerLanguages(): void

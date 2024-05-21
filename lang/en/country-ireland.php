@@ -44,5 +44,5 @@ return [
 </ul>
 <p>To find out more, visit the page <a href="https://www.citizensinformation.ie/en/government-in-ireland/elections-and-referenda/voting/registering-to-vote/#lc5b52">Postal Voters and Special Voters lists</a> and the <a href="https://www.citizensinformation.ie/en/government-in-ireland/elections-and-referenda/voting/">Citizens Information website</a>.</p>
 <p><strong>What documents should I bring?</strong> Bring some ID such as driving license, PPS card, or passport. A full list of acceptable ID is available on <a href="https://www.electoralcommission.ie/">electoralcommission.ie</a>.</p>',
-  's11' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's11' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

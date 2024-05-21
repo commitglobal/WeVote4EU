@@ -22,7 +22,7 @@ return [
 <p><strong>X\'dokumenti għandi nġib?</strong> Dokument tal-vot (obbligatorju) u karta tal-identità (rakkomandat).</p>',
   's7' => '<p>Barra minn Malta</p>',
   's7.1' => '<p>Jien eliġibbli għal u rrid nivvota fl-elezzjonijiet <strong>Maltin</strong> tal-UE <strong>minn pajjiż ieħor tal-UE/mhux tal-UE.</strong></p>',
-  's7.2' => '<p>Jien eliġibbli u rrid nivvota fl-elezzjonijiet tal-UE <strong>għal</strong> stat membru ieħor tal-UE**.**</p>',
+  's7.2' => '<p>Jien eliġibbli u rrid nivvota fl-elezzjonijiet tal-UE <strong>għal</strong> stat membru ieħor tal-UE</p>',
   's8' => '<p>“Il-votazzjoni fl-elezzjonijiet Ewropej minn pajjiż ieħor mhux possibbli.
 Se tirritorna lura Malta biex tivvota Fl-elezzjonijiet?&quot;</p>',
   's8.1' => '<p>Iva, se mmur Malta nivvota fl-elezzjonijiet tal-UE</p>',

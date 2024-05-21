@@ -31,5 +31,5 @@ return [
 </ul>
 <p>More information is available at the <a href="https://www.pmlp.gov.lv/en">website of the Office of Citizenship and Migration Affairs</a>.</p>
 <p><strong>What documents should I bring?</strong> <strong>Valid passport</strong> or your <strong>ID card.</strong></p>',
-  's9' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's9' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

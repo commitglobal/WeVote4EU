@@ -57,5 +57,5 @@ return [
 <p>For more information, check out this page: <a href="https://www.service-public.fr/particuliers/vosdroits/F16904?lang=en">Voting by a French citizen residing abroad</a>.</p>
 <p>Please keep in mind, that the elections will take place on 8 June 2024 in the overseas departments of Guadeloupe, Martinique and French Guyana, the overseas territories of Saint-Pierre-et-Miquelon, Saint-Barthélémy, Saint-Martin and French Polynesia, as well as in the polling stations open in the French embassies and consulates on the American continent.</p>
 <p><strong>What documents should I bring?</strong> <strong>Voter registration card</strong> and your original <strong>ID</strong>.</p>',
-  's9' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's9' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

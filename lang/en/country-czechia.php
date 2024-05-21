@@ -45,5 +45,5 @@ return [
   's12.1' => '<p>Yes, I will return to Czechia to vote</p>',
   's12.2' => '<p>No, I will not be able to return back to Czechia to vote</p>',
   's13' => '<p>Unfortunately, you can not vote in the European elections in Czechia from abroad.</p>',
-  's14' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's14' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

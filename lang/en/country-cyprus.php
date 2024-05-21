@@ -37,5 +37,5 @@ return [
   's11' => '<p><strong>Where do I vote?</strong> Cypriots residing abroad can vote in European elections if they lived in Cyprus for six months before registering to vote and then moved abroad. The authorities of the Republic of Cyprus will operate <strong>polling centers in Greece, the United Kingdom and Belgium - in embassies or elsewhere - in cities where more than 50 voters request to vote there.</strong> Foreign voters are registered in a special electoral roll and can only vote in person on election day. Visit <a href="https://elections.gov.cy/moi/elections/elections.nsf/elections01ah_en/elections01ah_en?OpenDocument">this website</a> for more information about the polling stations 15 days before the election date.</p>
 <p><strong>What documents should I bring?</strong> You must bring your national ID card or the voting card.</p>',
   's12' => '<p>You must have registered for an electoral roll before the 02 April 2024. Unfortunately, without the registration, you can not vote.</p>',
-  's13' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's13' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

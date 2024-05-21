@@ -38,5 +38,5 @@ return [
 <p>Your identity card or your passport, and exceptionally your driving licence or other public document with a photograph on the basis of which your identity can be established.</p>
 <p>For more information about all of the above, please consult the <a href="https://gov.hr/en/eu-nationals-voting-in-the-republic-of-croatia/1222">section &quot;e-Citizens - Information and Services&quot; of the website of the Government of Croatia</a>, the <a href="https://mpu.gov.hr/en">website of the Ministry of Justice and Public Administration</a> or at the <a href="https://www.izbori.hr/site/site/en/homepage/18">website of the State Electoral Commmission of the Republic of Croatia</a>.</p>',
   's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
-  's8' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's8' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

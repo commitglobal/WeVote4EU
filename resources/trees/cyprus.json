@@ -1,69 +1,160 @@
 {
-    "s1": [
-        {
-            "label": "s1.1",
-            "target": "s2"
-        },
-        {
-            "label": "s1.2",
-            "target": "s3"
-        }
+    "code": "cy",
+    "languages": [
+        "en",
+        "tr",
+        "el"
     ],
-    "s2": [],
-    "s3": [
-        {
-            "label": "s3.1",
-            "target": "s4"
-        },
-        {
-            "label": "s3.2",
-            "target": "s"
-        }
-    ],
-    "s9": [
-        {
-            "label": "s9.1",
-            "target": "s10"
-        },
-        {
-            "label": "s9.2",
-            "target": "s13"
-        }
-    ],
-    "s4": [
-        {
-            "label": "s4.1",
-            "target": "s5"
-        },
-        {
-            "label": "s4.2",
-            "target": "s8"
-        }
-    ],
-    "s5": [
-        {
-            "label": "s5.1",
-            "target": "s6"
-        },
-        {
-            "label": "s5.2",
-            "target": "s7"
-        }
-    ],
-    "s6": [],
-    "s7": [],
-    "s8": [],
-    "s10": [
-        {
-            "label": "s10.1",
-            "target": "s11"
-        },
-        {
-            "label": "s10.2",
-            "target": "s12"
-        }
-    ],
-    "s11": [],
-    "s12": [],
-    "s13": []
+    "dates": {
+        "start": "2024-06-09",
+        "end": null
+    },
+    "steps": {
+        "s1": [
+            {
+                "label": "s1.1",
+                "target": "s2"
+            },
+            {
+                "label": "s1.2",
+                "target": "s3"
+            }
+        ],
+        "s2": [],
+        "s3": [
+            {
+                "label": "s3.1",
+                "target": "s4"
+            },
+            {
+                "label": "s3.2",
+                "target": "s"
+            }
+        ],
+        "s9": [
+            {
+                "label": "s9.1",
+                "target": "s10"
+            },
+            {
+                "label": "s9.2",
+                "target": "s13"
+            }
+        ],
+        "s4": [
+            {
+                "label": "s4.1",
+                "target": "s5"
+            },
+            {
+                "label": "s4.2",
+                "target": "s8"
+            }
+        ],
+        "s5": [
+            {
+                "label": "s5.1",
+                "target": "s6"
+            },
+            {
+                "label": "s5.2",
+                "target": "s7"
+            }
+        ],
+        "s6": [],
+        "s7": [],
+        "s8": [],
+        "s10": [
+            {
+                "label": "s10.1",
+                "target": "s11"
+            },
+            {
+                "label": "s10.2",
+                "target": "s12"
+            }
+        ],
+        "s11": [],
+        "s12": [],
+        "s13": [
+            {
+                "country": "at"
+            },
+            {
+                "country": "be"
+            },
+            {
+                "country": "bg"
+            },
+            {
+                "country": "hr"
+            },
+            {
+                "country": "cz"
+            },
+            {
+                "country": "dk"
+            },
+            {
+                "country": "ee"
+            },
+            {
+                "country": "fi"
+            },
+            {
+                "country": "fr"
+            },
+            {
+                "country": "de"
+            },
+            {
+                "country": "gr"
+            },
+            {
+                "country": "hu"
+            },
+            {
+                "country": "ie"
+            },
+            {
+                "country": "it"
+            },
+            {
+                "country": "lv"
+            },
+            {
+                "country": "lt"
+            },
+            {
+                "country": "lu"
+            },
+            {
+                "country": "mt"
+            },
+            {
+                "country": "nl"
+            },
+            {
+                "country": "pl"
+            },
+            {
+                "country": "pt"
+            },
+            {
+                "country": "ro"
+            },
+            {
+                "country": "sk"
+            },
+            {
+                "country": "si"
+            },
+            {
+                "country": "es"
+            },
+            {
+                "country": "se"
+            }
+        ]
+    }
 }

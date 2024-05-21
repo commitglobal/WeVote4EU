@@ -41,7 +41,7 @@ return [
 <p><strong>What documents should I bring?</strong> A valid identity document and your electoral card.</p>',
   's14' => '<p><strong>Where do I vote?</strong> As you have transferred your residence to another EU Member State and are registered with AIRE (the Register of Italians Resident Abroad), you may vote at the polling stations set up abroad by the Italian diplomatic-consular offices of the country in which you live. The Ministry of the Interior will send an <strong>electoral certificate</strong> to your foreign residence. It will contain <strong>information on the polling place and the date and time of voting</strong>. If you do not receive any electoral card, you should contact your consulate of reference to verify your electoral status.</p>
 <p><strong>What documents should I bring?</strong> A valid identity document and your electoral card.</p>',
-  's15' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's15' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
   's16' => '<p>If you are a resident of a non-EU country, you remain registered in the Register of Italians Resident Abroad (AIRE) of your municipality of origin and <strong>will only be able to vote by returning to that municipality</strong>, upon receipt of a notice informing you of the date and time of the vote. <strong>Will you be returning to your municipality in Italy for the elections?</strong></p>',
   's16.1' => '<p>Yes, I will return to Italy to vote</p>',
   's16.2' => '<p>No, I will not be able to return to Italy to vote</p>',

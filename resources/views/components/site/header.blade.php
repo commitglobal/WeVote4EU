@@ -1,6 +1,6 @@
 <header x-data="{ menuOpen: false }" class="fixed inset-x-0 z-40 bg-white shadow md:relative">
     <nav class="container flex justify-between gap-4 py-4">
-        <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2">
+        <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2" wire:navigate>
             <x-icon-logo class="h-7 md:h-10" />
         </a>
 
@@ -31,7 +31,8 @@
                                 <a
                                     class="flex px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none"
                                     hreflang="{{ $locale }}"
-                                    href="{{ $item['url'] }}">
+                                    href="{{ $item['url'] }}"
+                                    wire:navigate>
                                     {{ $item['label'] }}
                                 </a>
                             </li>

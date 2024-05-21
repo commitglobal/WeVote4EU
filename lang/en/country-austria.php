@@ -28,12 +28,12 @@ return [
 <p>You may find all the information on the <a href="https://www.oesterreich.gv.at/themen/leben_in_oesterreich/wahlen/6/Seite.320510.html">website of the Austrian national authorities</a> (in German).</p>
 <p><strong>What documents should I bring?</strong> You should <strong>bring your ID</strong>.</p>',
   's9' => '<p>Outside Austria</p>',
-  's9.1' => '<p>I am eligible to and want to vote in <strong>Austrian</strong> EU elections <strong>fromanother EU/non-EU country.</strong></p>',
+  's9.1' => '<p>I am eligible to and want to vote in <strong>Austrian</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
   's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
   's7' => '<p><strong>Where do I vote?</strong> In order to take part in a European election, an entry in the European voters\' register is required. Austrians with their main residence abroad (Austrians abroad) must submit an application in order to be included in the (European) voter register. Further information on the subject of “<a href="https://www.oesterreich.gv.at/themen/transparenz_und_partizipation_in_der_demokratie/demokratie-und-wahlen/wahlen/2/2/Seite.320321.html">Entry into the (European) Voters’ Register</a>”.</p>
 <p><strong>The sealed voting card must be sent in good time to the electoral authority entitled to receive it, and voters must sign an affidavit</strong> that they have filled out the voting card personally, unobserved and uninfluenced.</p>
 <p>The postal ballot may also be <strong>handed in at any Austrian embassy, consulate or honorary consulate,</strong> which will forward it free of charge to the electoral authority.</p>
 <p><strong>What documents should I bring?</strong> Voting by <strong>postal ballot</strong> can take place immediately after receiving the voting card.</p>
 <p>You may find all information on the <a href="https://www.oesterreich.gv.at/themen/leben_in_oesterreich/wahlen/6/Seite.320510.html"><strong>website of the Austrian national authorities</strong></a> <strong>(in German).</strong></p>',
-  's8' => '<p>Which EU country\'s elections will you be participating in is as a voter?</p>',
+  's8' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];

@@ -1,57 +1,147 @@
 {
-    "s1": [
-        {
-            "label": "s1.1",
-            "target": "s2"
-        },
-        {
-            "label": "s1.2",
-            "target": "s3"
-        }
+    "code": "mt",
+    "languages": [
+        "en",
+        "mt"
     ],
-    "s2": [],
-    "s3": [
-        {
-            "label": "s3.1",
-            "target": "s4"
-        },
-        {
-            "label": "s3.2",
-            "target": "s7"
-        }
-    ],
-    "s4": [
-        {
-            "label": "s4.1",
-            "target": "s5"
-        },
-        {
-            "label": "s4.2",
-            "target": "s6"
-        }
-    ],
-    "s5": [],
-    "s6": [],
-    "s7": [
-        {
-            "label": "s7.1",
-            "target": "s8"
-        },
-        {
-            "label": "s7.2",
-            "target": "s10"
-        }
-    ],
-    "s8": [
-        {
-            "label": "s8.1",
-            "target": "s3.1"
-        },
-        {
-            "label": "s8.2",
-            "target": "s9"
-        }
-    ],
-    "s9": [],
-    "s10": []
+    "dates": {
+        "start": "2024-06-08",
+        "end": null
+    },
+    "steps": {
+        "s1": [
+            {
+                "label": "s1.1",
+                "target": "s2"
+            },
+            {
+                "label": "s1.2",
+                "target": "s3"
+            }
+        ],
+        "s2": [],
+        "s3": [
+            {
+                "label": "s3.1",
+                "target": "s4"
+            },
+            {
+                "label": "s3.2",
+                "target": "s7"
+            }
+        ],
+        "s4": [
+            {
+                "label": "s4.1",
+                "target": "s5"
+            },
+            {
+                "label": "s4.2",
+                "target": "s6"
+            }
+        ],
+        "s5": [],
+        "s6": [],
+        "s7": [
+            {
+                "label": "s7.1",
+                "target": "s8"
+            },
+            {
+                "label": "s7.2",
+                "target": "s10"
+            }
+        ],
+        "s8": [
+            {
+                "label": "s8.1",
+                "target": "s3.1"
+            },
+            {
+                "label": "s8.2",
+                "target": "s9"
+            }
+        ],
+        "s9": [],
+        "s10": [
+            {
+                "country": "at"
+            },
+            {
+                "country": "be"
+            },
+            {
+                "country": "bg"
+            },
+            {
+                "country": "hr"
+            },
+            {
+                "country": "cy"
+            },
+            {
+                "country": "cz"
+            },
+            {
+                "country": "dk"
+            },
+            {
+                "country": "ee"
+            },
+            {
+                "country": "fi"
+            },
+            {
+                "country": "fr"
+            },
+            {
+                "country": "de"
+            },
+            {
+                "country": "gr"
+            },
+            {
+                "country": "hu"
+            },
+            {
+                "country": "ie"
+            },
+            {
+                "country": "it"
+            },
+            {
+                "country": "lv"
+            },
+            {
+                "country": "lt"
+            },
+            {
+                "country": "lu"
+            },
+            {
+                "country": "nl"
+            },
+            {
+                "country": "pl"
+            },
+            {
+                "country": "pt"
+            },
+            {
+                "country": "ro"
+            },
+            {
+                "country": "sk"
+            },
+            {
+                "country": "si"
+            },
+            {
+                "country": "es"
+            },
+            {
+                "country": "se"
+            }
+        ]
+    }
 }

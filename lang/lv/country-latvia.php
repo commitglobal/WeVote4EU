@@ -12,9 +12,9 @@ return [
   's4.1' => '<p>Nē</p>',
   's4.2' => '<p>Jā</p>',
   's5' => '<p>Latvijas un citu ES valstu pilsoņiem:</p>
-<p>**Jūs varat balsot <strong>vienā vēlēšanu iecirknī Latvijā</strong>. Tie būs atvērti vēlēšanu dienā un dažas dienas pirms vēlēšanām. Iepriekšēja balsošana vēlēšanu iecirkņos notiks 3., 6. un 7. jūnijā.</p>
+<p><strong>Jūs varat balsot</strong> <strong>vienā vēlēšanu iecirknī Latvijā</strong>. Tie būs atvērti vēlēšanu dienā un dažas dienas pirms vēlēšanām. Iepriekšēja balsošana vēlēšanu iecirkņos notiks 3., 6. un 7. jūnijā.</p>
 <p>Vēlēšanu iecirkņu saraksts ir pieejams <a href="https://www.cvk.lv/lv/jaunums/eiropas-parlamenta-velesanas-latvija-stradas-945-iecirkni">Latvijas Centrālās vēlēšanu komisijas tīmekļa vietnē</a> (latviešu valodā). Turklāt jums nav iepriekš jāreģistrējas - Latvijas iestādes to dara jūsu vietā.</p>
-<p>**Kādi dokumenti man jāņem līdzi? <strong>Verīga pase vai personas apliecība</strong>.</p>',
+<p><strong>Kādi dokumenti man jāņem līdzi?</strong> Verīga <strong>pase vai personas apliecība</strong>.</p>',
   's6' => '<p>&quot;Latvijas un citu ES valstu pilsoņiem:</p>
 <p>**Jūs varat balsot <strong>vienā vēlēšanu iecirknī Latvijā</strong>. Tie būs atvērti vēlēšanu dienā un dažas dienas pirms vēlēšanām. Iepriekšēja balsošana vēlēšanu iecirkņos notiks 3., 6. un 7. jūnijā.</p>
 <p>Vēlēšanu iecirkņu saraksts ir pieejams <a href="https://www.cvk.lv/lv/jaunums/eiropas-parlamenta-velesanas-latvija-stradas-945-iecirkni">Latvijas Centrālās vēlēšanu komisijas tīmekļa vietnē</a> (latviešu valodā). Turklāt jums nav iepriekš jāreģistrējas - Latvijas iestādes to dara jūsu vietā.</p>
