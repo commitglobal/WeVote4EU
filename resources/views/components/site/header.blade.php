@@ -6,9 +6,8 @@
 
         <div class="relative flex items-center gap-2">
             <div class="items-center hidden gap-2 md:flex">
-                <x-navigation-item route="home" label="Home" />
-                <x-navigation-item route="about" label="About" />
-                <x-navigation-item route="partners" label="Partners" />
+                <x-navigation-item route="home" :label="__('app.navigation.home')" />
+                <x-navigation-item route="about" :label="__('app.navigation.about')" />
             </div>
 
             <div x-data="{ langOpen: false }" x-on:click.away="langOpen = false">
@@ -50,9 +49,8 @@
         <div class="absolute inset-x-0 z-50 transition origin-top transform bg-white shadow-lg top-full lg:hidden"
             x-show="menuOpen" x-collapse x-cloak>
             <ul class="container flex flex-col py-4 text-gray-600 gap-y-1 md:py-8">
-                <li><x-navigation-item mobile route="home" label="Home" /></li>
-                <li><x-navigation-item mobile route="about" label="About" /></li>
-                <li><x-navigation-item mobile route="partners" label="Partners" /></li>
+                <li><x-navigation-item mobile route="home" :label="__('app.navigation.home')" /></li>
+                <li><x-navigation-item mobile route="about" :label="__('app.navigation.about')" /></li>
             </ul>
         </div>
 

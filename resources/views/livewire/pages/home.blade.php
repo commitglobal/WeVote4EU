@@ -1,21 +1,19 @@
 <div class="relative">
     <div class="container relative max-w-6xl py-32 md:py-48">
-
         <x-icon-hero class="absolute inset-y-0 right-0 hidden h-full py-16 lg:block rotate-12" />
+
         <div class="prose md:prose-lg lg:prose-xl">
             <h1>
                 <span class="font-light text-slate-900">
-                    Empowering EU Democracy through
+                    {{ __('app.hero.title') }}
                 </span>
                 <span class="font-semibold text-blue-800">
-                    We Vote for EU
+                    {{ __('app.hero.name') }}
                 </span>
             </h1>
 
             <p class="mt-6 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur. Ultricies sit massa dictum senectus ut. Tellus id varius
-                tellus
-                consectetur erat suspendisse. Malesuada varius vitae nisl in et ipsum ultricies hendrerit nisl.
+                {{ __('app.hero.description') }}
             </p>
         </div>
     </div>

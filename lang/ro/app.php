@@ -10,4 +10,10 @@ return [
     'banner' => 'O soluție Commit Global.',
     'select_nationality' => 'Care este naționalitatea ta?',
     'parliament_elections_title' => 'Alegeri parlamentare',
+
+    'navigation' => [
+        'home' => 'Acasă',
+        'about' => 'Despre',
+    ],
+
 ];
