@@ -7,7 +7,7 @@ return [
         'home' => 'Namai',
     ],
     'hero' => [
-        'description' => 'Skausmas yra labai svarbus dalykas. Apie tai, kad jie yra labai svarbūs. “Tellus ID” kazino dėžė buvo garantuota. Malesuada įvairių gyvybių ir labai mažų dienų.',
+        'description' => 'Pristatome platformą, skirtą paversti 27 nacionalinius Europos Parlamento rinkimus į vieningą, visos Europos renginį. Mes balsuojame už ES yra išsamus skaitmeninis centras, kuris centralizuoja svarbią informaciją apie rinkimus ir atnaujinimus realiuoju laiku, todėl piliečiai gali lengviau dalyvauti demokratiniame procese.',
         'title' => 'ES demokratijos įgalinimas per',
         'name' => 'Mes balsuojame už ES',
     ],
