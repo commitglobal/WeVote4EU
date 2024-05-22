@@ -139,6 +139,11 @@ class AppServiceProvider extends ServiceProvider
                 'nativeName' => 'Italiano',
                 'enabled' => true,
             ],
+            'lb' => [
+                'name' => 'Luxembourgish',
+                'nativeName' => 'Lëtzebuergesch',
+                'enabled' => true,
+            ],
             'lv' => [
                 'name' => 'Latvian',
                 'nativeName' => 'Latviešu',
