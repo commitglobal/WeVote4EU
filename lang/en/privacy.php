@@ -14,12 +14,10 @@ return [
 
     'subtitle_1' => 'Data collection',
 
-    'line_1_1' => <<<'LINE'
-    - We collect information from you if you access this website through a regular browser.
-    - This website makes use of cookies (ex: Google Analytics) to measure and optimize the experience for all users.
-    - Commit Global will not disclose or sell your personal data to any third party, except the legally binding situations described in this Privacy Policy.
-    - Commit Global will take all reasonable measures to protect your personal information as this is a major concern for us.
-    LINE,
+    'line_1_1' => '- We collect information from you if you access this website through a regular browser.
+- This website makes use of cookies (ex: Google Analytics) to measure and optimize the experience for all users.
+- Commit Global will not disclose or sell your personal data to any third party, except the legally binding situations described in this Privacy Policy.
+- Commit Global will take all reasonable measures to protect your personal information as this is a major concern for us.',
 
     'line_1_2' => 'Upon visiting wevote4.eu we will automatically collect and store data about your current visit. This information is not personally identifiable. The information we may collect is: operating system on your device, the browser you are using, pages in wevote4.eu you have visited, the source of your visit (ex: Google, Facebook), date and time of your visit and the domain from which you access the internet. All of this information is used to further improve the navigation experience on our website and to understand the preferences of our visitors. We will not collect any personal information through this website without your express consent.',
 
@@ -35,10 +33,8 @@ return [
 
     'line_3_2' => 'Cookies save information in a small text file allowing a website to recognize a browser. The web server will recognize the browser up until the cookie expires or is deleted. The cookie stores important information that improve the browsing experience (e.g. a serial number for your donation). Cookies do not request personal information nor do they personally identify internet users.',
 
-    'line_3_3' => <<<'LINE'
-    - Session cookies - are cookies temporarily stored in the browser’s history where they are stored until the user leaves that website or closes the browser window.
-    - Persistent Cookies - These are stored, for a predetermined length of time, on a computer hard drive or similar equipment. Persistent cookies include those placed by a different website than the one the user is visiting at the time, so-called “third-party cookies”- that can be anonymously used to track a user’s interests - allowing them to receive ads more relevant to their interests.
-    LINE,
+    'line_3_3' => '- Session cookies - are cookies temporarily stored in the browser’s history where they are stored until the user leaves that website or closes the browser window.
+- Persistent Cookies - These are stored, for a predetermined length of time, on a computer hard drive or similar equipment. Persistent cookies include those placed by a different website than the one the user is visiting at the time, so-called “third-party cookies”- that can be anonymously used to track a user’s interests - allowing them to receive ads more relevant to their interests.',
 
     'line_3_4' => 'There are cookies that are exclusively used for a single session - these are no longer stored after the user has left the website. Permanent cookies are stored and reused every time the user returns to that website but can be deleted at any time by the user.',
 
@@ -62,11 +58,9 @@ return [
 
     'line_6_1' => 'Deactivating cookies will no longer allow user access to some of the most important websites such as Youtube, Gmail, Yahoo and others. Here\'s some advice that can help you browse safely while retaining cookies:',
 
-    'line_6_2' => <<<'LINE'
-    - Customize your browser cookie settings to allow for a comfortable security level. If cookies are not a problem for you and you are the only person using that device you can set long cookie retention intervals in order to store your browsing history and your personal access data.
-    - If you share the device or computer you may want to set up the browser to delete your individual browsing data every time it is closed. This is one way to access websites that place cookies on your shared computer while deleting all your browsing data when closing the session.
-    - install an anti-spyware app and keep it up-to-date. Many anti-spyware apps include website attack detection. These apps prevent the browser from accessing websites that might exploit the browser’s vulnerabilities or download dangerous software. Ensure your browser is up-to-date. Many cookie-based attacks exploit the weak points of old browser versions.
-    LINE,
+    'line_6_2' => '- Customize your browser cookie settings to allow for a comfortable security level. If cookies are not a problem for you and you are the only person using that device you can set long cookie retention intervals in order to store your browsing history and your personal access data.
+- If you share the device or computer you may want to set up the browser to delete your individual browsing data every time it is closed. This is one way to access websites that place cookies on your shared computer while deleting all your browsing data when closing the session.
+- install an anti-spyware app and keep it up-to-date. Many anti-spyware apps include website attack detection. These apps prevent the browser from accessing websites that might exploit the browser’s vulnerabilities or download dangerous software. Ensure your browser is up-to-date. Many cookie-based attacks exploit the weak points of old browser versions.',
 
     'line_6_3' => 'Cookies are everywhere and cannot be avoided if you wish to access some of the largest and best websites on the internet, either local or international. The clear understanding of the way cookies work and the benefits they bring you can take the necessary security measures so that you always have a safe and satisfactory browsing experience.',
 
@@ -74,13 +68,11 @@ return [
 
     'line_7_1' => 'As a user of the wevote4.eu website you have the following rights:',
 
-    'line_7_2' => <<<'LINE'
-    - The right to information regarding the processing of personal data by Commit Global;
-    - The right to access personal data, upon request and free of charge for one request per year;
-    - The right of intervention, rectification, deletion or portability of personal data, upon request and free of charge;
-    - The right to address any competent authority regarding data privacy issues in connection to the use of your personal data
-    - The right to opposition and the automated individual decision-making process as well as the right to restrict processing.
-    LINE,
+    'line_7_2' => '- The right to information regarding the processing of personal data by Commit Global;
+- The right to access personal data, upon request and free of charge for one request per year;
+- The right of intervention, rectification, deletion or portability of personal data, upon request and free of charge;
+- The right to address any competent authority regarding data privacy issues in connection to the use of your personal data
+- The right to opposition and the automated individual decision-making process as well as the right to restrict processing.',
 
     'line_7_3' => 'This policy constitutes, in its entirety, an agreement concluded between you and Commit Global regarding the use of this site.',
     'line_7_4' => 'Commit Global reserves the right to revise and update this policy at any time, without notice or prior acceptance of the users. If you have any questions regarding the information contained in this page, please write to us at ',
