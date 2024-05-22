@@ -7,7 +7,7 @@ return [
         'home' => 'Koti',
     ],
     'hero' => [
-        'description' => 'Henkilökohtainen älykkyys on seurausta tuotteesta. Ultricies on paljon sanottu, että se on tarkoitettu. Tellus ID: lle on myönnetty takuu. Malesuada tarjoaa useita elinaikoja, jotka ovat erittäin tehokkaita ja äärimmäisiä.',
+        'description' => 'Esittelyssä foorumi, jonka tarkoituksena on muuttaa 27 kansallista Euroopan parlamentin vaaleja yhtenäiseksi yleiseurooppalaiseksi tapahtumaksi. We Vote for EU on kattava digitaalinen keskus, joka keskittää tärkeät vaalitiedot ja reaaliaikaiset päivitykset, mikä helpottaa kansalaisten osallistumista demokraattiseen prosessiin.',
         'title' => 'EU:n demokratian voimaannuttaminen',
         'name' => 'Äänestämme EU:ta',
     ],
