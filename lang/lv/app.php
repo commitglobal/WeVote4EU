@@ -7,7 +7,7 @@ return [
         'home' => 'Mājas',
     ],
     'hero' => [
-        'description' => 'Slimības sajūtas ir ļoti sekmīga. Ļoti tiek uzskatīti par to, ka tie ir plaši izvēlēti. Tellus ID kazino tīkls bija garantēts. Malesuada daudzveidīga dzīve ir ļoti spēcīga un ļoti liela mēroga dzīve.',
+        'description' => 'Iepazīstinām ar platformu, kas paredzēta 27 valstu Eiropas Parlamenta vēlēšanas pārvēršanai par vienotu, Eiropas mēroga pasākumu. Mēs balsojam par ES ir visaptverošs digitālais centrs, kas centralizē svarīgu vēlēšanu informāciju un atjauninājumus reāllaikā, atvieglojot iedzīvotājiem dalību demokrātiskajā procesā.',
         'title' => 'ES demokrātijas pilnvarošana, izmantojot',
         'name' => 'Mēs balsojam par ES',
     ],
