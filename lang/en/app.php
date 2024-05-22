@@ -19,6 +19,6 @@ return [
     'hero' => [
         'title' => 'Empowering EU Democracy through',
         'name' => 'We Vote for EU',
-        'description' => 'Lorem ipsum dolor sit amet consectetur. Ultricies sit massa dictum senectus ut. Tellus id varius tellus consectetur erat suspendisse. Malesuada varius vitae nisl in et ipsum ultricies hendrerit nisl.',
+        'description' => 'Introducing the platform designed to transform 27 national European Parliament elections into a unified, pan-European event. We Vote for EU is a comprehensive digital hub that centralizes crucial election information and real-time updates, making it easier for citizens to participate in the democratic process.',
     ],
 ];
