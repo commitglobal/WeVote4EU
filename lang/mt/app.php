@@ -7,7 +7,7 @@ return [
         'home' => 'Id-dar',
     ],
     'hero' => [
-        'description' => 'It-teħid tal-uġigħ huwa ferm konsegwentement. L-eċċezzjonijiet huma mgħarrba ħafna. Tellus id casino tellus kien konsegwentement garantit. Malesuada varius ħajja nisl fil u ipsum ultricies hendrerit nisl.',
+        'description' => 'L-introduzzjoni tal-pjattaforma mfassla biex tittrasforma 27 elezzjoni nazzjonali tal-Parlament Ewropew f\'avveniment unifikat u pan-Ewropew. We Vote for EU huwa ċentru diġitali komprensiv li jiċċentralizza informazzjoni kruċjali dwar l-elezzjoni u l-aġġornamenti f\'ħin reali, u jagħmilha aktar faċli għaċ-ċittadini biex jipparteċipaw fil-proċess demokratiku.',
         'title' => 'L-għoti tas-setgħa tad-Demokrazija tal-UE permezz',
         'name' => 'Aħna nivvutaw għall-UE',
     ],
