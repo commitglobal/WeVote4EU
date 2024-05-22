@@ -1,4 +1,4 @@
-<header x-data="{ menuOpen: false }" class="fixed inset-x-0 z-40 bg-white shadow md:relative">
+<header x-data="{ menuOpen: false }" class="relative z-40">
     <nav class="container flex justify-between gap-4 py-4">
         <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2" wire:navigate>
             <x-icon-logo class="h-7 md:h-10" />
@@ -6,8 +6,8 @@
 
         <div class="relative flex items-center gap-2">
             <div class="items-center hidden gap-2 md:flex">
-                <x-navigation-item route="home" label="Homepage" />
-                <x-navigation-item route="about" label="About this platform" />
+                <x-navigation-item route="home" label="Home" />
+                <x-navigation-item route="about" label="About" />
                 <x-navigation-item route="partners" label="Partners" />
             </div>
 
@@ -21,11 +21,11 @@
                 </button>
 
                 <div
-                    class="absolute right-0 w-48 mt-2 origin-top-right bg-white shadow-lg"
+                    class="absolute right-0 mt-2 origin-top-right bg-white shadow-xl sw-48"
                     x-show="langOpen"
                     x-collapse
                     x-cloak>
-                    <ul class="overflow-y-auto  max-h-[75vh]">
+                    <ul class="p-2 columns-3 gap-x-1 gap-y-2">
                         @foreach ($alternateUrls as $locale => $item)
                             <li class="text-sm">
                                 <a

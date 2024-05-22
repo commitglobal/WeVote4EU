@@ -19,26 +19,26 @@
                 },
                 goTo(country, step = null, replace = false) {
                     console.log(country, step, replace);
-            
+
                     this.step = this.steps.includes(step) ? step : this.steps[0];
-            
+
                     let refresh = false;
-            
+
                     if (this.country !== country) {
                         this.country = country;
                         refresh = true;
                     }
-            
+
                     const url = this.baseUrl
                         .replace('COUNTRY', this.country)
                         .replace('STEP', this.step || '');
-            
+
                     if (replace) {
                         history.replaceState(null, document.title, url.toString());
                     } else {
                         history.pushState(null, document.title, url.toString());
                     }
-            
+
                     if (refresh) {
                         $wire.$refresh();
                     }
@@ -47,33 +47,12 @@
                     if (!this.country) {
                         return;
                     }
-            
+
                     const step = location.href.split('/').pop();
-            
+
                     this.goTo(this.country, step, replaceState);
                 }
             }">
-
-            @if ($country)
-                <div class="flex justify-end gap-2 text-sm">
-                    @foreach ($languages as $locale => $language)
-                        @if (app()->getLocale() === $locale)
-                            <span>{{ $language['nativeName'] }}</span>
-                        @else
-                            <a
-                                href="{{ route('country', [
-                                    'country' => $country,
-                                    'locale' => $locale,
-                                    'step' => $step,
-                                ]) }}"
-                                class="underline"
-                                wire:navigate>
-                                {{ $language['nativeName'] }}
-                            </a>
-                        @endif
-                    @endforeach
-                </div>
-            @endif
 
             @forelse ($items as $id => $options)
                 <div
@@ -116,19 +95,19 @@
                             @endforeach
                         </div>
                     @else
-                        <div class="prose">
+                        <div
+                            class="prose max-w-3xl mx-auto md:prose-lg lg:prose-xl prose-strong:text-primary-500 prose-a:text-primary-500 prose-a:font-medium hover:prose-a:no-underline">
                             {!! __("country-{$country}.$id") !!}
                         </div>
                     @endif
                 </div>
             @empty
                 <h2 class="mb-4 text-2xl font-medium text-left text-gray-900">
-                    {!! __('app.select-nationality') !!}
+                    {!! __('app.select_nationality') !!}
                 </h2>
                 <div class="grid gap-4 sm:grid-cols-3">
                     @foreach (app('countries') as $code => $country)
                         <x-decision-tree.choice
-                            sfdngasldgkx-on:click.prevent="goTo({{ Js::from($name)->toHtml() }})"
                             :href="localizedRoute('home', ['country' => $country['name']])"
                             wire:navigate>
                             <x-dynamic-component :component="'icon-flags.' . $code" class="w-8 h-8 shrink-0" />
@@ -137,6 +116,37 @@
                     @endforeach
                 </div>
             @endforelse
+
+            @if ($country)
+                <div class="flex flex-wrap justify-between gap-2 text-sm mt-4">
+                    <div>
+                        <button type="button" x-on:click="history.back()"
+                            class="inline-flex items-center text-gray-600 hover:text-gray-400 focus:text-gray-400 gap-1">
+                            <x-ri-arrow-left-line class="w-4 h-4" />
+
+                            {{ __('app.action.back') }}
+                        </button>
+                    </div>
+                    <div class="flex gap-2 justify-end">
+                        @foreach ($languages as $locale => $language)
+                            @if (app()->getLocale() === $locale)
+                                <span class="font-medium">{{ $language['nativeName'] }}</span>
+                            @else
+                                <a
+                                    href="{{ route('country', [
+                                        'country' => $country,
+                                        'locale' => $locale,
+                                        'step' => $step,
+                                    ]) }}"
+                                    class="underline text-gray-600 hover:text-gray-400 focus:text-gray-400"
+                                    wire:navigate>
+                                    {{ $language['nativeName'] }}
+                                </a>
+                            @endif
+                        @endforeach
+                    </div>
+                </div>
+            @endif
         </div>
     </div>
 </div>

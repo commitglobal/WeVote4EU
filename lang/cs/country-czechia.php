@@ -16,13 +16,13 @@ return [
   's6' => '<p><em>Pro občany ČR a ostatních zemí EU:</em></p>
 <p><strong>Kde budu volit?</strong> Hlasovat musíte <strong>v určené volební místnosti podle místa trvalého pobytu</strong>.</p>
 <p><em>Další informace pro občany EU hlasující v českých volbách do EU:</em> Je třeba se <strong>zaregistrovat</strong> tak, že požádáte obecní úřad o zápis do seznamu voličů pro volby do Evropského parlamentu, a to <strong>40 dnů</strong> před prvním dnem voleb. Pokud jste se však zaregistrovali v předchozích evropských volbách v roce 2019, jste zapsáni automaticky.</p>
-<p>Podrobné informace naleznete na <a href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
+<p>Podrobné informace naleznete na <a rel="noopener noreferrer" target="_blank" href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
 <p><strong>Jaké doklady si mám vzít s sebou?</strong> <strong>platný občanský průkaz</strong> nebo platný cestovní pas.</p>
 <p><strong>Informace o přístupnosti:</strong> Ze závažných důvodů, např. zdravotních, můžete požádat o hlasování mimo volební místnost do přenosné volební schránky. Pro žádost není stanoven žádný formulář, můžete ji podat písemně nebo ústně. Místní volební komise však může poslat členy s přenosnou schránkou pouze v rámci svého volebního okrsku. Můžete také požádat jiného voliče, aby vám ve volební místnosti pomohl.</p>',
   's7' => '<p><em>Pro občany ČR a ostatních zemí EU:</em></p>
 <p><strong>Kde budu volit?</strong> Je nutné volit ve volební místnosti určené podle místa trvalého bydliště.</p>
 <p><em>Další informace pro občany EU hlasující v českých volbách do EU:</em> Je třeba se <strong>zaregistrovat</strong> tak, že požádáte obecní úřad o zápis do seznamu voličů pro volby do Evropského parlamentu, a to <strong>40 dnů</strong> před prvním dnem voleb. Pokud jste se však zaregistrovali v předchozích evropských volbách v roce 2019, jste zapsáni automaticky.</p>
-<p>Podrobné informace naleznete na <a href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
+<p>Podrobné informace naleznete na <a rel="noopener noreferrer" target="_blank" href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
 <p><strong>Jaké doklady si mám vzít s sebou?</strong> <strong>platný občanský průkaz</strong> nebo platný cestovní pas.</p>',
   's8' => '<p>Jste zdravotně postižení nebo máte nějaké omezení, které vám brání dostat se do volební místnosti?</p>',
   's8.1' => '<p>Ano</p>',
@@ -30,13 +30,13 @@ return [
   's9' => '<p><em>Pro občany ČR a ostatních zemí EU:</em></p>
 <p><strong>Kde budu volit?</strong> Pokud chcete volit na jiném místě v Česku, musíte požádat o voličský průkaz (osvědčení), který vám <strong>umožní volit v jakémkoli volebním okrsku v Česku.</strong> Tento průkaz lze získat osobně přímo na příslušném obecním úřadě, nebo prostřednictvím písemné žádosti, která musí být na tento úřad doručena. Žádost lze zaslat prostřednictvím datové schránky nebo poštou s ověřeným podpisem.</p>
 <p><em>Další informace pro občany EU hlasující v eurovolbách v ČR:</em> Je třeba se <strong>zaregistrovat</strong> tak, že požádáte obecní úřad o zápis do seznamu voličů pro volby do Evropského parlamentu, a to <strong>40 dnů</strong> před prvním dnem voleb. Pokud jste se však zaregistrovali v předchozích evropských volbách v roce 2019, jste zapsáni automaticky.</p>
-<p>Podrobné informace naleznete na <a href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
+<p>Podrobné informace naleznete na <a rel="noopener noreferrer" target="_blank" href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
 <p><strong>Jaké doklady si mám přinést</strong>: Platný občanský průkaz nebo platný cestovní pas.</p>
 <p><strong>Informace o přístupnosti:</strong> Ze závažných důvodů, např. zdravotních, můžete požádat o hlasování mimo volební místnost do přenosné volební schránky. Pro žádost není stanoven žádný formulář, můžete ji podat písemně nebo ústně. Místní volební komise však může poslat členy s přenosnou schránkou pouze v rámci svého volebního okrsku. Můžete také požádat jiného voliče, aby vám ve volební místnosti pomohl.</p>',
   's10' => '<p><em>Pro občany ČR a ostatních zemí EU:</em></p>
 <p><strong>Kde budu volit?</strong> Pokud chcete volit na jiném místě v Česku, musíte požádat o voličský průkaz (osvědčení), který vám <strong>umožní volit v jakémkoli volebním okrsku v Česku.</strong> Tento průkaz lze získat osobně přímo na příslušném obecním úřadě, nebo prostřednictvím písemné žádosti, která musí být na tento úřad doručena. Žádost lze zaslat prostřednictvím datové schránky nebo poštou s ověřeným podpisem.</p>
 <p><em>Další informace pro občany EU hlasující v eurovolbách v ČR:</em> Je třeba se <strong>zaregistrovat</strong> tak, že požádáte obecní úřad o zápis do seznamu voličů pro volby do Evropského parlamentu, a to <strong>40 dnů</strong> před prvním dnem voleb. Pokud jste se však zaregistrovali v předchozích evropských volbách v roce 2019, jste zapsáni automaticky.</p>
-<p>Podrobné informace naleznete na <a href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
+<p>Podrobné informace naleznete na <a rel="noopener noreferrer" target="_blank" href="https://www.mvcr.cz/volby/clanek/for-foreigners-voters.aspx">internetových stránkách Ministerstva vnitra</a>.</p>
 <p><strong>Jaké doklady si mám vzít s sebou</strong>: Platný <strong>občanský průkaz</strong> nebo platný cestovní pas.</p>',
   's11' => '<p>Mimo Česko</p>',
   's11.1' => '<p>Mám právo a chci volit v <strong>českých</strong> volbách do EU <strong>z jiné země EU/země mimo EU</strong>.</p>',

@@ -9,6 +9,11 @@ use Exception;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
+use League\CommonMark\Environment\Environment;
+use League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension;
+use League\CommonMark\Extension\ExternalLink\ExternalLinkExtension;
+use League\CommonMark\Extension\GithubFlavoredMarkdownExtension;
+use League\CommonMark\MarkdownConverter;
 use Maatwebsite\Excel\Concerns\Importable;
 use Maatwebsite\Excel\Concerns\RegistersEventListeners;
 use Maatwebsite\Excel\Concerns\SkipsEmptyRows;
@@ -120,10 +125,7 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
                         return;
                     }
 
-                    $this->translations[$locale][$country][$this->prefix . $key] = Str::of($text)
-                        ->markdown()
-                        ->trim()
-                        ->value();
+                    $this->translations[$locale][$country][$this->prefix . $key] = $this->markdown($text);
                 });
         });
 
@@ -171,5 +173,19 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
             ])
             ->values()
             ->all();
+    }
+
+    protected function markdown(string $content): string
+    {
+        $environment = new Environment([
+            'external_link' => [
+                'open_in_new_window' => true,
+            ],
+        ]);
+        $environment->addExtension(new CommonMarkCoreExtension);
+        $environment->addExtension(new GithubFlavoredMarkdownExtension);
+        $environment->addExtension(new ExternalLinkExtension);
+
+        return Str::trim((new MarkdownConverter($environment))->convert($content));
     }
 }

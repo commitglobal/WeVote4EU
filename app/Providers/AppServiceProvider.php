@@ -62,7 +62,7 @@ class AppServiceProvider extends ServiceProvider
                     'name' => $name,
                     'label' => __("countries.{$code}"),
                 ])
-                ->sortBy('label')
+                ->sortBy('label', \SORT_NATURAL | \SORT_FLAG_CASE)
         );
     }
 
