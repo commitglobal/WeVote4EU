@@ -1,5 +1,7 @@
 <div class="relative">
-    <div class="container py-32 mx-auto md:py-48">
+    <div class="container relative py-32 mx-auto md:py-48">
+
+        <x-icon-hero class="absolute inset-y-0 right-0 hidden h-full py-16 lg:block rotate-12" />
         <div class="prose md:prose-lg lg:prose-xl">
             <h1>
                 <span class="font-light text-slate-900">
@@ -11,7 +13,8 @@
             </h1>
 
             <p class="mt-6 text-gray-500">
-                Lorem ipsum dolor sit amet consectetur. Ultricies sit massa dictum senectus ut. Tellus id varius tellus
+                Lorem ipsum dolor sit amet consectetur. Ultricies sit massa dictum senectus ut. Tellus id varius
+                tellus
                 consectetur erat suspendisse. Malesuada varius vitae nisl in et ipsum ultricies hendrerit nisl.
             </p>
         </div>
