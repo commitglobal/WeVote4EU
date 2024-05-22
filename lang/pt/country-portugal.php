@@ -1,17 +1,19 @@
 <?php
 
+declare(strict_types=1);
+
 return [
-  's1' => '<p>Tem pelo menos 18 anos no dia das eleições?</p>',
-  's1.1' => '<p>Tenho menos de 18 anos</p>',
-  's1.2' => '<p>Tenho 18 anos ou mais de 18 anos</p>',
-  's2' => '<p>Não pode votar: Obrigado pelo seu interesse em participar! Esperamos vê-lo nas próximas eleições. Entretanto, continue a ser um cidadão ativo!</p>',
-  's3' => '<p>No dia das eleições, de que país quer votar?</p>',
-  's3.1' => '<p>Portugal</p>',
-  's3.2' => '<p>Fora de Portugal</p>',
-  's4' => '<p>Tem alguma deficiência ou limitação que o impeça de chegar a uma secção de voto?</p>',
-  's4.1' => '<p>Sim</p>',
-  's4.2' => '<p>Não</p>',
-  's5' => '<p><em>Para os cidadãos portugueses e de outros países da UE:</em></p>
+    's1' => '<p>Tem pelo menos 18 anos no dia das eleições?</p>',
+    's1.1' => '<p>Tenho menos de 18 anos</p>',
+    's1.2' => '<p>Tenho 18 anos ou mais de 18 anos</p>',
+    's2' => '<p>Não pode votar: Obrigado pelo seu interesse em participar! Esperamos vê-lo nas próximas eleições. Entretanto, continue a ser um cidadão ativo!</p>',
+    's3' => '<p>No dia das eleições, de que país quer votar?</p>',
+    's3.1' => '<p>Portugal</p>',
+    's3.2' => '<p>Fora de Portugal</p>',
+    's4' => '<p>Tem alguma deficiência ou limitação que o impeça de chegar a uma secção de voto?</p>',
+    's4.1' => '<p>Sim</p>',
+    's4.2' => '<p>Não</p>',
+    's5' => '<p><em>Para os cidadãos portugueses e de outros países da UE:</em></p>
 <p><strong>Onde posso votar?</strong> Pode saber qual é a sua secção de voto:</p>
 <ul>
 <li>consultando os avisos públicos sobre a distribuição das secções de voto</li>
@@ -31,7 +33,7 @@ return [
 <ul>
 <li>Os eleitores com deficiência visual e com visão reduzida nas eleições europeias de Portugal podem votar de forma autónoma com o apoio de uma matriz em braille e de uma folha explicativa com letras ampliadas fornecida pela assembleia de voto.</li>
 </ul>',
-  's6' => '<p><em>Para os cidadãos portugueses e de outros países da UE:</em></p>
+    's6' => '<p><em>Para os cidadãos portugueses e de outros países da UE:</em></p>
 <p><strong>Onde posso votar?</strong> Pode saber qual é a sua secção de voto:</p>
 <ul>
 <li>consultando os avisos públicos sobre a distribuição das secções de voto</li>
@@ -42,11 +44,11 @@ return [
 <li>
 <strong>Que documentos devo levar?</strong> documento de identificação (cartão de cidadão ou bilhete de identidade) ou qualquer outro documento oficial com fotografia actualizada (passaporte ou carta de condução).</li>
 </ul>',
-  's7' => '<p>Fora de Portugal</p>',
-  's7.1' => '<p>Sou elegível e quero votar nas eleições europeias <strong>portuguesas</strong> <strong>de outro país da UE/não da UE</strong></p>',
-  's7.2' => '<p>Sou elegível e quero votar nas eleições da UE <strong>para outro Estado-Membro da UE</strong>.</p>',
-  's8' => '<p><strong>Onde posso votar?</strong>
+    's7' => '<p>Fora de Portugal</p>',
+    's7.1' => '<p>Sou elegível e quero votar nas eleições europeias <strong>portuguesas</strong> <strong>de outro país da UE/não da UE</strong></p>',
+    's7.2' => '<p>Sou elegível e quero votar nas eleições da UE <strong>para outro Estado-Membro da UE</strong>.</p>',
+    's8' => '<p><strong>Onde posso votar?</strong>
 Os cidadãos residentes no estrangeiro e <strong>inscritos nos postos consulares</strong> podem votar pessoalmente nos dias de eleições nas secções de voto das missões consulares. Se tiver um cartão de cidadão, está automaticamente inscrito no recenseamento. (Ver informações mais pormenorizadas sobre o voto no estrangeiro <a rel="noopener noreferrer" target="_blank" href="https://www.cne.pt/faq2/116/6">aqui</a>).</p>
 <p>Certas categorias de pessoas <strong>temporariamente no estrangeiro</strong>, tais como funcionários públicos, viajantes de negócios, estudantes, investigadores, professores, doentes e acompanhantes, podem votar antecipadamente nas embaixadas ou consulados estabelecidos pelo Ministério dos Negócios Estrangeiros (Ver informações mais pormenorizadas sobre o processo de votação para estas categorias <a rel="noopener noreferrer" target="_blank" href="https://www.cne.pt/sites/default/files/dl/eleicoes/2019_pe/votoantecipado/2019_pe_folheto_voto_antecipado_estrangeiro.pdf">aqui</a>).</p>',
-  's9' => '<p>Em que eleições de que país da UE vai participar como eleitor?</p>',
+    's9' => '<p>Em que eleições de que país da UE vai participar como eleitor?</p>',
 ];

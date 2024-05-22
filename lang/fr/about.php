@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 return [
     'title' => 'À propos du projet',
     'line_1' => 'Imaginez un événement électoral unique et dynamique qui réunirait plus de 400 millions de citoyens à travers l\'Union européenne. Les élections européennes ne sont pas simplement une série de votes nationaux, mais une célébration collective de notre identité commune et de nos valeurs démocratiques. En tant que citoyens de l\'UE, nous nous unissons pour façonner notre avenir commun, en transcendant les frontières et en valorisant la force de notre diversité. Ce projet témoigne de notre unité, en permettant à chaque citoyen, où qu\'il se trouve dans l\'UE, de participer plus facilement à ce puissant processus démocratique.',
@@ -9,5 +12,5 @@ return [
     'line_5' => '**Informations vérifiées :** Les informations présentées sur le site Web proviennent de plusieurs sources différentes, notamment des ministères nationaux et des organisations responsables des règles et procédures de vote, ainsi que de la plateforme du Parlement européen.',
     'line_6' => '**Accessibilité multilingue :** Nous veillons à ce que chaque citoyen de l\'UE puisse accéder aux informations dont il a besoin dans sa propre langue. La plateforme est disponible en 26 langues, l\'arbre de décision de chaque pays étant fourni dans sa ou ses langues officielles et en anglais. Cela garantit que chacun, quelle que soit son origine linguistique, peut naviguer sans effort dans le processus de vote.',
     'line_7' => '**Conseils interconnectés :** Indépendamment de la nationalité européenne de l\'électeur, de son pays de résidence ou de sa situation géographique le jour des élections, la plateforme fournit des instructions et des informations précises et adaptées à sa situation unique. C\'est comme avoir un assistant de vote personnalisé qui rend le processus fluide et inspirant.',
-    'line_8' => 'We Vote for EU est une plateforme créée et gérée par **Commit Global**, la première ONG mondiale de technologie civique au monde. Avec son siège social à La Haye (Pays-Bas), Commit Global consolide, maintient et fournit un accès gratuit au numérique critique, l\' **Infrastructure for Good**, aux organisations de la société civile et aux populations touchées du monde entier. Pour plus d\'informations sur notre travail, veuillez consulter [notre site Web] (https://www.commitglobal.org).',
+    'line_8' => 'We Vote for EU est une plateforme créée et gérée par **Commit Global**, la première ONG mondiale de technologie civique au monde. Avec son siège social à La Haye (Pays-Bas), Commit Global consolide, maintient et fournit un accès gratuit au numérique critique, l\' **Infrastructure for Good**, aux organisations de la société civile et aux populations touchées du monde entier. Pour plus d\'informations sur notre travail, veuillez consulter [notre site Web](https://www.commitglobal.org).',
 ];
