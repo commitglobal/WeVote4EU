@@ -7,7 +7,7 @@ return [
         'home' => 'Kezdőlap',
     ],
     'hero' => [
-        'description' => 'Az igyekezett fájdalom nagyon fontos szerepet játszik. A hiányosságokat nagyon elmondják, hogy. A Tellus azonosítójának számlája garantált volt. A Malesúada számos életet él, és nagyon sok életet él a nyálkahártyán.',
+        'description' => 'Bemutatjuk azt a platformot, amelynek célja, hogy a 27 nemzeti európai parlamenti választást egységes, páneurópai rendezvényré alakítsák át. A We Vote for EU egy átfogó digitális központ, amely központosítja a döntő választási információkat és a valós idejű frissítéseket, megkönnyítve a polgárok részvételét a demokratikus folyamatban.',
         'title' => 'Az EU demokráciájának felhatalmazása révén',
         'name' => 'Az EU-ra szavazunk',
     ],

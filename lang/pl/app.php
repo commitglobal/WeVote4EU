@@ -7,7 +7,7 @@ return [
         'home' => 'Strona główna',
     ],
     'hero' => [
-        'description' => 'Prawdziwe uczucie bólu jest bardzo ważne. Określenie jest masowo opisane. Tellus ID kasyna był objęty gwarancją. Malesuada ma różne formy życia w niszlu i bardzo rzadko.',
+        'description' => 'Przedstawiamy platformę mającą na celu przekształcenie 27 krajowych wyborów do Parlamentu Europejskiego w jednolite, ogólnoeuropejskie wydarzenie. We Vote for EU to kompleksowe centrum cyfrowe, które centralizuje kluczowe informacje o wyborach i aktualizacje w czasie rzeczywistym, ułatwiając obywatelom udział w procesie demokratycznym.',
         'title' => 'Wzmocnienie demokracji w UE poprzez',
         'name' => 'Głosujemy na UE',
     ],

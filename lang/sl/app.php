@@ -7,7 +7,7 @@ return [
         'home' => 'Domov',
     ],
     'hero' => [
-        'description' => 'Zdravstvena bolečina je zelo pomembna. Vsekakor so množično opisani. Tellus ID je bil namenjen garanciji. Malesuada ima veliko življenjsko dobo in izjemno hitrerit.',
+        'description' => 'Predstavljamo platformo, namenjeno preoblikovanju 27 nacionalnih volitev v Evropski parlament v enoten, vseevropski dogodek. Glasujemo za EU je celovito digitalno središče, ki centralizira ključne informacije o volitvah in posodobitve v realnem času, kar državljanom olajša sodelovanje v demokratičnem procesu.',
         'title' => 'krepitev demokracije EU prek',
         'name' => 'Glasujemo za EU',
     ],

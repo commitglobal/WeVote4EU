@@ -7,7 +7,7 @@ return [
         'home' => 'Hem',
     ],
     'hero' => [
-        'description' => 'Det är en självklarhet som leder till en personlig upplevelse. Ultricies är en massa ord för att göra det. Det är garanterat att det finns en garanti för olika typer av produkter. Malesuada har en mängd olika liv i och extremt höga halter.',
+        'description' => 'Vi introducerar plattformen som är utformad för att omvandla 27 nationella val till Europaparlamentet till ett enhetligt, alleuropeiskt evenemang. We Vote for EU är ett omfattande digitalt nav som centraliserar viktig valinformation och uppdateringar i realtid, vilket gör det lättare för medborgarna att delta i den demokratiska processen.',
         'title' => 'Stärka EU:s demokrati genom',
         'name' => 'Vi röstar på EU',
     ],

@@ -7,7 +7,7 @@ return [
         'home' => 'Domov',
     ],
     'hero' => [
-        'description' => 'Ľudská bolesť je veľmi dôležitá. Vôbec sa hovorí, že je to veľmi dôležité. Tellus ID kasína bola zaručená. Malesúada je veľmi dobrá životnosť a nesmierny život.',
+        'description' => 'Predstavujeme platformu zameranú na premenu 27 národných volieb do Európskeho parlamentu na jednotné celoeurópske podujatie. Hlasujeme za EÚ je komplexné digitálne centrum, ktoré centralizuje dôležité informácie o voľbách a aktualizácie v reálnom čase, čo uľahčuje občanom účasť na demokratickom procese.',
         'title' => 'Posilnenie demokracie EÚ prostredníctvom',
         'name' => 'Hlasujeme za EÚ',
     ],

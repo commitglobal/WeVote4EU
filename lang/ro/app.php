@@ -12,7 +12,7 @@ return [
         'about' => 'Despre',
     ],
     'hero' => [
-        'description' => 'Inteligența automată este un produs consecvent. Ultricies are o mulțime de cuvinte. Garanția a fost garantată pentru diferite tipuri de țesături. Malesuada are o varietate de vieți și de ultimă generație.',
+        'description' => 'Introducerea platformei menite să transforme 27 de alegeri naționale pentru Parlamentul European într-un eveniment unificat, paneuropean. Votăm pentru UE este un centru digital cuprinzător care centralizează informațiile electorale cruciale și actualizările în timp real, facilitând participarea cetățenilor la procesul democratic.',
         'title' => 'Împuternicirea democrației UE prin',
         'name' => 'Votăm pentru UE',
     ],

@@ -7,7 +7,7 @@ return [
         'home' => 'Dom',
     ],
     'hero' => [
-        'description' => 'Potrošnja bolova je vrlo uspješna. Izvješće je masovno izričito. Iznajmljivanje kazališta bilo je osigurano. Malesuada ima mnogo životnih mjesta i puno više vremena.',
+        'description' => 'Predstavljamo platformu osmišljenu za pretvaranje 27 nacionalnih izbora za Europski parlament u jedinstven, paneuropski događaj. Glasujemo za EU sveobuhvatno je digitalno središte koje centralizira ključne informacije o izborima i ažuriranja u stvarnom vremenu, čime se građanima olakšava sudjelovanje u demokratskom procesu.',
         'title' => 'Osnaživanje demokracije EU-a kroz',
         'name' => 'Glasujemo za EU',
     ],
