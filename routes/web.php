@@ -13,4 +13,6 @@ Route::group([
     Route::get('/', Pages\Home::class)->name('home');
     Route::get('/guide/{country}/{step?}', Pages\Country::class)->name('country');
     Route::get('/about', Pages\About::class)->name('about');
+    Route::get('/terms', Pages\Terms::class)->name('terms');
+    Route::get('/privacy', Pages\Privacy::class)->name('privacy');
 });
