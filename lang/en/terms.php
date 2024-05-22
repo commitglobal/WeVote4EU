@@ -31,11 +31,11 @@ return [
     'subtitle_6' => '6. Your rights',
 
     'line_6_1' => 'As a user of the wevote4.eu website you have the following rights:',
-    'line_6_2' => '-   The right to information regarding the processing of personal data by Commit Global;
-    -   The right to access personal data, upon request and free of charge for one request per year;
-    -   The right of intervention, rectification, deletion or portability of personal data, upon request and free of charge;
-    -   The right to address any competent authority regarding data privacy issues in connection to the use of your personal data
-    -   The right to opposition and the automated individual decision-making process as well as the right to restrict processing.',
+    'line_6_2' => '- The right to information regarding the processing of personal data by Commit Global;
+- The right to access personal data, upon request and free of charge for one request per year;
+- The right of intervention, rectification, deletion or portability of personal data, upon request and free of charge;
+- The right to address any competent authority regarding data privacy issues in connection to the use of your personal data
+- The right to opposition and the automated individual decision-making process as well as the right to restrict processing.',
     'line_6_3' => 'You may submit a request for your personal data to be modified or deleted at any moment in time, by sending a simple request via email at: contact@commitglobal.org',
 
     'subtitle_7' => '7. Trademark and Copyright',
