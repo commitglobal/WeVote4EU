@@ -1,5 +1,5 @@
 <aside class="bg-gray-100">
-    <div class="container flex py-3 max-w-7xl">
+    <div class="container flex max-w-6xl py-3">
         <a
             href="https://www.commitglobal.org"
             target="_blank"

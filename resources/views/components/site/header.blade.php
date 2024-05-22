@@ -1,5 +1,5 @@
 <header x-data="{ menuOpen: false }" class="relative z-40">
-    <nav class="container flex justify-between gap-4 py-4 max-w-7xl">
+    <nav class="container flex justify-between max-w-6xl gap-4 py-4">
         <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2" wire:navigate>
             <x-icon-logo class="h-7 md:h-10" />
         </a>
@@ -13,7 +13,7 @@
 
             <div x-data="{ langOpen: false }" x-on:click.away="langOpen = false">
                 <button
-                    class="flex items-center gap-1 px-3 py-2 font-light text-blue-900 rounded hover:bg-blue-50 focus:bg-blue-100 focus:outline-none"
+                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight text-blue-900 rounded hover:bg-blue-50 focus:bg-blue-100 focus:outline-none"
                     x-on:click="langOpen = !langOpen">
                     <x-ri-translate class="w-5 h-5" />
                     <span class="font-medium">{{ currentLocale()['nativeName'] }}</span>
@@ -46,5 +46,15 @@
                 <x-ri-close-line x-show="menuOpen" class="w-5 h-5" x-cloak />
             </button>
         </div>
+
+        <div class="absolute inset-x-0 z-50 transition origin-top transform bg-white shadow-lg top-full lg:hidden"
+            x-show="menuOpen" x-collapse x-cloak>
+            <ul class="container flex flex-col py-4 text-gray-600 gap-y-1 md:py-8">
+                <li><x-navigation-item mobile route="home" label="Home" /></li>
+                <li><x-navigation-item mobile route="about" label="About" /></li>
+                <li><x-navigation-item mobile route="partners" label="Partners" /></li>
+            </ul>
+        </div>
+
     </nav>
 </header>

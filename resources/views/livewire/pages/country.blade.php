@@ -119,14 +119,22 @@
 
             @if ($country)
                 <div class="flex flex-wrap justify-between gap-2 text-sm mt-4">
-                    <div>
+                    <div class="flex items-center gap-1">
                         <button type="button" x-on:click="history.back()"
                             class="inline-flex items-center text-gray-600 hover:text-gray-400 focus:text-gray-400 gap-1">
                             <x-ri-arrow-left-line class="w-4 h-4" />
 
                             {{ __('app.action.back') }}
                         </button>
+
+                        <span>|</span>
+
+                        <a href="{{ localizedRoute('home') }}#eu-banner"
+                            class="inline-flex items-center text-gray-600 hover:text-gray-400 focus:text-gray-400 gap-1">
+                            {{ __('app.action.home') }}
+                        </a>
                     </div>
+
                     <div class="flex gap-2 justify-end">
                         @foreach ($languages as $locale => $language)
                             @if (app()->getLocale() === $locale)

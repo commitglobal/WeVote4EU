@@ -5,6 +5,7 @@ declare(strict_types=1);
 return [
     'action' => [
         'back' => 'Back',
+        'home' => 'Home',
     ],
     'banner' => 'A Commit Global solution.',
     'select_nationality' => 'What is your nationality?',
