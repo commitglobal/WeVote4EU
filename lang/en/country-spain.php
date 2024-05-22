@@ -11,7 +11,7 @@ return [
   's4' => '<p>Do you have a disability or experience any limitations preventing you from reaching a polling station?</p>',
   's4.1' => '<p>Yes</p>',
   's4.2' => '<p>No</p>',
-  's5' => '<p>For Spanish and other EU citizens:</p>
+  's5' => '<p><em>For Spanish and other EU citizens:</em></p>
 <p><strong>Where do I vote?</strong></p>
 <p>You can <strong>vote in person</strong> at your assigned polling station based on your registration location. You can <a rel="noopener noreferrer" target="_blank" href="https://sede.ine.gob.es/ss/Satellite?c=SETramite_C&amp;cid=1259954327587&amp;lang=es_ES&amp;p=1254734719739&amp;pagename=SedeElectronica%2FSELayout">check your registration and polling station details on the website of the National Statistics Institute</a>.</p>
 <p>If, for whatever reason, on election day you are not going to be in the town where you have to vote or you cannot go to your polling station, <strong>you can vote by post.</strong> To vote by post in, you need to apply either in person at any post office or online through the Correos website, remembering to bring your original ID card. Once you apply, you won\'t be able to vote at a polling station. After applying, you\'ll receive a registered post containing a ballot paper for each political party, a voting envelope, your registration certificate, and an envelope with your assigned polling station\'s address. Place your chosen ballot paper in the voting envelope, seal it, and put it along with the certificate into the addressed envelope. Send it via registered post (free of charge) at least three days before the election day, no postage needed. See more details <a rel="noopener noreferrer" target="_blank" href="https://www.juntaelectoralcentral.es/cs/jec/electoralAdministration">here</a>.</p>
@@ -40,7 +40,7 @@ return [
 <p>You can also present the miDGT application and the residence card (in the case of European Union citizens who have it).</p>',
   's7' => '<p>Outside Spain</p>',
   's7.1' => '<p>I am eligible to and want to vote in <strong>Spanish</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
-  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state</strong>.</p>',
   's8' => '<p>I am eligible to and want to vote in <strong>Spanish</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
   's8.1' => '<p>I am a Spanish citizen permanently living abroad</p>',
   's8.2' => '<p>I am a Spanish citizen temporarily living abroad</p>',

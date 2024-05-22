@@ -45,7 +45,7 @@ return [
 </ul>',
   's7' => '<p>Outside Portugal</p>',
   's7.1' => '<p>I am eligible to and want to vote in <strong>Portuguese</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
-  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
+  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state</strong>.</p>',
   's8' => '<p><strong>Where do I vote?</strong> Citizens living abroad and <strong>registered at consular posts</strong> can vote in person on election days at voting sections in consular missions. If you have a citizen card, you are automatically registered in the census. (See more detailed information on voting from abroad <a rel="noopener noreferrer" target="_blank" href="https://www.cne.pt/faq2/116/6">here</a>).</p>
 <p>Certain categories of individuals <strong>temporarily abroad</strong>, such as civil servants, business travelers, students, researchers, professors, patients, and accompanying persons, can vote in advance at embassies or consulates established by the Ministry of Foreign Affairs (See more detailed information on voting procedure for these categories <a rel="noopener noreferrer" target="_blank" href="https://www.cne.pt/sites/default/files/dl/eleicoes/2019_pe/votoantecipado/2019_pe_folheto_voto_antecipado_estrangeiro.pdf">here</a>).</p>',
   's9' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',

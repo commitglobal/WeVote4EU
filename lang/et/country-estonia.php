@@ -26,7 +26,7 @@ return [
 <p>Teil on õigus hääletada Eestis. Kui te ei ole varem <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/right-vote">Euroopa Parlamendi valimistel</a> Eestis hääletanud, peate esitama <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/list-voters">rahvastikuregistri vastutavale töötlejale</a> taotluse kandmiseks [valijate nimekirja].</p>
 <p>Teid teavitatakse taotluse esitamise vajadusest <strong>märtsi lõpus 2024</strong>.</p>
 <p>Lisateavet leiate <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en">riigi valimisbüroo veebisait</a>.</p>
-<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> ** <strong>Kehtiv isikut tõendav dokument</strong> valimisjaoskonnas hääletamisel.</p>
+<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> <strong>Kehtiv isikut tõendav dokument</strong> valimisjaoskonnas hääletamisel.</p>
 <p><strong>Atsdepääsetavust käsitlev teave:</strong> Puudega valijana on teil võimalusi:</p>
 <ol>
 <li>Kui olete nägemispuudega, on e-hääletamise rakendus kohandatud teie vajadustele.</li>
@@ -45,7 +45,7 @@ return [
 <p>Kui te ei ole varem <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/right-vote">Euroopa Parlamendi valimistel</a> Eestis hääletanud, peate esitama <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/list-voters">rahvastikuregistri vastutavale töötlejale</a> taotluse kandmiseks [valijate nimekirja].</p>
 <p>Teid teavitatakse taotluse esitamise vajadusest <strong>märtsi lõpus 2024</strong>.</p>
 <p>Lisateavet leiate <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en">riigi valimisbüroo veebisait</a>.</p>
-<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> ** <strong>Kehtiv isikut tõendav dokument</strong> valimisjaoskonnas hääletamisel.</p>',
+<p><strong>Millised dokumendid peaksin kaasa võtma?</strong>  <strong>Kehtiv isikut tõendav dokument</strong> valimisjaoskonnas hääletamisel.</p>',
   's8' => '<p>Kas teil on puue või esineb mingeid piiranguid, mis takistavad teil valimisjaoskonda pääseda?</p>',
   's8.1' => '<p>Jah</p>',
   's8.2' => '<p>Ei</p>',
@@ -84,13 +84,13 @@ return [
 <p>Teil on õigus hääletada Eestis. Kui te ei ole varem <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/right-vote">Euroopa Parlamendi valimistel</a> Eestis hääletanud, peate esitama <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/list-voters">rahvastikuregistri vastutavale töötlejale</a> taotluse kandmiseks [valijate nimekirja].</p>
 <p>Teid teavitatakse taotluse esitamise vajadusest <strong>märtsi lõpus 2024</strong>.</p>
 <p>Lisateavet leiate <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en">riigi valimisbüroo veebisait</a>.</p>
-<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> ** <strong>Kehtiv isikut tõendav dokument</strong> valimisjaoskonnas hääletamisel.</p>',
+<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> <strong>Kehtiv isikut tõendav dokument</strong> valimisjaoskonnas hääletamisel.</p>',
   's11' => '<p>Väljaspool Eestit</p>',
   's11.1' => '<p>Olen äänioikeutettu ja haluan äänestää <strong>Viron</strong> EU-vaaleissa <strong>muussa EU-maassa tai muussa kuin EU-maassa.</strong></p>',
   's11.2' => '<p>Olen äänioikeutettu ja haluan äänestää EU-vaaleissa <strong>toisen EU:n jäsenvaltion puolesta.</strong></p>',
   's12' => '<p><strong>Kus ma hääletan?</strong></p>
 <p>Kui te olete välismaal elav Eesti kodanik, ei ole eelnev registreerimine vajalik; ametiasutused tegelevad sellega automaatselt. Teil on kolm <strong>hääletamise võimalust: internetis, isiklikult saatkonnas/konsulaadis või posti teel</strong>. Posti teel hääletamiseks <strong>soodustage taotlus</strong> Eesti välisesindusele <strong>tagasi hiljemalt 10. maiks 2024</strong>.</p>
 <p>Lisateavet leiate <a rel="noopener noreferrer" target="_blank" href="https://www.valimised.ee/en/estonian-elections-nutshell/advance-voting/voting-foreign-states">Riigi Valimisbüroo veebisaidil</a>.</p>
-<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> ** <strong>Kehtiv isikut tõendav dokument</strong>, kui hääletan valimisjaoskonnas.“</p>',
+<p><strong>Millised dokumendid peaksin kaasa võtma?</strong> <strong>Kehtiv isikut tõendav dokument</strong>, kui hääletan valimisjaoskonnas.</p>',
   's13' => '<p>Millise ELi liikmesriigi valimistel osalete valijana?</p>',
 ];

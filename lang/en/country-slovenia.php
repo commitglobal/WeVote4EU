@@ -11,7 +11,7 @@ return [
   's4' => '<p>Do you have a disability or experience any limitations preventing you from reaching a polling station?</p>',
   's4.1' => '<p>Yes</p>',
   's4.2' => '<p>No</p>',
-  's5' => '<p>For Slovenian and other EU citizens:</p>
+  's5' => '<p><em>For Slovenian and other EU citizens:</em></p>
 <p><strong>Where do I vote?</strong> You can vote <strong>at the polling station</strong> in the place of their permanent residence.</p>
 <p>You can also <strong>vote in early elections</strong> at the polling station set for this occasion by the local electoral commission. Early voting polling stations will be published at the <a rel="noopener noreferrer" target="_blank" href="https://www.dvk-rs.si/">website of the State Election Commission</a>. However, you must communicate your intention to the local electoral commission no later than three days before the elections. In each district, there are so-called OMNIA polling stations, where voters from other districts can cast their vote.</p>
 <p><em>Additional info</em> <strong><em>for EU citizen</em></strong> <em>voting in Slovenian EU elections:</em> Registration is not required for citizens of other EU country <strong>who have previously requested to be entered on the electoral registers</strong> in Slovenia and who are still live in Slovenia. If you have not done it yet, <strong>you have to register to vote.</strong> You can send the request to the Ministry of the Interior, personally or by mail. Contact: Ministry of the Interior, Internal Administrative Affairs Directorate, Population Registration and Public Documents Division, Litostrojska 54, SI-1501 Ljubljana, Slovenija, T: 01 428 49 61, E: <a href="mailto:gp.mnz@gov.si">gp.mnz@gov.si</a>.</p>
@@ -37,7 +37,7 @@ return [
 <p><strong>What documents should I bring?</strong> <strong>Any official identity document</strong>, for example your ID, passport or driver\'s licence.</p>',
   's7' => '<p>Outside Slovenia</p>',
   's7.1' => '<p>I am eligible to and want to vote in <strong>Slovenian</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
-  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's8' => '<p>I am eligible to and want to vote in <strong>Slovenian</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
   's8.1' => '<p>I am an expatriate voter (Registered permanent residence in Slovenia, but temporarily abroad)</p>',
   's8.2' => '<p>I am an emigrated voter (Slovenian citizens without registered permanent residence in Slovenia):</p>',

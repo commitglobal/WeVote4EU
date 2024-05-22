@@ -51,7 +51,7 @@ return [
   's8.2' => '<p>No</p>',
   's9' => '<p><em>For Estonian and other EU citizens:</em></p>
 <p><strong>Where do I vote?</strong> If you have changed your home address recently, we advise you to check with the <a rel="noopener noreferrer" target="_blank" href="https://www.rahvastikuregister.ee/">population register</a>(in Estonian) whether your residential address entered in the population register is correct.</p>
-<p>You can find more information about <a rel="noopener noreferrer" target="_blank" href="https://www.eesti.ee/en/housing-and-environment/services-related-to-housing/registering-residence">registering residence on the State Portal &quot;eesti.ee&quot;</a>.</p>
+<p>You can find more information about <a rel="noopener noreferrer" target="_blank" href="https://www.eesti.ee/en/housing-and-environment/services-related-to-housing/registering-residence">registering residence on the State Portal eesti.ee</a>.</p>
 <p>Once you check the registration, You have <strong>multiple voting options:</strong></p>
 <ol>
 <li>Polling station on election day.</li>
@@ -72,7 +72,7 @@ return [
 </ol>',
   's10' => '<p><em>For Estonian and other EU citizens:</em></p>
 <p><strong>Where do I vote?</strong> If you have changed your home address recently, we advise you to check with the <a rel="noopener noreferrer" target="_blank" href="https://www.rahvastikuregister.ee/">population register</a>(in Estonian) whether your residential address entered in the population register is correct.</p>
-<p>You can find more information about <a rel="noopener noreferrer" target="_blank" href="https://www.eesti.ee/en/housing-and-environment/services-related-to-housing/registering-residence">registering residence on the State Portal &quot;eesti.ee&quot;</a>.</p>
+<p>You can find more information about <a rel="noopener noreferrer" target="_blank" href="https://www.eesti.ee/en/housing-and-environment/services-related-to-housing/registering-residence">registering residence on the State Portal eesti.ee</a>.</p>
 <p>Once you check the registration, You have <strong>multiple voting options:</strong></p>
 <ol>
 <li>Polling station on election day.</li>

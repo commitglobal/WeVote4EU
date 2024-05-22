@@ -9,10 +9,10 @@ return [
   's3.1' => '<p>Éireann</p>',
   's3.2' => '<p>Lasmuigh d’Éirinn</p>',
   's4' => '<p>Mar shaoránach Éireannach nó AE atá ag vótáil in Éirinn, an bhfuil tú cláraithe ar chlár na dtoghthóirí a chuireann údaráis áitiúla le chéile gach bliain?</p>
-<p>Tabhair cuairt ar an <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/en-IE/">láithreán gréasáin &quot;&quot;checktheregister.ie&quot;</a> le fáil amach an bhfuil tú cláraithe le vótáil.</p>',
+<p>Tabhair cuairt ar an <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/en-IE/">láithreán gréasáin checktheregister.ie</a> le fáil amach an bhfuil tú cláraithe le vótáil.</p>',
   's4.1' => '<p>Sea, táim ar chlár na dtoghthóirí faoi láthair</p>',
   's4.2' => '<p>Ní raibh, ní raibh mé cláraithe ag toghcháin Eorpacha roimhe seo in Éirinn, agus níl iarratas déanta agam ar bheith san áireamh ar an rolla toghcháin roimh an 20 Bealtaine, 2024.</p>',
-  's5' => '<p>Mura bhfuil tú ar liosta na dtoghthóirí (féach ar an <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/ga-IE/">láithreán gréasáin &quot;checktheregister.ie&quot;</a> le fáil amach an bhfuil tú cláraithe le vótáil), ar an drochuair , ní féidir leat vótáil.</p>',
+  's5' => '<p>Mura bhfuil tú ar liosta na dtoghthóirí (féach ar an <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/ga-IE/">láithreán gréasáin checktheregister.ie</a> le fáil amach an bhfuil tú cláraithe le vótáil), ar an drochuair , ní féidir leat vótáil.</p>',
   's6' => '<p>An bhfuil míchumas ort nó an bhfuil aon teorainneacha agat a chuireann cosc ort teacht ar stáisiún vótaíochta?</p>',
   's6.1' => '<p>Tá</p>',
   's6.2' => '<p>Níl</p>',

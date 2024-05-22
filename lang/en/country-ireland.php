@@ -9,10 +9,10 @@ return [
   's3.1' => '<p>Ireland</p>',
   's3.2' => '<p>Outside Ireland</p>',
   's4' => '<p>As an Irish or EU citizen voting in Ireland, are you registered on the register of electors that is compiled each year by local authorities?</p>
-<p>Visit the <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/en-IE/">website &quot;checktheregister.ie&quot;</a> to find out if you are registered to vote.</p>',
+<p>Visit the <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/en-IE/">website checktheregister.ie</a> to find out if you are registered to vote.</p>',
   's4.1' => '<p>Yes, I am currently on the register of elector\'s</p>',
   's4.2' => '<p>No,  I was not registered at previous European elections in Ireland, and I have not applied to be included in the electoral roll before the 20th of May, 2024.</p>',
-  's5' => '<p>If you do not find yourself on the list of elector\'s (visit the <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/en-IE/">website &quot;checktheregister.ie&quot;</a> to find out if you are registered to vote) , unfortunately, you can not vote.</p>',
+  's5' => '<p>If you do not find yourself on the list of elector\'s (visit the <a rel="noopener noreferrer" target="_blank" href="https://www.checktheregister.ie/en-IE/">website checktheregister.ie</a> to find out if you are registered to vote) , unfortunately, you can not vote.</p>',
   's6' => '<p>Do you have a disability or experience any limitations preventing you from reaching a polling station?</p>',
   's6.1' => '<p>Yes</p>',
   's6.2' => '<p>No</p>',
@@ -34,7 +34,7 @@ return [
 <p><strong>What documents should I bring?</strong> Bring some ID such as driving license, PPS card, or passport. A full list of acceptable ID is available on <a rel="noopener noreferrer" target="_blank" href="https://www.electoralcommission.ie/">electoralcommission.ie</a>.</p>',
   's9' => '<p>Outside Ireland</p>',
   's9.1' => '<p>I am eligible to and want to vote in <strong>Ireland</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
-  's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state**.**</p>',
+  's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's10' => '<p><strong>Where do I vote?</strong> If you want to vote in your country of origin and you live abroad, you should contact the relevant authority in your country of origin to find out if you can do this. If you are an Irish citizen but you are living in another EU country you can vote in that country.</p>
 <p>You can vote in the European Parliament elections in accordance with the laws of the Member State in which you reside.</p>
 <p>Additionally, you might be eligible for a <strong>postal vote</strong> if you are:</p>
