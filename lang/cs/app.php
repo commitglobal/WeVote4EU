@@ -7,7 +7,7 @@ return [
         'home' => 'Domov',
     ],
     'hero' => [
-        'description' => 'Automatická inteligence je důsledkem toho, že se jedná o produkt, který je důsledkem. Ultricies je masově napsaný. Bylo zaručeno, že ID každého z nich bylo zaručeno. Malesuada má několik životních podmínek v oblasti a extrémně vysokých životních podmínek.',
+        'description' => 'Představujeme platformu, jejímž cílem je transformovat 27 národních voleb do Evropského parlamentu na jednotnou celoevropskou událost. Hlasujeme pro EU je komplexní digitální centrum, které centralizuje klíčové informace o volbách a aktualizace v reálném čase, což občanům usnadňuje účast na demokratickém procesu.',
         'title' => 'Posílení demokracie v EU prostřednictvím',
         'name' => 'Hlasujeme pro EU',
     ],
