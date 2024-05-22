@@ -29,6 +29,7 @@
 </head>
 
 <body class="flex flex-col min-h-screen font-sans antialiased bg-white">
+    <x-site.banner />
     <x-site.skip-to-content />
 
     <x-site.header />

@@ -6,6 +6,7 @@ return [
     'action' => [
         'back' => 'Back',
     ],
+    'banner' => 'O soluție Commit Global.',
     'select_nationality' => 'Care este naționalitatea ta?',
     'parliament_elections_title' => 'Alegeri parlamentare',
 ];
