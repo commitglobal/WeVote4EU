@@ -1,9 +1,9 @@
-<div class="relative grid items-stretch isolate md:grid-cols-2">
+<div class="relative grid items-stretch isolate lg:grid-cols-2">
     <x-banner.eu :halfwidth="true" />
 
     <x-banner.country :name="$country" :code="$code" :date="$date" />
 
-    <div class="py-12 md:py-24 lg:py-32 bg-blue-50 md:col-span-2">
+    <div class="py-12 md:py-24 lg:py-32 bg-blue-50 lg:col-span-2">
         <div
             class="container max-w-6xl"
             x-on:popstate.window="updateStep"

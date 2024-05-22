@@ -1,5 +1,5 @@
 <header x-data="{ menuOpen: false }" class="relative z-40">
-    <nav class="container flex justify-between gap-4 py-4">
+    <nav class="container flex justify-between gap-4 py-4 max-w-7xl">
         <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2" wire:navigate>
             <x-icon-logo class="h-7 md:h-10" />
         </a>
