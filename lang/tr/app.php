@@ -7,7 +7,7 @@ return [
         'home' => 'Ana Sayfa',
     ],
     'hero' => [
-        'description' => 'Özellikten çok hassas bir ortam sağlanır. Ultricies kitlesel olarak adlandırılır. Teslimatın kimliği belirli bir şekilde garanti altına alınmıştır. Malesuada, çok çeşitli yaşam süreleri ve son derece hızlı bir şekilde taşınır.',
+        'description' => '27 ulusal Avrupa Parlamentosu seçimini birleşik, pan-Avrupa etkinliğine dönüştürmek için tasarlanan platformun tanıtımı. AB için Oy Veriyoruz, önemli seçim bilgilerini ve gerçek zamanlı güncellemeleri merkezileştiren ve vatandaşların demokratik sürece katılmasını kolaylaştıran kapsamlı bir dijital merkezdir.',
         'title' => 'AB Demokrasisini Güçlendirmek',
         'name' => 'AB\'ye oy veriyoruz',
     ],
