@@ -36,7 +36,7 @@ return [
 - The right of intervention, rectification, deletion or portability of personal data, upon request and free of charge;
 - The right to address any competent authority regarding data privacy issues in connection to the use of your personal data
 - The right to opposition and the automated individual decision-making process as well as the right to restrict processing.',
-    'line_6_3' => 'You may submit a request for your personal data to be modified or deleted at any moment in time, by sending a simple request via email at: contact@commitglobal.org',
+    'line_6_3' => 'You may submit a request for your personal data to be modified or deleted at any moment in time, by sending a simple request via email at: info@commitglobal.org',
 
     'subtitle_7' => '7. Trademark and Copyright',
 
@@ -52,7 +52,7 @@ return [
     'line_8_4' => 'Commit Global will apply all technical and organizational security measures to protect the data over which it has control against any situation of accidental or intentional manipulation, loss, destruction or against access by an unauthorized person.',
     'line_8_5' => 'The \"General Terms and Conditions of Use\" constitute, in their entirety, an agreement concluded between you and Commit Global regarding the use of this site.',
     'line_8_6' => 'Commit Global reserves the right to revise and update the \"General Terms and Conditions of Use\" at any time, without notice or prior acceptance of the users.',
-    'line_8_7' => 'If you have any questions regarding the information contained in this page, please write to us at contact@commitglobal.org.',
+    'line_8_7' => 'If you have any questions regarding the information contained in this page, please write to us at info@commitglobal.org.',
     'line_8_8' => 'This version of wevote4.eu Terms and Conditions is effective as of May 23rd 2024.',
 
 ];
