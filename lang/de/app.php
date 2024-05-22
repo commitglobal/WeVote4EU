@@ -7,7 +7,7 @@ return [
         'home' => 'Zuhause',
     ],
     'hero' => [
-        'description' => 'Lorem ipsum dolor sit amet consectetur. Ultricies sit massa dictum senectus ut. Tellus id varius tellus consectetur erat suspendisse. Malesuada varius vitae nisl in et ipsum ultricies hendrerit nisl.',
+        'description' => 'Vorstellung der Plattform, die 27 nationale Wahlen zum Europäischen Parlament in eine einheitliche, gesamteuropäische Veranstaltung verwandeln soll. We Vote for EU ist ein umfassender digitaler Knotenpunkt, der wichtige Wahlinformationen und Aktualisierungen in Echtzeit zentralisiert und es den Bürgern erleichtert, am demokratischen Prozess teilzunehmen.',
         'title' => 'Stärkung der Demokratie in der EU durch',
         'name' => 'Wir stimmen für die EU',
     ],
