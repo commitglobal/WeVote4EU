@@ -35,6 +35,8 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
+
+    <x-site.analytics />
 </head>
 
 <body class="flex flex-col min-h-screen font-sans antialiased bg-white">

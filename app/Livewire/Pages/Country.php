@@ -7,6 +7,7 @@ namespace App\Livewire\Pages;
 use Carbon\CarbonImmutable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Vite;
 use Livewire\Component;
 
 class Country extends Component
@@ -24,6 +25,10 @@ class Country extends Component
     public function render()
     {
         $country = $this->loadCountry();
+
+        seo()
+            ->title(__("countries.{$country['code']}"))
+            ->image(Vite::asset("resources/images/cards/{$country['code']}.png"));
 
         return view('livewire.pages.country', [
             'code' => $country['code'],
