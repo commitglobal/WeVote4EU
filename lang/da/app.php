@@ -7,7 +7,7 @@ return [
         'home' => 'Hjem',
     ],
     'hero' => [
-        'description' => 'Det er en selvfølgelighed, der er en selvfølgelighed. Ultricies er meget udtalt for at få det. Der er garanti for, at der er tale om forskellige typer tøj. Malesuada har en bred vifte af liv i og uden tvivl.',
+        'description' => 'Vi introducerer platformen, der har til formål at omdanne 27 nationale valg til Europa-Parlamentet til en samlet, paneuropæisk begivenhed. We Vote for EU er et omfattende digitalt knudepunkt, der centraliserer vigtige valgoplysninger og opdateringer i realtid, hvilket gør det lettere for borgerne at deltage i den demokratiske proces.',
         'title' => 'Styrkelse af EU\'s demokrati gennem',
         'name' => 'Vi stemmer på EU',
     ],
