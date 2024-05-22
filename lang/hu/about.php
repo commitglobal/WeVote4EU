@@ -1,13 +1,13 @@
 <?php
 return [
-    'title' => '',
-    'line_1' => '',
-    'line_2' => '',
-    'subtitle' => '',
-    'line_3' => '',
-    'line_4' => '',
-    'line_5' => '',
-    'line_6' => '',
-    'line_7' => '',
-    'line_8' => '',
+    'title' => 'A projektről',
+    'line_1' => 'Képzeljünk el egyetlen, élénk választási eseményt, amely több mint 400 millió polgárt egyesít az Európai Unióban. Az uniós választások nem csupán nemzeti szavazatok sorozata, hanem közös identitásunk és demokratikus értékeink közös ünnepe. Uniós állampolgárokként azért jövünk össze, hogy alakítsuk közös jövőnket, átlépve a határokat, és elfogadjuk sokszínűségünk erejét. Ez a projekt egységünk bizonyítéka, megkönnyítve minden polgár számára, függetlenül attól, hogy hol tartózkodik az EU-ban, hogy részt vegyen ebben a hatalmas demokratikus folyamatban.',
+    'line_2' => 'Az egységes választási folyamat ezen elképzelésének támogatása érdekében a Commit Global létrehozott egy platformot, **We Vote for EU**, amely megtestesíti az egység és az együttműködés gondolatát. Ez a platform minden uniós polgár számára alapvető információkat nyújt arról, hogyan lehet szavazatukat leadni és gyorsan megtalálni a szavazóhelyeket, függetlenül tartózkodási helyüktől.',
+    'subtitle' => 'Mi teszi különlegessé ezt a platformot?',
+    'line_3' => '**Döntési fa formátum: ** A platform olyan döntési fa formátumot használ, amely az uniós polgárokat közvetlenül a szükséges információkhoz vezet.',
+    'line_4' => '**Átfogó információ: ** A megadott végleges információk átfogóak, kiterjednek a regisztrációs követelményekre (ha vannak ilyenek), a különböző szavazási módszerekre (meghatalmazott, online, postai, szavazóhelyiség), a szavazáshoz szükséges dokumentációra, valamint a fogyatékossággal élő vagy egyéb korlátozásokkal rendelkező szavazók segítségére.',
+    'line_5' => '**Ellenőrzött információk: ** A honlapon bemutatott információkat több különböző forrásból ellenőrzik, beleértve a szavazási szabályokért és eljárásokért felelős nemzeti minisztériumokat és szervezeteket, valamint az Európai Parlament platformját.',
+    'line_6' => '**Többnyelvű hozzáférhetőség: ** Gondoskodunk arról, hogy minden uniós polgár a saját nyelvén hozzáférhessen a szükséges információkhoz. A platform 26 nyelven érhető el, mindegyik ország döntési fája hivatalos nyelvén (i) on és angol nyelven érhető el. Ez biztosítja, hogy mindenki, függetlenül nyelvi hátterétől, könnyedén navigálhasson a szavazási folyamatban.',
+    'line_7' => '**Összekapcsolt útmutatás: ** Függetlenül a választó uniós állampolgárságától, lakóhelye szerinti országtól vagy a választások napján tartózkodási helyétől, a platform pontos, személyre szabott utasításokat és információkat nyújt az egyedi helyzetükre vonatkozóan. Olyan, mint egy személyre szabott szavazási asszisztens, amely zökkenőmentessé és inspirálóvá teszi a folyamatot.',
+    'line_8' => 'A We Vote for EU egy platform, amelyet a **Commit Global** hozott létre és irányít, a világ első globális civil technológiai civil szervezet. A Commit Global székhelye Hágában (Hollandia) konszolidálja, fenntartja és ingyenes hozzáférést biztosít a kritikus fontosságú digitális infrastruktúrához, az „Infrastructure for Good**” számára a civil társadalmi szervezetek és az érintett lakosság számára szerte a világon. Munkáinkkal kapcsolatos további információkért látogasson el [honlapunkra] (https://www.commitglobal.org).',
 ];
