@@ -19,26 +19,26 @@
                 },
                 goTo(country, step = null, replace = false) {
                     console.log(country, step, replace);
-
+            
                     this.step = this.steps.includes(step) ? step : this.steps[0];
-
+            
                     let refresh = false;
-
+            
                     if (this.country !== country) {
                         this.country = country;
                         refresh = true;
                     }
-
+            
                     const url = this.baseUrl
                         .replace('COUNTRY', this.country)
                         .replace('STEP', this.step || '');
-
+            
                     if (replace) {
                         history.replaceState(null, document.title, url.toString());
                     } else {
                         history.pushState(null, document.title, url.toString());
                     }
-
+            
                     if (refresh) {
                         $wire.$refresh();
                     }
@@ -47,9 +47,9 @@
                     if (!this.country) {
                         return;
                     }
-
+            
                     const step = location.href.split('/').pop();
-
+            
                     this.goTo(this.country, step, replaceState);
                 }
             }">
@@ -96,7 +96,7 @@
                         </div>
                     @else
                         <div
-                            class="prose max-w-3xl mx-auto md:prose-lg lg:prose-xl  prose-a:text-primary-500 prose-a:font-medium hover:prose-a:no-underline">
+                            class="max-w-3xl mx-auto prose md:prose-lg lg:prose-xl prose-a:text-primary-500 prose-a:font-medium hover:prose-a:no-underline">
                             {!! __("country-{$country}.$id") !!}
                         </div>
                     @endif
@@ -118,10 +118,10 @@
             @endforelse
 
             @if ($country)
-                <div class="flex flex-wrap justify-between gap-2 text-sm mt-4">
+                <div class="flex flex-wrap justify-between gap-2 mt-4 text-sm">
                     <div class="flex items-center gap-1">
                         <button type="button" x-on:click="history.back()"
-                            class="inline-flex items-center text-gray-600 hover:text-gray-400 focus:text-gray-400 gap-1">
+                            class="inline-flex items-center gap-1 text-gray-600 hover:text-gray-400 focus:text-gray-400">
                             <x-ri-arrow-left-line class="w-4 h-4" />
 
                             {{ __('app.action.back') }}
@@ -130,12 +130,12 @@
                         <span>|</span>
 
                         <a href="{{ localizedRoute('home') }}#eu-banner"
-                            class="inline-flex items-center text-gray-600 hover:text-gray-400 focus:text-gray-400 gap-1">
+                            class="inline-flex items-center gap-1 text-gray-600 hover:text-gray-400 focus:text-gray-400">
                             {{ __('app.action.home') }}
                         </a>
                     </div>
 
-                    <div class="flex gap-2 justify-end">
+                    <div class="flex justify-end gap-2">
                         @foreach ($languages as $locale => $language)
                             @if (app()->getLocale() === $locale)
                                 <span class="font-medium">{{ $language['nativeName'] }}</span>
@@ -146,7 +146,7 @@
                                         'locale' => $locale,
                                         'step' => $step,
                                     ]) }}"
-                                    class="underline text-gray-600 hover:text-gray-400 focus:text-gray-400"
+                                    class="text-gray-600 underline hover:text-gray-400 focus:text-gray-400"
                                     wire:navigate>
                                     {{ $language['nativeName'] }}
                                 </a>

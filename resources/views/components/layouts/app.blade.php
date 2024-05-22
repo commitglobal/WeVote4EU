@@ -15,6 +15,8 @@
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#243e90">
     <meta name="theme-color" content="#ffffff">
 
+    <x-seo::meta />
+
     <title>{{ config('app.name') }}</title>
 
     <style>

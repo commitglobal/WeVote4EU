@@ -13,5 +13,4 @@ Route::group([
     Route::get('/', Pages\Home::class)->name('home');
     Route::get('/guide/{country}/{step?}', Pages\Country::class)->name('country');
     Route::get('/about', Pages\About::class)->name('about');
-    Route::get('/partners', Pages\Partners::class)->name('partners');
 });
