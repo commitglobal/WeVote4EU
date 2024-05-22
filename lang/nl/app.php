@@ -7,7 +7,7 @@ return [
         'home' => 'Home',
     ],
     'hero' => [
-        'description' => 'Lorem ipsum dolor is een consectetur. Ultricies sit mass dictum senectus ut. Tellus di varius cellus consectetur was suspendisse. Malesuada varius vitae nisl in en ipsum ultricies hendrerit nisl.',
+        'description' => 'Maak kennis met het platform dat is ontworpen om 27 nationale verkiezingen voor het Europees Parlement om te zetten in een verenigd, pan-Europees evenement. We Vote for EU is een uitgebreide digitale hub die cruciale verkiezingsinformatie en realtime updates centraliseert, waardoor het voor burgers gemakkelijker wordt om deel te nemen aan het democratische proces.',
         'title' => 'De democratie in de EU versterken door',
         'name' => 'We stemmen voor de EU',
     ],
