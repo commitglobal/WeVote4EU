@@ -28,4 +28,10 @@ return [
     'line_1' => 'Wevote4.eu eesmärk on anda teavet Euroopa Parlamendi valimiste hääletamise kohta.',
     'subtitle_7' => '7. Kaubamärk ja autoriõigus',
     'line_8_4' => 'Commit Global rakendab kõiki tehnilisi ja organisatsioonilisi turvameetmeid, et kaitsta andmeid, mille üle tal on kontroll, mis tahes juhusliku või tahtliku manipuleerimise, kadumise, hävitamise või volitamata isiku juurdepääsu eest.',
+    'line_6_1' => 'Veebilehe wevote4.eu kasutajana on teil järgmised õigused:',
+    'line_6_2' => '- õigus saada teavet isikuandmete töötlemise kohta Commit Globali poolt;
+- õigus tutvuda isikuandmetele taotluse korral ja tasuta ühe taotluse korral aastas;
+- õigus isikuandmete sekkumisele, parandamisele, kustutamisele või teisaldatavusele taotluse korral ja tasuta;
+- Õigus pöörduda oma isikuandmete kasutamisega seotud andmete privaatsuse küsimustes mis tahes pädeva asutuse poole
+- Vastuväite esitamise õigus ja automatiseeritud individuaalne otsustusprotsess ning õigus piirata töötlemist.',
 ];
