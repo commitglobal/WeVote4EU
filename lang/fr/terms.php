@@ -28,4 +28,10 @@ return [
     'line_8_8' => 'Cette version des conditions générales de wevote4.eu entre en vigueur le 23 mai 2024.',
     'subtitle_7' => '7. Marque de commerce et droit d\'auteur',
     'line_8_4' => 'Commit Global appliquera toutes les mesures de sécurité techniques et organisationnelles pour protéger les données qu\'elle contrôle contre toute situation de manipulation accidentelle ou intentionnelle, de perte, de destruction ou contre l\'accès par une personne non autorisée.',
+    'line_6_1' => 'En tant qu\'utilisateur du site web wevote4.eu, vous disposez des droits suivants :',
+    'line_6_2' => '- Le droit à l\'information concernant le traitement des données personnelles par Commit Global ;
+- Le droit d\'accéder aux données personnelles, sur demande et gratuitement pour une demande par an ;
+- Le droit d\'intervention, de rectification, de suppression ou de portabilité des données personnelles, sur demande et gratuitement ;
+- Le droit de s\'adresser à toute autorité compétente concernant les questions de confidentialité des données liées à l\'utilisation de vos données personnelles
+- Le droit d\'opposition et le processus décisionnel individuel automatisé ainsi que le droit de restreindre le traitement.',
 ];
