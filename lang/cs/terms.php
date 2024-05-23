@@ -28,4 +28,10 @@ return [
     'line_1' => 'Cílem wevote4.eu je poskytnout informace týkající se procesu hlasování v evropských volbách.',
     'subtitle_7' => '7. Ochranná známka a autorská práva',
     'line_8_4' => 'Společnost Commit Global použije veškerá technická a organizační bezpečnostní opatření k ochraně údajů, nad nimiž má kontrolu, před jakoukoli situací náhodné nebo úmyslné manipulace, ztráty, zničení nebo proti přístupu neoprávněné osoby.',
+    'line_6_1' => 'Jako uživatel webové stránky wevote4.eu máte následující práva:',
+    'line_6_2' => '- Právo na informace týkající se zpracování osobních údajů společností Commit Global;
+- Právo na přístup k osobním údajům na vyžádání a bezplatně na jednu žádost ročně;
+- právo na zásah, opravu, výmaz nebo přenositelnost osobních údajů na vyžádání a zdarma;
+- Právo obrátit se na jakýkoli příslušný orgán ohledně otázek ochrany osobních údajů v souvislosti s používáním vašich osobních údajů
+- Právo na námitku a automatizovaný individuální rozhodovací proces, jakož i právo na omezení zpracování.',
 ];
