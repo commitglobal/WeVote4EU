@@ -4,7 +4,7 @@ return [
   's1' => '<p>Are you at least 18 on the day of elections?</p>',
   's1.1' => '<p>I am under 18</p>',
   's1.2' => '<p>I am 18 or over 18</p>',
-  's2' => '<p>You can\'t vote: Thank you for your interest in getting involved! We are looking forward to seeing you at the next elections. In the mean time, keep being an active citizen!</p>',
+  's2' => '<p>You can\'t vote: Thank you for your interest in getting involved! We are looking forward to seeing you at the next elections. In the meantime, keep being an active citizen!</p>',
   's3' => '<p>On the day of the election, which country do you want to vote from?</p>',
   's3.1' => '<p>Sweden</p>',
   's3.2' => '<p>Outside Sweden</p>',
@@ -37,7 +37,7 @@ return [
   's7.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
   's9' => '<p><strong>Where do I vote?</strong> You can vote from abroad <strong>by post or at the Swedish embassies and consulates</strong>. You <strong>must apply</strong> to the Swedish Tax Agency (Skatteverket) every ten years to be included on the electoral roll from abroad, please find here the link to the <a rel="noopener noreferrer" target="_blank" href="https://www.skatteverket.se/privat/blanketterbroschyrer/blanketter/info/7842.4.19b9f599116a9e8ef36800024543.html">form for registering to the electoral roll</a> (available in Swedish).</p>
 <p>In order to vote <strong>by post</strong>, you need material that you order from the Election Authority, a local authority or a Swedish embassy or a Swedish consulate. Postal votes have to be sent from abroad. You can vote by post as early as 45 days before election day. Postal votes must be sent from abroad and must arrive in time for the counting of the votes.</p>
-<p>For further information, please consult the <a rel="noopener noreferrer" target="_blank" href="https://www.val.se/att-rosta/var-rostar-jag/rosta-fran-utlandet.html">website of the Swedish election authority</a> (in Swedish, English and 10 more).</p>
+<p>For further information on voting from abroad, please consult the <a rel="noopener noreferrer" target="_blank" href="https://www.val.se/att-rosta/var-rostar-jag/rosta-fran-utlandet.html">website of the Swedish election authority</a> (in Swedish, English and 10 more).</p>
 <p><strong>What documents should I bring?</strong> Your <strong>ID document</strong>.</p>
 <p>For further information, please consult the <a rel="noopener noreferrer" target="_blank" href="https://www.val.se/servicelankar/servicelankar/other-languages/att-rosta/how-to-vote-engelska.html">website of the Swedish election authority</a> (in Swedish, English and 10 more).</p>',
   's10' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',

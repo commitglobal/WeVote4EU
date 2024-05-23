@@ -4,7 +4,7 @@ return [
   's1' => '<p>Are you at least 16 on the day of elections?</p>',
   's1.1' => '<p>I am under 16</p>',
   's1.2' => '<p>I am 16 or over 16</p>',
-  's2' => '<p>You can\'t vote: Thank you for your interest in getting involved! We are looking forward to seeing you at the next elections. In the mean time, keep being an active citizen!</p>',
+  's2' => '<p>You can\'t vote: Thank you for your interest in getting involved! We are looking forward to seeing you at the next elections. In the meantime, keep being an active citizen!</p>',
   's3' => '<p>On the day of the election, which country do you want to vote from?</p>',
   's3.1' => '<p>Belgium</p>',
   's4' => '<p>Do you have a disability or experience any limitations preventing you from reaching a polling station?</p>',

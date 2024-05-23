@@ -3,7 +3,7 @@
 return [
   's1' => '<p>Are you at least 18 on the day of elections?</p>',
   's1.1' => '<p>I am under 18</p>',
-  's2' => '<p>You can\'t vote: Thank you for your interest in getting involved! We are looking forward to seeing you at the next elections. In the mean time, keep being an active citizen!</p>',
+  's2' => '<p>You can\'t vote: Thank you for your interest in getting involved! We are looking forward to seeing you at the next elections. In the meantime, keep being an active citizen!</p>',
   's1.2' => '<p>I am over 18</p>',
   's3' => '<p>On the day of the election, which country do you want to vote from?</p>',
   's3.1' => '<p>Croatia</p>',
@@ -37,6 +37,6 @@ return [
 <p><strong>What documents should I bring?</strong></p>
 <p>Your identity card or your passport, and exceptionally your driving licence or other public document with a photograph on the basis of which your identity can be established.</p>
 <p>For more information about all of the above, please consult the <a rel="noopener noreferrer" target="_blank" href="https://gov.hr/en/eu-nationals-voting-in-the-republic-of-croatia/1222">section e-Citizens - Information and Services of the website of the Government of Croatia</a>, the <a rel="noopener noreferrer" target="_blank" href="https://mpu.gov.hr/en">website of the Ministry of Justice and Public Administration</a> or at the <a rel="noopener noreferrer" target="_blank" href="https://www.izbori.hr/site/site/en/homepage/18">website of the State Electoral Commmission of the Republic of Croatia</a>.</p>',
-  's9.2' => '<p>I am eligible and want to vote in EU elections *<em>for another EU member state</em>.</p>',
+  's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for</strong> another EU member state.</p>',
   's8' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',
 ];
