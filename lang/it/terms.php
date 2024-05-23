@@ -29,4 +29,9 @@ return [
     'line_1' => 'L\'obiettivo di wevote4.eu è fornire informazioni sul processo di voto per le elezioni europee.',
     'subtitle_7' => '7. Marchio e copyright',
     'line_8_4' => 'Commit Global applicherà tutte le misure di sicurezza tecniche e organizzative per proteggere i dati su cui ha il controllo da qualsiasi situazione di manipolazione, perdita, distruzione accidentale o intenzionale o contro l\'accesso da parte di una persona non autorizzata.',
+    'line_6_2' => '- Il diritto all\'informazione sul trattamento dei dati personali da parte di Commit Global;
+- Il diritto di accedere ai dati personali, su richiesta e gratuitamente per una richiesta all\'anno;
+- Il diritto di intervento, rettifica, cancellazione o portabilità dei dati personali, su richiesta e gratuitamente;
+- Il diritto di rivolgersi a qualsiasi autorità competente in merito a questioni relative alla riservatezza dei dati in relazione all\'uso dei dati personali
+- Il diritto all\'opposizione e al processo decisionale individuale automatizzato, nonché il diritto di limitare il trattamento.',
 ];
