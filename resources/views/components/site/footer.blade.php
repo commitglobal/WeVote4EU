@@ -22,7 +22,7 @@
                     <ul class="space-y-4">
                         <li>
                             <a
-                                href="{{ route('terms') }}"
+                                href="{{ localizedRoute('terms') }}"
                                 class="text-gray-500 hover:text-gray-900"
                                 wire:navigate>
                                 {{ __('terms.title') }}
@@ -30,7 +30,7 @@
                         </li>
                         <li>
                             <a
-                                href="{{ route('privacy') }}"
+                                href="{{ localizedRoute('privacy') }}"
                                 class="text-gray-500 hover:text-gray-900"
                                 wire:navigate>
                                 {{ __('privacy.title') }}
