@@ -28,4 +28,10 @@ return [
     'line_7_3' => 'Commit Global se compromete a no divulgar datos personales relacionados con sus visitas a wevote4.eu, excepto en situaciones legales o las situaciones presentadas en este documento de Términos y condiciones.',
     'subtitle_7' => '7. Marca registrada y derechos de autor',
     'line_8_4' => 'Commit Global aplicará todas las medidas de seguridad técnicas y organizativas para proteger los datos sobre los que tiene control contra cualquier situación de manipulación, pérdida o destrucción accidental o intencional o contra el acceso por parte de una persona no autorizada.',
+    'line_6_1' => 'Como usuario del sitio web wevote4.eu, tiene los siguientes derechos:',
+    'line_6_2' => '- El derecho a la información sobre el procesamiento de datos personales por parte de Commit Global;
+- El derecho a acceder a los datos personales, previa solicitud y de forma gratuita durante una solicitud al año;
+- El derecho de intervención, rectificación, eliminación o portabilidad de los datos personales, previa solicitud y de forma gratuita;
+- El derecho a dirigirse a cualquier autoridad competente en relación con las cuestiones de privacidad de los datos en relación con el uso de sus datos personales
+- El derecho a la oposición y al proceso automatizado de toma de decisiones individuales, así como el derecho a restringir el procesamiento.',
 ];
