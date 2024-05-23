@@ -28,4 +28,10 @@ return [
     'subtitle_3' => '3. Zweck und Gründe',
     'line_7_3' => 'Commit Global verpflichtet sich, keine personenbezogenen Daten über Ihre Besuche auf wevote4.eu weiterzugeben, außer in rechtlichen Situationen oder in den in diesem Dokument mit den Allgemeinen Geschäftsbedingungen dargelegten Situationen.',
     'subtitle_1' => '1. Ziel der Plattform',
+    'line_6_1' => 'Als Nutzer der Website wevote4.eu haben Sie folgende Rechte:',
+    'line_6_2' => '- Das Recht auf Information über die Verarbeitung personenbezogener Daten durch Commit Global;
+- Das Recht, auf Anfrage und kostenlos für eine Anfrage pro Jahr auf personenbezogene Daten zuzugreifen;
+- Das Recht auf unentgeltliche Intervention, Berichtigung, Löschung oder Übertragbarkeit personenbezogener Daten;
+- Das Recht, sich in Datenschutzfragen im Zusammenhang mit der Verwendung Ihrer personenbezogenen Daten an jede zuständige Behörde zu wenden
+- Das Widerspruchsrecht und die automatisierte individuelle Entscheidungsfindung sowie das Recht, die Verarbeitung einzuschränken.',
 ];
