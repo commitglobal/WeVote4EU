@@ -37,4 +37,10 @@ return [
     'line_3_2' => 'Evästeet tallentavat tiedot pieneen tekstitiedostoon, jonka avulla verkkosivusto tunnistaa selaimen. Verkkopalvelin tunnistaa selaimen, kunnes eväste vanhenee tai se poistetaan. Eväste tallentaa tärkeitä tietoja, jotka parantavat selauskokemusta (esim. lahjoituksesi sarjanumero). Evästeet eivät pyydä henkilökohtaisia tietoja eivätkä tunnista Internetin käyttäjiä henkilökohtaisesti.',
     'line_4_4' => 'Nykyaikaiset selaimet tarjoavat mahdollisuuden muuttaa evästeasetuksia. Löydät evästeasetukset yleensä selaimesi ”asetukset” -välilehdestä tai ”Asetukset” -valikosta.',
     'subtitle_7' => 'Sinun oikeutesi',
+    'line_7_1' => 'Wevote4.eu-sivuston käyttäjänä sinulla on seuraavat oikeudet:',
+    'line_7_2' => '- Oikeus saada tietoja henkilötietojen käsittelystä Commit Globalin toimesta;
+- oikeus saada pääsy henkilötietoihin pyynnöstä ja maksutta yhden pyynnön osalta vuodessa;
+- oikeus puuttua asiaan, oikaisuun, poistamiseen tai siirrettävyyteen pyynnöstä ja maksutta;
+- Oikeus kääntyä mihin tahansa toimivaltaiseen viranomaiseen liittyen henkilötietojesi käyttöön liittyvissä tietosuojaan liittyvissä kysymyksissä
+- Vastustamisoikeus ja automatisoitu yksittäinen päätöksentekoprosessi sekä oikeus rajoittaa käsittelyä.',
 ];
