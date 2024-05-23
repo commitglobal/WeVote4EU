@@ -37,4 +37,10 @@ return [
     'line_3_2' => 'Kolačići pohranjuju podatke u malu tekstualnu datoteku omogućujući web stranici da prepozna preglednik. Web poslužitelj će prepoznati preglednik sve dok kolačić ne istekne ili ne bude izbrisan. Kolačić pohranjuje važne informacije koje poboljšavaju iskustvo pregledavanja (npr. serijski broj za vašu donaciju). Kolačići ne traže osobne podatke niti osobno identificiraju korisnike interneta.',
     'line_4_4' => 'Moderni preglednici nude mogućnost promjene postavki kolačića. Postavke kolačića obično možete pronaći na kartici "opcije" ili izborniku "postavke" vašeg preglednika.',
     'subtitle_7' => 'Vaša prava',
+    'line_7_1' => 'Kao korisnik web stranice wevote4.eu imate sljedeća prava:',
+    'line_7_2' => '- Pravo na informacije u vezi s obradom osobnih podataka od strane Commit Global;
+- Pravo na pristup osobnim podacima, na zahtjev i besplatno za jedan zahtjev godišnje;
+- pravo intervencije, ispravljanja, brisanja ili prenosivosti osobnih podataka, na zahtjev i besplatno;
+- Pravo obraćanja bilo kojem nadležnom tijelu u vezi s pitanjima privatnosti podataka u vezi s korištenjem vaših osobnih podataka
+- Pravo na prigovor i automatizirani pojedinačni postupak donošenja odluka, kao i pravo na ograničavanje obrade.',
 ];
