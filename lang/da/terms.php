@@ -28,4 +28,10 @@ return [
     'line_1' => 'Formålet med wevote4.eu er at give oplysninger om afstemningsprocessen ved valget til Europa-Parlamentet.',
     'subtitle_7' => '7. Varemærke og ophavsret',
     'line_8_4' => 'Commit Global vil anvende alle tekniske og organisatoriske sikkerhedsforanstaltninger for at beskytte de data, som det har kontrol over, mod enhver situation med utilsigtet eller forsætlig manipulation, tab, ødelæggelse eller mod adgang fra en uautoriseret person.',
+    'line_6_1' => 'Som bruger af websitet wevote4.eu har du følgende rettigheder:',
+    'line_6_2' => '- Retten til information om Commit Globals behandling af personoplysninger;
+- Retten til at få adgang til personoplysninger efter anmodning og gratis for en anmodning om året;
+- Retten til indgriben, berigtigelse, sletning eller overførsel af personoplysninger, efter anmodning og gratis;
+- Retten til at henvende sig til enhver kompetent myndighed vedrørende databeskyttelsesspørgsmål i forbindelse med brugen af dine personoplysninger
+- Retten til indsigelse og den automatiserede individuelle beslutningsproces samt retten til at begrænse behandlingen.',
 ];
