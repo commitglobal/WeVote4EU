@@ -37,4 +37,10 @@ return [
     'subtitle_1' => 'Duomenų rinkimas',
     'line_4_2' => 'Atsisakius priimti slapukus arba juos išjungus, kai kuriose svetainėse naršymas ar naudojimas gali būti sudėtingas arba neįmanomas. Atsisakymas priimti slapukus taip pat nereiškia, kad nebegausite internetinių skelbimų.',
     'line_3_2' => 'Slapukai išsaugo informaciją mažame tekstiniame faile, leidžiančiame svetainei atpažinti naršyklę. Žiniatinklio serveris atpažins naršyklę tol, kol slapukas pasibaigs arba bus ištrintas. Slapukas saugo svarbią informaciją, kuri pagerina naršymo patirtį (pvz., jūsų aukos serijos numeris). Slapukai neprašo asmeninės informacijos ir asmeniškai neidentifikuoja interneto vartotojų.',
+    'line_7_1' => 'Kaip wevote4.eu svetainės naudotojas turite šias teises:',
+    'line_7_2' => '- Teisė į informaciją apie “Commit Global” vykdomą asmens duomenų tvarkymą;
+- Teisė susipažinti su asmens duomenimis, paprašius ir nemokamai už vieną prašymą per metus;
+- Asmens duomenų įsikišimo, ištaisymo, ištrynimo ar perkeliamumo teisė, gavus prašymą ir nemokamai;
+- Teisė kreiptis į bet kurią kompetentingą instituciją dėl duomenų privatumo klausimų, susijusių su jūsų asmens duomenų naudojimu
+- Teisė į protestą ir automatizuotas individualaus sprendimų priėmimo procesas, taip pat teisė apriboti duomenų tvarkymą.',
 ];
