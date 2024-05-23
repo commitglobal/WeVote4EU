@@ -69,7 +69,7 @@
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
         ],
-        "test": "XDEBUG_MODE=coverage ./vendor/bin/phpunit --colors=always"
+        "test": "@php artisan test"
     },
     "extra": {
         "laravel": {
