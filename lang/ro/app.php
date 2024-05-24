@@ -12,7 +12,7 @@ return [
         'about' => 'Despre',
     ],
     'hero' => [
-        'description' => 'Introducerea platformei menite să transforme 27 de alegeri naționale pentru Parlamentul European într-un eveniment unificat, paneuropean. Votăm pentru UE este un centru digital cuprinzător care centralizează informațiile electorale cruciale și actualizările în timp real, facilitând participarea cetățenilor la procesul democratic.',
+        'description' => 'Ne apropiem de un eveniment electoral unic și dinamic, care reunește peste 400 de milioane de cetățeni din întreaga Uniune Europeană. Alegerile europene nu sunt doar o serie de voturi naționale, ci o celebrare colectivă a identității noastre comune și a valorilor democratice. În calitate de cetățeni ai Uniunii Europene, ne reunim pentru a ne clădi viitorul comun, depășind frontierele și celebrând puterea diversității noastre. Votăm pentru UE oferă tuturor cetățenilor Uniunii Europene informațiile esențiale despre modul în care își pot exprima votul și cum pot găsi cu ușurință secțiile de votare, indiferent de locul în care se află.',
         'title' => 'Împuternicirea democrației UE prin',
         'name' => 'Votăm pentru UE',
     ],
