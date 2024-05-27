@@ -129,7 +129,7 @@
 
                         <span>|</span>
 
-                        <a href="{{ localizedRoute('home') }}#eu-banner"
+                        <a href="{{ localizedRoute('home') }}#elections"
                             class="inline-flex items-center gap-1 text-gray-600 hover:text-gray-400 focus:text-gray-400">
                             {{ __('app.action.home') }}
                         </a>

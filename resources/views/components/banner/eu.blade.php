@@ -1,7 +1,7 @@
 @props(['halfwidth' => false])
 
 <div
-    id="eu-banner"
+    id="elections"
     @class([
         'flex items-center gap-4 px-4 py-4 text-white bg-blue-900 sm:py-8',
         $halfwidth
