@@ -13,7 +13,10 @@
 @endphp
 
 <{{ $tag }}
-    {{ $attributes->class(['relative flex aspect-square items-center justify-center p-6 sm:p-4 md:p-8 group'])->merge([
+    {{ $attributes->class([
+            'relative flex aspect-square items-center justify-center p-6 sm:p-4 md:p-8 group',
+            'border border-primary-800',
+        ])->merge([
             'href' => $url,
             'target' => $target,
             'rel' => $rel,

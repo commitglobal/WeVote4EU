@@ -24,28 +24,29 @@ class Partners extends Component
     {
         return [
             [
-                'name' => 'Partner A',
-                'logo' => 'placeholder.svg',
-                'url' => 'https://example.com',
+                'name' => 'Expert Forum (EFOR)',
+                'logo' => 'EFOR.png',
+                'url' => 'https://expertforum.ro/en/',
             ],
             [
-                'name' => 'Partner B',
-                'logo' => 'placeholder.svg',
-                'url' => 'https://example.org',
+                'name' => 'Institute for Public Environment Development (IPED)',
+                'logo' => 'IPED.png',
+                'url' => 'https://iped.bg/en/',
             ],
             [
-                'name' => 'Partner C',
-                'logo' => 'placeholder.svg',
-                'url' => 'https://example.net',
+                'name' => 'Committee for the Defence of Democracy (CDD)',
+                'logo' => 'KOD.png',
+                'url' => 'https://ruchkod.pl/',
             ],
             [
-                'name' => 'Partner D',
-                'logo' => 'placeholder.svg',
-                'url' => 'https://example.com',
+                'name' => 'Inter Alia',
+                'logo' => 'Inter-Alia.png',
+                'url' => 'https://interaliaproject.com/',
             ],
             [
-                'name' => 'Partner E',
-                'logo' => 'placeholder.svg',
+                'name' => 'Gender Concerns International',
+                'logo' => 'Gender-Concerns-International.png',
+                'url' => 'https://www.genderconcerns.org/',
             ],
         ];
     }
@@ -54,8 +55,8 @@ class Partners extends Component
     {
         return [
             [
-                'name' => 'Expert A',
-                'title' => 'Electoral expert',
+                'name' => 'Maria Krause',
+                // 'title' => 'Electoral expert',
                 'avatar' => 'placeholder.jpg',
                 'links' => [
                     'ri-facebook-fill' => '#',
@@ -63,16 +64,16 @@ class Partners extends Component
                 ],
             ],
             [
-                'name' => 'Expert B',
-                'title' => 'Electoral expert',
+                'name' => 'Christoforos Christoforou',
+                // 'title' => 'Electoral expert',
                 'avatar' => 'placeholder.jpg',
                 'links' => [
 
                 ],
             ],
             [
-                'name' => 'Expert C',
-                'title' => 'Electoral expert',
+                'name' => 'Sabra Bano',
+                // 'title' => 'Electoral expert',
                 'avatar' => 'placeholder.jpg',
                 'links' => [
 
