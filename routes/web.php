@@ -16,4 +16,5 @@ Route::group([
     Route::get('/about', Pages\About::class)->name('about');
     Route::get('/terms', Pages\Terms::class)->name('terms');
     Route::get('/privacy', Pages\Privacy::class)->name('privacy');
+    Route::get('/partners', Pages\Partners::class)->name('partners');
 });

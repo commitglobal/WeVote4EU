@@ -15,6 +15,7 @@ return [
     'navigation' => [
         'home' => 'Home',
         'about' => 'About',
+        'partners' => 'Partners',
     ],
 
     'hero' => [
