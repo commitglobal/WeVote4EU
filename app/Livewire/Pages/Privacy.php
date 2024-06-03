@@ -10,6 +10,10 @@ class Privacy extends Component
 {
     public function render()
     {
+        seo()
+            ->title(__('privacy.title'))
+            ->description(__('privacy.intro_1'));
+
         return view('livewire.pages.privacy');
     }
 }

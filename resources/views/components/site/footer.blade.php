@@ -12,7 +12,7 @@
                     class="mb-1 max-w-64"
                     alt="">
 
-                <span>Set a <u class="underline text-primary-600 group-hover:no-underline">reminder</u> for when it’s
+                <span>Set a <u class="underline text-primary-800 group-hover:no-underline">reminder</u> for when it’s
                     time to
                     use your vote!</span>
             </a>

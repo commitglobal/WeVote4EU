@@ -10,6 +10,10 @@ class Terms extends Component
 {
     public function render()
     {
+        seo()
+            ->title(__('terms.title'))
+            ->description(__('terms.intro'));
+
         return view('livewire.pages.terms');
     }
 }

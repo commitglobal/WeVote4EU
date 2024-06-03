@@ -6,13 +6,14 @@
 
         <div class="relative flex items-center gap-2">
             <div class="items-center hidden gap-2 md:flex">
-                <x-navigation-item route="home" :label="__('app.navigation.home')" />
-                <x-navigation-item route="about" :label="__('app.navigation.about')" />
+                @foreach ($menuItems as $route => $label)
+                    <x-navigation-item :route="$route" :label="$label" />
+                @endforeach
             </div>
 
             <div x-data="{ langOpen: false }" x-on:click.away="langOpen = false">
                 <button
-                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight text-blue-900 rounded hover:bg-blue-50 focus:bg-blue-100 focus:outline-none"
+                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight text-primary-900 rounded hover:bg-primary-50 focus:bg-primary-100 focus:outline-none"
                     x-on:click="langOpen = !langOpen">
                     <x-ri-translate class="w-5 h-5" />
                     <span class="font-medium">{{ currentLocale()['nativeName'] }}</span>
@@ -49,8 +50,9 @@
         <div class="absolute inset-x-0 z-50 transition origin-top transform bg-white shadow-lg top-full lg:hidden"
             x-show="menuOpen" x-collapse x-cloak>
             <ul class="container flex flex-col py-4 text-gray-600 gap-y-1 md:py-8">
-                <li><x-navigation-item mobile route="home" :label="__('app.navigation.home')" /></li>
-                <li><x-navigation-item mobile route="about" :label="__('app.navigation.about')" /></li>
+                @foreach ($menuItems as $route => $label)
+                    <li><x-navigation-item mobile :route="$route" :label="$label" /></li>
+                @endforeach
             </ul>
         </div>
 

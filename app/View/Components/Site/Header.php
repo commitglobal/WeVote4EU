@@ -13,9 +13,16 @@ class Header extends Component
 {
     public Collection $alternateUrls;
 
+    public Collection $menuItems;
+
     public function __construct()
     {
         $this->alternateUrls = $this->getAlternateUrls();
+
+        $this->menuItems = collect([
+            'home' => __('app.navigation.home'),
+            'about' => __('app.navigation.about'),
+        ]);
     }
 
     public function render(): View

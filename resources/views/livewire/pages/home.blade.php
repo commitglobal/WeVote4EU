@@ -1,26 +1,23 @@
 <div class="relative">
-    <div class="container relative max-w-6xl py-32 md:py-48">
-        <x-icon-hero class="absolute inset-y-0 right-0 hidden h-full py-16 lg:block rotate-12" />
+    <x-hero>
+        <x-slot name="title">
+            <span class="font-light text-slate-900">
+                {{ __('app.hero.title') }}
+            </span>
+            <span class="font-semibold text-primary-800">
+                {{ __('app.hero.name') }}
+            </span>
+        </x-slot>
 
-        <div class="prose md:prose-lg lg:prose-xl">
-            <h1>
-                <span class="font-light text-slate-900">
-                    {{ __('app.hero.title') }}
-                </span>
-                <span class="font-semibold text-blue-800">
-                    {{ __('app.hero.name') }}
-                </span>
-            </h1>
+        <x-slot name="description">
+            <p>{{ __('app.hero.description') }}</p>
+        </x-slot>
 
-            <p class="mt-6 text-gray-500">
-                {{ __('app.hero.description') }}
-            </p>
-        </div>
-    </div>
+    </x-hero>
 
     <x-banner.eu />
 
-    <div class="py-12 md:py-24 lg:py-32 bg-blue-50 md:col-span-2">
+    <div class="py-12 md:py-24 lg:py-32 bg-primary-50 md:col-span-2">
         <div class="container max-w-6xl">
             <h2 class="mb-4 text-2xl font-medium text-left text-gray-900">
                 {!! __('app.select_nationality') !!}
@@ -37,5 +34,4 @@
             </div>
         </div>
     </div>
-
 </div>
