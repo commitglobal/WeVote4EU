@@ -26,6 +26,7 @@ return [
   's9.1' => '<p>Sunt eligibil și doresc să votez la alegerile europene din <strong>România</strong> <strong>din altă țară UE/non-UE.</strong></p>',
   's9.2' => '<p>Sunt eligibil și doresc să votez la alegerile din UE <strong>pentru un alt stat membru al UE.</strong></p>',
   's7' => '<p><strong>Unde votez?</strong> Puteți vota din altă țară UE sau non-UE <strong>la secțiile de votare</strong> organizate de statul român. Nu există reguli și proceduri suplimentare pentru a vă înregistra pentru a vota din altă țară UE sau non-UE.</p>
+<p>Folosiți harta de pe <a rel="noopener noreferrer" target="_blank" href="https://votdiaspora.ro/">Vot Diaspora</a> pentru a identifica secție de votare cea mai apropiată.</p>
 <p>Pentru informații suplimentare, accesați <a rel="noopener noreferrer" target="_blank" href="https://www.mae.ro/en">site-ul Ministerului Afacerilor Externe</a>.</p>
 <p><strong>Ce documente trebuie să aduc?</strong> Trebuie să aduceți un <strong>Document de identitate valabil sau un pașaport</strong>.</p>',
   's8' => '<p>La alegerile din ce țară din UE veți participa în calitate de alegător?</p>',

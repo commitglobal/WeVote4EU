@@ -26,6 +26,7 @@ return [
   's9.1' => '<p>I am eligible to and want to vote in <strong>Romanian</strong> EU elections <strong>from another EU/non-EU country.</strong></p>',
   's9.2' => '<p>I am eligible and want to vote in EU elections <strong>for another EU member state.</strong></p>',
   's7' => '<p><strong>Where do I vote?</strong> You can vote from another EU or non-EU country <strong>at the polling stations</strong> organized by the Romanian state. No additional rules and procedures for registering to vote in another EU or non-EU country.</p>
+<p>Locate your nearest polling station on <a rel="noopener noreferrer" target="_blank" href="https://votdiaspora.ro/en">Vot Diaspora</a>.</p>
 <p>For further information, go to <a rel="noopener noreferrer" target="_blank" href="https://www.mae.ro/en">Ministry of Foreign Affairs website</a>.</p>
 <p><strong>What documents should I bring?</strong> You should bring a <strong>valid ID or a passport</strong>.</p>',
   's8' => '<p>Which EU country\'s elections will you be participating in as a voter?</p>',

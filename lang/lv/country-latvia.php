@@ -32,7 +32,7 @@ Balsot var <strong>vēstniecībā, konsulātā</strong> vai pa <strong>pastu</st
 <li>Lai balsotu klātienē <strong>jūsu vēstniecībā vai konsulātā</strong>, paziņojums nav nepieciešams. Turklāt iepriekšēja reģistrācija nav nepieciešama, jo iestādes to veic automātiski.</li>
 <li>Lai balsotu pa <strong>pastu</strong>, pieteikties laikā no 4. līdz 31. maijam, izmantojot Vēlētāju reģistra e-pakalpojumu.</li>
 </ul>
-<p>Plašāka informācija pieejama [Pilsonības un migrācijas lietu pārvaldes mājaslapā] (<a rel="noopener noreferrer" target="_blank" href="https://www.pmlp.gov.lv/en">https://www.pmlp.gov.lv/en</a>).</p>
+<p>Plašāka informācija pieejama <a rel="noopener noreferrer" target="_blank" href="https://www.pmlp.gov.lv/en">Pilsonības un migrācijas lietu pārvaldes mājaslapā</a>.</p>
 <p><strong>Kādi dokumenti man jāņem līdzi?</strong> <strong>Derīga pase</strong> vai jūsu <strong>ID karte.</strong></p>',
   's9' => '<p>Kuras ES valsts vēlēšanās piedalīsieties kā vēlētājs?</p>',
 ];
