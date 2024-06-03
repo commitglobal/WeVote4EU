@@ -8,6 +8,7 @@ return [
         'home' => 'Home',
     ],
     'banner' => 'A Commit Global solution.',
+    'contact' => 'Contact',
     'select_nationality' => 'What is your nationality?',
     'parliament_elections_title' => 'Parliament elections',
 

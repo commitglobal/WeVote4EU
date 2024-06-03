@@ -36,6 +36,14 @@
                                 {{ __('privacy.title') }}
                             </a>
                         </li>
+                        <li>
+                            <a
+                                href="https://www.commitglobal.org/en/contact-us"
+                                class="text-gray-500 hover:text-gray-900"
+                                target="_blank" rel="noopener noreferer">
+                                {{ __('app.contact') }}
+                            </a>
+                        </li>
                     </ul>
                 </li>
             </ul>
