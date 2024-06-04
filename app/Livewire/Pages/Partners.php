@@ -48,6 +48,11 @@ class Partners extends Component
                 'logo' => 'KOD.png',
                 'url' => 'https://ruchkod.pl/',
             ],
+            [
+                'name' => 'Croatian Youth Network',
+                'logo' => 'MMH.png',
+                'url' => 'https://www.mmh.hr/',
+            ],
         ];
     }
 
