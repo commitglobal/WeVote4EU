@@ -1,6 +1,7 @@
 <header x-data="{ menuOpen: false }" class="relative z-40">
     <nav class="container flex justify-between max-w-6xl gap-4 py-4">
         <a href="{{ localizedRoute('home') }}" class="flex items-center gap-2" wire:navigate>
+            <div class="sr-only">{{ config('app.name') }}</div>
             <x-icon-logo class="h-7 md:h-10" />
         </a>
 
@@ -13,7 +14,7 @@
 
             <div x-data="{ langOpen: false }" x-on:click.away="langOpen = false">
                 <button
-                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight text-primary-900 rounded hover:bg-primary-50 focus:bg-primary-100 focus:outline-none"
+                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight rounded text-primary-900 hover:bg-primary-50 focus:bg-primary-100 focus:outline-none"
                     x-on:click="langOpen = !langOpen">
                     <x-ri-translate class="w-5 h-5" />
                     <span class="font-medium">{{ currentLocale()['nativeName'] }}</span>
@@ -42,6 +43,7 @@
             </div>
 
             <button type="button" @@click="menuOpen = !menuOpen" class="md:hidden">
+                <div class="sr-only">{{ __('app.menu') }}</div>
                 <x-ri-menu-line x-show="!menuOpen" class="w-5 h-5" />
                 <x-ri-close-line x-show="menuOpen" class="w-5 h-5" x-cloak />
             </button>

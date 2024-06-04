@@ -11,7 +11,7 @@ return [
     'contact' => 'Contact',
     'select_nationality' => 'What is your nationality?',
     'parliament_elections_title' => 'Parliament elections',
-
+    'menu' => 'Menu',
     'navigation' => [
         'home' => 'Home',
         'about' => 'About',
