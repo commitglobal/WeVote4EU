@@ -17,6 +17,7 @@ RUN apk update && \
     #
     # install extensions
     install-php-extensions \
+    event \
     excimer \
     exif \
     gd \
