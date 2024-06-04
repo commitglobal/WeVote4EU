@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Noin',
         'home' => 'Koti',
+        'partners' => 'Yhteistyökumppanit',
     ],
     'hero' => [
         'description' => 'Esittelyssä foorumi, jonka tarkoituksena on muuttaa 27 kansallista Euroopan parlamentin vaaleja yhtenäiseksi yleiseurooppalaiseksi tapahtumaksi. We Vote for EU on kattava digitaalinen keskus, joka keskittää tärkeät vaalitiedot ja reaaliaikaiset päivitykset, mikä helpottaa kansalaisten osallistumista demokraattiseen prosessiin.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Takaisin',
     ],
     'banner' => 'Commit Global -ratkaisu.',
+    'contact' => 'Yhteystiedot',
+    'menu' => 'Valikko',
 ];

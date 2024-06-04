@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Rólunk',
         'home' => 'Kezdőlap',
+        'partners' => 'Partnerek',
     ],
     'hero' => [
         'description' => 'Bemutatjuk azt a platformot, amelynek célja, hogy a 27 nemzeti európai parlamenti választást egységes, páneurópai rendezvényré alakítsák át. A We Vote for EU egy átfogó digitális központ, amely központosítja a döntő választási információkat és a valós idejű frissítéseket, megkönnyítve a polgárok részvételét a demokratikus folyamatban.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Vissza',
     ],
     'banner' => 'Commit Global megoldás.',
+    'contact' => 'Kapcsolat',
+    'menu' => 'Menü',
 ];

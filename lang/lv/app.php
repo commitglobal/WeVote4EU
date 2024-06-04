@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Par',
         'home' => 'Mājas',
+        'partners' => 'Partneri',
     ],
     'hero' => [
         'description' => 'Iepazīstinām ar platformu, kas paredzēta 27 valstu Eiropas Parlamenta vēlēšanas pārvēršanai par vienotu, Eiropas mēroga pasākumu. Mēs balsojam par ES ir visaptverošs digitālais centrs, kas centralizē svarīgu vēlēšanu informāciju un atjauninājumus reāllaikā, atvieglojot iedzīvotājiem dalību demokrātiskajā procesā.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Atpakaļ',
     ],
     'banner' => 'Commit Global risinājums.',
+    'contact' => 'Sazināties',
+    'menu' => 'Izvēlne',
 ];

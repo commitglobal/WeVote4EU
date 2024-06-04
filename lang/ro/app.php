@@ -17,4 +17,6 @@ return [
         'title' => 'Împuternicirea democrației UE prin',
         'name' => 'Votăm pentru UE',
     ],
+    'contact' => 'Contact',
+    'menu' => 'Meniu',
 ];

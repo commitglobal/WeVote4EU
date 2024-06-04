@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Umbes',
         'home' => 'Kodu',
+        'partners' => 'Partnerid',
     ],
     'hero' => [
         'description' => 'Tutvustame platvormi, mille eesmärk on muuta 27 riiklikku Euroopa Parlamendi valimist ühtseks üleeuroopaliseks ürituseks. Me hääletame ELi poolt on terviklik digitaalne keskus, mis tsentraliseerib olulist valimisteavet ja ajakohastamist reaalajas, hõlbustades kodanike osalemist demokraatlikus protsessis.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Tagasi',
     ],
     'banner' => 'Commit Global lahendus.',
+    'contact' => 'Kontakt',
+    'menu' => 'Menüü',
 ];

@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Dwar',
         'home' => 'Id-dar',
+        'partners' => 'Imsieħba',
     ],
     'hero' => [
         'description' => 'L-introduzzjoni tal-pjattaforma mfassla biex tittrasforma 27 elezzjoni nazzjonali tal-Parlament Ewropew f\'avveniment unifikat u pan-Ewropew. We Vote for EU huwa ċentru diġitali komprensiv li jiċċentralizza informazzjoni kruċjali dwar l-elezzjoni u l-aġġornamenti f\'ħin reali, u jagħmilha aktar faċli għaċ-ċittadini biex jipparteċipaw fil-proċess demokratiku.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Lura',
     ],
     'banner' => 'Soluzzjoni Commit Global.',
+    'contact' => 'Kuntatt',
+    'menu' => 'Menu',
 ];

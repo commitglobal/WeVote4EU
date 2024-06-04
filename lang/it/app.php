@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Informazioni su',
         'home' => 'Home',
+        'partners' => 'Partner',
     ],
     'hero' => [
         'description' => 'Presentazione della piattaforma progettata per trasformare 27 elezioni nazionali del Parlamento europeo in un evento unificato e paneuropeo. We Vote for EU è un hub digitale completo che centralizza le informazioni elettorali cruciali e gli aggiornamenti in tempo reale, facilitando la partecipazione dei cittadini al processo democratico.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Indietro',
     ],
     'banner' => 'Una soluzione Commit Global.',
+    'contact' => 'Contatto',
+    'menu' => 'Menù',
 ];
