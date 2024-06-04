@@ -56,40 +56,44 @@ class Partners extends Component
         return [
             [
                 'name' => 'Maria Krause',
-                // 'title' => 'Electoral expert',
-                'avatar' => 'placeholder.jpg',
+                'title' => __('countries.ro'),
+                'avatar' => 'Maria-Krause.jpg',
+                'links' => [
+
+                ],
+            ],
+            [
+                'name' => 'Christoforos Christoforou',
+                'title' => __('countries.cy'),
+                'avatar' => 'placeholder.png',
                 'links' => [
                     [
-                        'icon' => 'ri-linkedin-fill',
-                        'url' => '#',
-                        'title' => 'LinkedIn',
+                        'icon' => 'ri-global-line',
+                        'url' => 'https://www.eklektor.org/',
+                        'title' => 'Website',
                     ],
                     [
-                        'icon' => 'ri-facebook-fill',
-                        'url' => '#',
-                        'title' => 'Facebook',
-                    ],
-                    [
-                        'icon' => 'ri-twitter-x-fill',
-                        'url' => '#',
+                        'icon' => 'ri-twitter-x-line',
+                        'url' => 'https://x.com/chChr11',
                         'title' => 'Twitter',
                     ],
                 ],
             ],
             [
-                'name' => 'Christoforos Christoforou',
-                // 'title' => 'Electoral expert',
-                'avatar' => 'placeholder.jpg',
-                'links' => [
-
-                ],
-            ],
-            [
                 'name' => 'Sabra Bano',
-                // 'title' => 'Electoral expert',
-                'avatar' => 'placeholder.jpg',
+                'title' => __('countries.nl'),
+                'avatar' => 'Sabra-Bano.jpg',
                 'links' => [
-
+                    [
+                        'icon' => 'ri-linkedin-box-fill',
+                        'url' => 'https://www.linkedin.com/in/sabra-bano-b4995311/',
+                        'title' => 'LinkedIn',
+                    ],
+                    [
+                        'icon' => 'ri-twitter-x-line',
+                        'url' => 'https://twitter.com/sbanogendercon1',
+                        'title' => 'Twitter',
+                    ],
                 ],
             ],
         ];
