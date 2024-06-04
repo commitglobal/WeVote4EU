@@ -53,6 +53,11 @@ class Partners extends Component
                 'logo' => 'MMH.png',
                 'url' => 'https://www.mmh.hr/',
             ],
+            [
+                'name' => 'Memo 98',
+                'logo' => 'MEMO98.png',
+                'url' => 'https://memo98.sk/',
+            ],
         ];
     }
 
