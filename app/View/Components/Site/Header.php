@@ -22,6 +22,7 @@ class Header extends Component
         $this->menuItems = collect([
             'home' => __('app.navigation.home'),
             'about' => __('app.navigation.about'),
+            'partners' => __('app.navigation.partners'),
         ]);
     }
 
