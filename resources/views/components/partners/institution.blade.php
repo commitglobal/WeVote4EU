@@ -13,27 +13,20 @@
 @endphp
 
 <{{ $tag }}
-    {{ $attributes->class([
-            'relative flex aspect-square items-center justify-center p-6 sm:p-4 md:p-8 group',
-            'border border-primary-800',
-        ])->merge([
-            'href' => $url,
-            'target' => $target,
-            'rel' => $rel,
-        ]) }}>
-
-    <img src="{{ Vite::asset('resources/images/partners/' . $logo) }}" alt="{{ $name }}" class="object-contain" />
+    {{ $attributes->class(['relative flex flex-col gap-4 group focus:outline-none'])->merge([
+        'href' => $url,
+        'target' => $target,
+        'rel' => $rel,
+    ]) }}>
 
     <div
-        @class([
-            'absolute inset-0 flex items-center justify-center',
-            'font-bold text-xl sm:text-lg md:text-2xl lg:text-3xl',
-            'text-white bg-primary-800',
-            'p-6 sm:p-4 md:p-8',
-            'opacity-0 group-hover:opacity-100 group-focus:opacity-100',
-            'transition-opacity duration-300 ease-in-out',
-        ])>
-        {{ $name }}
+        class="flex items-center justify-center p-6 overflow-hidden shadow sm:p-4 md:p-8 aspect-square ring-1 ring-primary-800">
+        <img src="{{ Vite::asset('resources/images/partners/' . $logo) }}" alt="{{ $name }}"
+            class="object-contain" />
     </div>
+
+    <h2 class="text-lg font-semibold text-gray-900 md:text-xl group-hover:underline group-focus:underline">
+        {{ $name }}
+    </h2>
 
     </{{ $tag }}>

@@ -29,14 +29,14 @@ class Partners extends Component
                 'url' => 'https://expertforum.ro/en/',
             ],
             [
+                'name' => 'Gender Concerns International',
+                'logo' => 'Gender-Concerns-International.png',
+                'url' => 'https://www.genderconcerns.org/',
+            ],
+            [
                 'name' => 'Institute for Public Environment Development (IPED)',
                 'logo' => 'IPED.png',
                 'url' => 'https://iped.bg/en/',
-            ],
-            [
-                'name' => 'Committee for the Defence of Democracy (CDD)',
-                'logo' => 'KOD.png',
-                'url' => 'https://ruchkod.pl/',
             ],
             [
                 'name' => 'Inter Alia',
@@ -44,9 +44,9 @@ class Partners extends Component
                 'url' => 'https://interaliaproject.com/',
             ],
             [
-                'name' => 'Gender Concerns International',
-                'logo' => 'Gender-Concerns-International.png',
-                'url' => 'https://www.genderconcerns.org/',
+                'name' => 'Committee for the Defence of Democracy (CDD)',
+                'logo' => 'KOD.png',
+                'url' => 'https://ruchkod.pl/',
             ],
         ];
     }
@@ -59,8 +59,21 @@ class Partners extends Component
                 // 'title' => 'Electoral expert',
                 'avatar' => 'placeholder.jpg',
                 'links' => [
-                    'ri-facebook-fill' => '#',
-                    'ri-twitter-x-fill' => '#',
+                    [
+                        'icon' => 'ri-linkedin-fill',
+                        'url' => '#',
+                        'title' => 'LinkedIn',
+                    ],
+                    [
+                        'icon' => 'ri-facebook-fill',
+                        'url' => '#',
+                        'title' => 'Facebook',
+                    ],
+                    [
+                        'icon' => 'ri-twitter-x-fill',
+                        'url' => '#',
+                        'title' => 'Twitter',
+                    ],
                 ],
             ],
             [
