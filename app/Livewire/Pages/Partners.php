@@ -95,14 +95,19 @@ class Partners extends Component
                 'avatar' => 'Sabra-Bano.jpg',
                 'links' => [
                     [
+                        'icon' => 'ri-global-line',
+                        'url' => 'https://www.genderconcerns.org/director/',
+                        'title' => 'Website',
+                    ],
+                    [
                         'icon' => 'ri-linkedin-box-fill',
                         'url' => 'https://www.linkedin.com/in/sabra-bano-b4995311/',
                         'title' => 'LinkedIn',
                     ],
                     [
-                        'icon' => 'ri-twitter-x-line',
-                        'url' => 'https://twitter.com/sbanogendercon1',
-                        'title' => 'Twitter',
+                        'icon' => 'ri-global-line',
+                        'url' => 'https://genderchampions.com/champions/sabra-bano',
+                        'title' => 'Website',
                     ],
                 ],
             ],
