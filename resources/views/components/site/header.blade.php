@@ -5,7 +5,7 @@
             <x-icon-logo class="h-7 md:h-10" />
         </a>
 
-        <div class="relative flex items-center gap-2">
+        <div class="flex items-center gap-2 sm:relative">
             <div class="items-center hidden gap-2 md:flex">
                 @foreach ($menuItems as $route => $label)
                     <x-navigation-item :route="$route" :label="$label" />
@@ -22,15 +22,15 @@
                 </button>
 
                 <div
-                    class="absolute right-0 mt-2 origin-top-right bg-white shadow-xl sw-48"
+                    class="absolute right-0 mt-2 origin-top-right bg-white shadow-xl sw-48 ring-1 ring-gray-100"
                     x-show="langOpen"
                     x-collapse
                     x-cloak>
-                    <ul class="p-2 columns-3 gap-x-1 gap-y-2">
+                    <ul class="gap-0 p-1 sm:p-2 columns-3">
                         @foreach ($alternateUrls as $locale => $item)
                             <li class="text-sm">
                                 <a
-                                    class="flex px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none"
+                                    class="flex px-2 py-2 rounded sm:px-3 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none"
                                     hreflang="{{ $locale }}"
                                     href="{{ $item['url'] }}"
                                     wire:navigate>
