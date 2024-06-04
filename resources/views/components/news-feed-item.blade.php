@@ -1,25 +1,32 @@
 @props(['post'])
 
 <article
-    wire:key="{{ $post->id }}"
+    wire:key="news-feed-item-{{ $post->id }}"
     x-data="{ more: false }"
     class="overflow-hidden bg-white rounded-lg shadow">
     <div class="flex flex-col gap-4 px-4 py-5 sm:p-6">
         <header class="relative flex items-center gap-x-4">
-            <img src="{{ $post->author->avatar }}"
+            <img src="{{ $post->author->getFilamentAvatarUrl() }}"
                 alt="" class="w-10 h-10 rounded-full bg-gray-50">
-            <div class="text-sm">
+            <div class="flex-1 text-sm">
                 <p class="text-gray-700" rel="author">
                     {{ $post->author->name }}
                 </p>
                 <time
                     pubdate
                     class="text-gray-500"
-                    datetime="{{ $post->publishedAt->toIso8601String() }}"
-                    title="{{ $post->publishedAt->toDateTimeString() }}">
-                    {{ $post->publishedAt->diffForHumans() }}
+                    datetime="{{ $post->published_at->toIso8601String() }}"
+                    title="{{ $post->published_at->toDateTimeString() }}">
+                    {{ $post->published_at->isoFormat('LLLL') }}
                 </time>
             </div>
+
+            <div title="{{ $post->country->label() }}">
+                <x-dynamic-component
+                    :component="'icon-flags.' . $post->country->value"
+                    class="w-10 h-10 shrink-0" />
+            </div>
+
         </header>
 
         <div
@@ -37,10 +44,10 @@
 
         <div class="flex flex-wrap gap-4">
             @foreach ($post->media as $media)
-                <a href="{{ $media->url }}"
+                <a href="{{ $media->getUrl() }}"
                     target="_blank"
                     class="shadow-sm hover:shadow-lg focus">
-                    <img src="{{ $media->thumb }}"
+                    <img src="{{ $media->getUrl('thumb') }}"
                         alt="{{ $media->name }}"
                         class="aspect-square" />
                 </a>

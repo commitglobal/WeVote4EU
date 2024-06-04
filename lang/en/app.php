@@ -46,6 +46,10 @@ return [
             'day' => 'Election day',
         ],
 
+        'updated' => 'The news feed has been updated.',
+        'empty' => 'There are no posts matching the current filters.',
+
+        'refresh' => 'Refresh',
         'more' => 'See more',
     ],
 ];
