@@ -1,9 +1,12 @@
 export default {
     content: [
         //,
+        './app/Filament/**/*.php',
         './app/Livewire/**/*.php',
         './app/View/Components/**/*.php',
         './resources/views/**/*.blade.php',
+        './vendor/filament/**/*.blade.php',
+        './vendor/livewire/**/*.blade.php',
     ],
     theme: {
         container: ({ theme }) => ({

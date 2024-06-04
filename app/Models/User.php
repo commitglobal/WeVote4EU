@@ -13,6 +13,8 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
@@ -61,6 +63,16 @@ class User extends Authenticatable implements FilamentUser, HasAvatar, HasName, 
     public function registerMediaCollections(): void
     {
         $this->addMediaCollection('avatar')
+            ->useFallbackUrl(
+                sprintf(
+                    'https://ui-avatars.com/api/?%s',
+                    Arr::query([
+                        'name' => Str::initials($this->name),
+                        'color' => 'FFFFFF',
+                        'background' => '003399',
+                    ])
+                )
+            )
             ->singleFile()
             ->registerMediaConversions(function () {
                 $this->addMediaConversion('thumb')

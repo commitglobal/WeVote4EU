@@ -1,6 +1,7 @@
 <?php
 
 return [
+  'eu' => 'European Union',
   'at' => 'Austria',
   'be' => 'Belgium',
   'bg' => 'Bulgaria',

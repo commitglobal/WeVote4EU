@@ -12,6 +12,7 @@ RUN apk update && \
     #
     # production dependencies
     apk add --no-cache \
+    ffmpeg \
     nginx && \
     #
     # install extensions

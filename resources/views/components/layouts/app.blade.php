@@ -33,8 +33,8 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap" rel="stylesheet" />
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @livewireStyles
+    @filamentStyles
+    @vite('resources/css/app.css')
 
     <x-site.analytics />
 </head>
@@ -66,7 +66,8 @@
 
     <x-site.footer />
 
-    @livewireScripts
+    @filamentScripts
+    @vite('resources/js/app.js')
 </body>
 
 </html>

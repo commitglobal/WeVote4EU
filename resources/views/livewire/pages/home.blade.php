@@ -36,4 +36,6 @@
     </div>
 
     <livewire:live-data />
+
+    <livewire:news-feed />
 </div>

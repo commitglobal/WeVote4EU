@@ -35,4 +35,17 @@ return [
             'flagged_answers' => 'Flagged answers',
         ],
     ],
+
+    'newsfeed' => [
+        'title' => 'Live feed of updates',
+        'description' => '',
+
+        'filters' => [
+            'country' => 'Country',
+            'author' => 'Electoral expert',
+            'day' => 'Election day',
+        ],
+
+        'more' => 'See more',
+    ],
 ];

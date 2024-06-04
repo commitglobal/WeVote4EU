@@ -7,6 +7,7 @@ namespace App\Filament\Resources;
 use App\Enums\UserRole;
 use App\Filament\Resources\UserResource\Pages;
 use App\Models\User;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
@@ -23,7 +24,13 @@ class UserResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('name')
+                    ->required(),
+
+                TextInput::make('email')
+                    ->required()
+                    ->unique(ignoreRecord: true),
+
             ]);
     }
 
@@ -34,6 +41,9 @@ class UserResource extends Resource
                 TextColumn::make('name')
                     ->searchable(),
 
+                TextColumn::make('email')
+                    ->searchable(),
+
                 TextColumn::make('role')
                     ->formatStateUsing(fn (?UserRole $state) => $state?->label()),
             ])
@@ -42,6 +52,7 @@ class UserResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
@@ -60,9 +71,7 @@ class UserResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListUsers::route('/'),
-            'create' => Pages\CreateUser::route('/create'),
-            'edit' => Pages\EditUser::route('/{record}/edit'),
+            'index' => Pages\ManageUsers::route('/'),
         ];
     }
 }

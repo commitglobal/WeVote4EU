@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Database\Seeders;
 
+use App\Models\ElectionDay;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -19,13 +20,19 @@ class DatabaseSeeder extends Seeder
             ->admin()
             ->create();
 
+        $electionDays = ElectionDay::factory()
+            ->count(4)
+            ->create();
+
         User::factory()
             ->count(10)
-            ->has(
+            ->create()
+            ->each(function (User $user) use ($electionDays) {
                 Post::factory()
-                    ->count(5),
-                'posts',
-            )
-            ->create();
+                    ->count(5)
+                    ->recycle($user)
+                    ->recycle($electionDays->random())
+                    ->create();
+            });
     }
 }
