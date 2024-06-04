@@ -1,10 +1,10 @@
 <div class="relative">
     <x-hero>
         <x-slot name="title">
-            <span class="font-light text-slate-900">
+            <span class="font-normal text-slate-900">
                 {{ __('app.hero.title') }}
             </span>
-            <span class="font-semibold text-primary-800">
+            <span class="font-bold text-primary-800">
                 {{ __('app.hero.name') }}
             </span>
         </x-slot>
@@ -34,4 +34,6 @@
             </div>
         </div>
     </div>
+
+    <livewire:live-data />
 </div>
