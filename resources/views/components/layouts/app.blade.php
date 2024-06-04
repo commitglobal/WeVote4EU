@@ -66,6 +66,7 @@
 
     <x-site.footer />
 
+    <x-site.echo />
     @filamentScripts
     @vite('resources/js/app.js')
 </body>
