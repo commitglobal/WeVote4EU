@@ -26,6 +26,7 @@ RUN apk update && \
     mbstring \
     opcache \
     pdo_mysql \
+    pnctl \
     zip
 
 COPY --chown=www-data:www-data . /var/www
