@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Om',
         'home' => 'Hjem',
+        'partners' => 'Partnere',
     ],
     'hero' => [
         'description' => 'Vi introducerer platformen, der har til formål at omdanne 27 nationale valg til Europa-Parlamentet til en samlet, paneuropæisk begivenhed. We Vote for EU er et omfattende digitalt knudepunkt, der centraliserer vigtige valgoplysninger og opdateringer i realtid, hvilket gør det lettere for borgerne at deltage i den demokratiske proces.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Tilbage',
     ],
     'banner' => 'En Commit Global løsning.',
+    'contact' => 'Kontakt',
+    'menu' => 'Menuen',
 ];

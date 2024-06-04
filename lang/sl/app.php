@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'O',
         'home' => 'Domov',
+        'partners' => 'Partnerji',
     ],
     'hero' => [
         'description' => 'Predstavljamo platformo, namenjeno preoblikovanju 27 nacionalnih volitev v Evropski parlament v enoten, vseevropski dogodek. Glasujemo za EU je celovito digitalno središče, ki centralizira ključne informacije o volitvah in posodobitve v realnem času, kar državljanom olajša sodelovanje v demokratičnem procesu.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Nazaj',
     ],
     'banner' => 'Rešitev Commit Global.',
+    'contact' => 'Kontakt',
+    'menu' => 'Meni',
 ];

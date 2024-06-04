@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Hakkında',
         'home' => 'Ana Sayfa',
+        'partners' => 'Ortaklar',
     ],
     'hero' => [
         'description' => '27 ulusal Avrupa Parlamentosu seçimini birleşik, pan-Avrupa etkinliğine dönüştürmek için tasarlanan platformun tanıtımı. AB için Oy Veriyoruz, önemli seçim bilgilerini ve gerçek zamanlı güncellemeleri merkezileştiren ve vatandaşların demokratik sürece katılmasını kolaylaştıran kapsamlı bir dijital merkezdir.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Geri',
     ],
     'banner' => 'Bir Commit Global çözümü.',
+    'contact' => 'İletişim',
+    'menu' => 'Menü',
 ];

@@ -5,6 +5,7 @@ return [
     'navigation' => [
         'about' => 'Sobre',
         'home' => 'Início',
+        'partners' => 'Parceiros',
     ],
     'hero' => [
         'description' => 'Apresentando a plataforma projetada para transformar 27 eleições nacionais para o Parlamento Europeu em um evento unificado e pan-europeu. O We Vote for EU é um hub digital abrangente que centraliza informações eleitorais cruciais e atualizações em tempo real, facilitando a participação dos cidadãos no processo democrático.',
@@ -16,4 +17,6 @@ return [
         'back' => 'Voltar',
     ],
     'banner' => 'Uma solução da Commit Global.',
+    'contact' => 'Entre em contato',
+    'menu' => 'Menu',
 ];
