@@ -1,4 +1,5 @@
 export default {
+    darkMode: 'selector',
     content: [
         //,
         './app/Filament/**/*.php',

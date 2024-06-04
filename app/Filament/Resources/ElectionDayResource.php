@@ -22,7 +22,7 @@ class ElectionDayResource extends Resource
 
     public static function getNavigationGroup(): ?string
     {
-        return __('navigation.group.manage');
+        return __('admin.navigation.newsfeed');
     }
 
     public static function form(Form $form): Form

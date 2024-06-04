@@ -15,16 +15,44 @@
             {{ $this->form }}
         </form>
 
-        <div class="grid gap-4 mt-10 sm:gap-8" wire:loading.delay.class="opacity-50">
-            {{ $posts->links(data: ['scrollTo' => '#newsfeed']) }}
-
+        <div class="grid gap-4 mt-10 sm:gap-8">
             @forelse ($posts as $post)
-                <x-news-item :wire:key="$post->id" :post="$post" />
+                <x-news-feed-item :post="$post" />
             @empty
                 <p>No Posts Found</p>
             @endforelse
 
-            {{ $posts->links(data: ['scrollTo' => '#newsfeed']) }}
+            <div
+                class="overflow-hidden bg-white rounded-lg shadow animate-pulse"
+                wire:loading.delay>
+                <div class="sr-only">Loading...</div>
+                <div class="flex flex-col gap-4 px-4 py-5 sm:p-6">
+                    <header class="relative flex items-center gap-x-4">
+                        <div class="w-10 h-10 bg-gray-200 rounded-full"></div>
+                        <div class="flex-1 space-y-2">
+                            <div class="h-3 bg-gray-100 rounded max-w-40"></div>
+                            <div class="h-3 bg-gray-100 rounded max-w-56"></div>
+                        </div>
+                    </header>
+
+                    <div class="flex flex-col gap-5">
+                        <div class="h-3 max-w-lg bg-gray-200 rounded"></div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="h-3 col-span-2 bg-gray-100 rounded"></div>
+                            <div class="h-3 col-span-1 bg-gray-100 rounded"></div>
+                        </div>
+                        <div class="h-3 bg-gray-100 rounded"></div>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="h-3 col-span-1 bg-gray-100 rounded"></div>
+                            <div class="h-3 col-span-2 bg-gray-100 rounded"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @if ($this->hasMore)
+                <div x-intersect="$wire.loadMore()"></div>
+            @endif
         </div>
 
     </div>

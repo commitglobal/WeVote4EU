@@ -1,13 +1,12 @@
 @props(['post'])
 
 <article
-    {{ $attributes->merge([
-        'x-data' => '{ more: false }',
-        'class' => 'overflow-hidden bg-white rounded-lg shadow',
-    ]) }}>
+    wire:key="{{ $post->id }}"
+    x-data="{ more: false }"
+    class="overflow-hidden bg-white rounded-lg shadow">
     <div class="flex flex-col gap-4 px-4 py-5 sm:p-6">
         <header class="relative flex items-center gap-x-4">
-            <img src="{{ $post->author->getFilamentAvatarUrl() }}"
+            <img src="{{ $post->author->avatar }}"
                 alt="" class="w-10 h-10 rounded-full bg-gray-50">
             <div class="text-sm">
                 <p class="text-gray-700" rel="author">
@@ -16,9 +15,9 @@
                 <time
                     pubdate
                     class="text-gray-500"
-                    datetime="{{ $post->published_at->toIso8601String() }}"
-                    title="{{ $post->published_at->toDateTimeString() }}">
-                    {{ $post->published_at->diffForHumans() }}
+                    datetime="{{ $post->publishedAt->toIso8601String() }}"
+                    title="{{ $post->publishedAt->toDateTimeString() }}">
+                    {{ $post->publishedAt->diffForHumans() }}
                 </time>
             </div>
         </header>
@@ -37,9 +36,11 @@
         </div>
 
         <div class="flex flex-wrap gap-4">
-            @foreach ($post->getMedia() as $media)
-                <a href="{{ $media->getUrl() }}" target="_blank" class="shadow-sm hover:shadow-lg focus">
-                    <img src="{{ $media->getUrl('thumb') }}"
+            @foreach ($post->media as $media)
+                <a href="{{ $media->url }}"
+                    target="_blank"
+                    class="shadow-sm hover:shadow-lg focus">
+                    <img src="{{ $media->thumb }}"
                         alt="{{ $media->name }}"
                         class="aspect-square" />
                 </a>

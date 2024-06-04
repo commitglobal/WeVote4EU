@@ -4,6 +4,12 @@ declare(strict_types=1);
 
 namespace App\Providers;
 
+use App\Models\ElectionDay;
+use App\Models\Media;
+use App\Models\Post;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 
@@ -27,7 +33,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->enforceMorphMap();
+
+        Gate::define('viewPulse', fn (User $user) => $user->isAdmin());
     }
 
     protected function registerCountries(): void
@@ -199,6 +207,16 @@ class AppServiceProvider extends ServiceProvider
                 'nativeName' => 'Svenska',
                 'enabled' => true,
             ],
+        ]);
+    }
+
+    protected function enforceMorphMap(): void
+    {
+        Relation::enforceMorphMap([
+            'electionDay' => ElectionDay::class,
+            'media' => Media::class,
+            'post' => Post::class,
+            'user' => User::class,
         ]);
     }
 }

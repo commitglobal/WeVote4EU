@@ -32,7 +32,7 @@ class PostResource extends Resource
 
     public static function getNavigationGroup(): ?string
     {
-        return __('navigation.group.manage');
+        return __('admin.navigation.newsfeed');
     }
 
     public static function form(Form $form): Form
@@ -52,6 +52,13 @@ class PostResource extends Resource
 
                         Select::make('author_id')
                             ->relationship('author', 'name')
+                            ->required()
+                            ->preload(),
+
+                        Select::make('election_day_id')
+                            ->relationship('electionDay', 'date')
+                            ->getOptionLabelFromRecordUsing(fn (ElectionDay $record) => $record->date->toDateString())
+                            // ->formatStateUsing(fn (Post $record) => dd($record) && $record->date?->toDateString())
                             ->required()
                             ->preload(),
 
