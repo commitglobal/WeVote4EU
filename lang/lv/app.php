@@ -19,4 +19,34 @@ return [
     'banner' => 'Commit Global risinājums.',
     'contact' => 'Sazināties',
     'menu' => 'Izvēlne',
+    'votemonitor' => [
+        'title' => 'Balsojuma uzraudzība tiešraides dati',
+        'description' => '2024. gada ES Parlamenta vēlēšanas ievēro nevalstiskās organizācijas trīs ES valstīs, izmantojot lietotni Vote Monitor, ko izstrādājusi Commit Global - Code for Romania. [Skatīt vairāk par balsojuma monitoru] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Atjauninājumu tiešraide',
+        'filters' => [
+            'country' => 'Valsts',
+            'author' => 'Vēlēšanu eksperts',
+            'day' => 'Vēlēšanu diena',
+        ],
+        'more' => 'Skatīt vairāk',
+        'updated' => 'Ziņu plūsma ir atjaunināta.',
+        'empty' => 'Nav ziņu, kas atbilstu pašreizējiem filtriem.',
+        'refresh' => 'Atsvaidzināt',
+    ],
+    'stats' => [
+        'votes' => 'Balsojumi',
+        'observers' => 'Novērotāji uz lauka',
+        'polling_stations' => 'Vēlēšanu iecirkņi',
+        'started_forms' => 'Sāktās formas',
+        'questions_answered' => 'Atbildētie jautājumi',
+        'flagged_answers' => 'Atbildes ar atzīmēm',
+    ],
+    'user' => [
+        'role' => [
+            'author' => 'Autors',
+            'admin' => 'Administrators',
+        ],
+    ],
 ];

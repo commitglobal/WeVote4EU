@@ -19,4 +19,34 @@ return [
     'banner' => 'Soluzzjoni Commit Global.',
     'contact' => 'Kuntatt',
     'menu' => 'Menu',
+    'votemonitor' => [
+        'title' => 'Vot Monitor dejta diretta',
+        'description' => 'L-elezzjonijiet tal-Parlament tal-UE 2024 huma osservati minn organizzazzjonijiet mhux governattivi fi tliet pajjiżi tal-UE permezz tal-Vote Monitor App, żviluppata minn Commit Global - Kodiċi għar-Rumanija. [Ara aktar dwar il-Vote Monitor] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Għalf dirett tal-aġġornamenti',
+        'filters' => [
+            'country' => 'Pajjiż',
+            'author' => 'Espert elettorali',
+            'day' => 'Jum tal-elezzjoni',
+        ],
+        'more' => 'Ara aktar',
+        'updated' => 'L-għalf tal-aħbarijiet ġie aġġornat.',
+        'empty' => 'M\'hemm l-ebda postijiet li jaqblu mal-filtri attwali.',
+        'refresh' => 'Irrifreska',
+    ],
+    'stats' => [
+        'polling_stations' => 'Stazzjonijiet tal-votazzjoni',
+        'started_forms' => 'Formoli bdew',
+        'questions_answered' => 'Mistoqsijiet wieġba',
+        'flagged_answers' => 'Tweġibiet immarkati',
+        'observers' => 'Osservaturi fuq il-post',
+        'votes' => 'Voti',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Amministratur',
+            'author' => 'Awtur',
+        ],
+    ],
 ];

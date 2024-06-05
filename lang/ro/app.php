@@ -19,4 +19,34 @@ return [
     ],
     'contact' => 'Contact',
     'menu' => 'Meniu',
+    'votemonitor' => [
+        'title' => 'Votează Monitorizează datele live',
+        'description' => 'Alegerile pentru Parlamentul European din 2024 sunt observate de organizațiile neguvernamentale din trei țări ale UE prin aplicația Vote Monitor, dezvoltată de Commit Global - Code for Romania. [Vedeți mai multe despre Vote Monitor] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Flux live de actualizări',
+        'filters' => [
+            'country' => 'Țara',
+            'author' => 'Expert electoral',
+            'day' => 'Ziua alegerilor',
+        ],
+        'more' => 'Vezi mai mult',
+        'updated' => 'Fluxul de știri a fost actualizat.',
+        'empty' => 'Nu există postări care să corespundă filtrelor curente.',
+        'refresh' => 'Reîmprospătați',
+    ],
+    'stats' => [
+        'votes' => 'Voturi',
+        'observers' => 'Observatori pe teren',
+        'polling_stations' => 'Secțiile de votare',
+        'started_forms' => 'Formulare începute',
+        'questions_answered' => 'Întrebări răspunse',
+        'flagged_answers' => 'Răspunsuri marcate',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Administrator',
+            'author' => 'Autor',
+        ],
+    ],
 ];

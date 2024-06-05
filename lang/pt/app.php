@@ -19,4 +19,34 @@ return [
     'banner' => 'Uma solução da Commit Global.',
     'contact' => 'Entre em contato',
     'menu' => 'Menu',
+    'votemonitor' => [
+        'title' => 'Dados ao vivo do Vote Monitor',
+        'description' => 'As eleições de 2024 para o Parlamento da UE são observadas por organizações não governamentais em três países da UE por meio do aplicativo Vote Monitor, desenvolvido pela Commit Global - Code for Romania. [Veja mais sobre o Vote Monitor] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'more' => 'Veja mais',
+        'title' => 'Feed ao vivo de atualizações',
+        'filters' => [
+            'country' => 'País',
+            'author' => 'Especialista eleitoral',
+            'day' => 'Dia da eleição',
+        ],
+        'updated' => 'O feed de notícias foi atualizado.',
+        'empty' => 'Não há postagens que correspondam aos filtros atuais.',
+        'refresh' => 'Atualizar',
+    ],
+    'stats' => [
+        'votes' => 'Votos',
+        'observers' => 'Observadores em campo',
+        'polling_stations' => 'Mesas eleitorais',
+        'started_forms' => 'Formulários iniciados',
+        'questions_answered' => 'Perguntas respondidas',
+        'flagged_answers' => 'Respostas sinalizadas',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Administrador',
+            'author' => 'Autor',
+        ],
+    ],
 ];

@@ -19,4 +19,34 @@ return [
     'banner' => 'Rozwiązanie Commit Global.',
     'contact' => 'Kontakt',
     'menu' => 'Menu',
+    'votemonitor' => [
+        'title' => 'Głosuj Monitoruj dane na żywo',
+        'description' => 'Wybory do Parlamentu Europejskiego 2024 są obserwowane przez organizacje pozarządowe w trzech krajach UE za pośrednictwem aplikacji Vote Monitor, opracowanej przez Commit Global - Code for Romania. [Zobacz więcej o monitorze głosowania] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Aktualizacje na żywo',
+        'filters' => [
+            'country' => 'Kraj',
+            'author' => 'Ekspert wyborczy',
+            'day' => 'Dzień wyborów',
+        ],
+        'more' => 'Zobacz więcej',
+        'updated' => 'Kanał wiadomości został zaktualizowany.',
+        'empty' => 'Brak postów pasujących do bieżących filtrów.',
+        'refresh' => 'Odśwież',
+    ],
+    'stats' => [
+        'polling_stations' => 'Lokalizacje wyborcze',
+        'started_forms' => 'Uruchomione formularze',
+        'questions_answered' => 'Odpowiedzi na pytania',
+        'flagged_answers' => 'Oznaczone odpowiedzi',
+        'observers' => 'Obserwatorzy w terenie',
+        'votes' => 'Głosy',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Administrator',
+            'author' => 'Autor',
+        ],
+    ],
 ];

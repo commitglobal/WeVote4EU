@@ -19,4 +19,34 @@ return [
     'banner' => '“Commit Global” sprendimas.',
     'contact' => 'Susisiekite',
     'menu' => 'Meniu',
+    'votemonitor' => [
+        'title' => 'Balsavimas Stebėkite tiesioginius duomenis',
+        'description' => '2024 metų ES Parlamento rinkimus trijose ES šalyse nevyriausybinės organizacijos stebi per “Vote Monitor App”, kurią sukūrė “Commit Global - Code for Romania”. [Žiūrėti daugiau apie “Vote Monitor”] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'more' => 'Žiūrėti daugiau',
+        'title' => 'Tiesioginis atnaujinimų srautas',
+        'filters' => [
+            'country' => 'Šalis',
+            'author' => 'Rinkimų ekspertas',
+            'day' => 'Rinkimų diena',
+        ],
+        'updated' => 'Naujienų kanalas buvo atnaujintas.',
+        'empty' => 'Nėra įrašų, atitinkančių dabartinius filtrus.',
+        'refresh' => 'Atnaujinti',
+    ],
+    'stats' => [
+        'votes' => 'Balsai',
+        'observers' => 'Stebėtojai lauke',
+        'polling_stations' => 'Rinkimų apylinkės',
+        'started_forms' => 'Pradėtos formos',
+        'questions_answered' => 'Atsakyta į klausimus',
+        'flagged_answers' => 'Pažymėti atsakymai',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Administratorius',
+            'author' => 'Autorius',
+        ],
+    ],
 ];
