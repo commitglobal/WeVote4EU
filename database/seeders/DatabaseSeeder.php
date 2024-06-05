@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Database\Seeders;
 
 use App\Enums\StatKey;
+use App\Models\Author;
 use App\Models\ElectionDay;
 use App\Models\Post;
 use App\Models\Stat;
@@ -30,13 +31,13 @@ class DatabaseSeeder extends Seeder
             ->count(\count(StatKey::values()))
             ->create();
 
-        User::factory()
+        Author::factory()
             ->count(10)
             ->create()
-            ->each(function (User $user) use ($electionDays) {
+            ->each(function (Author $author) use ($electionDays) {
                 Post::factory()
                     ->count(5)
-                    ->recycle($user)
+                    ->recycle($author)
                     ->recycle($electionDays->random())
                     ->create();
             });

@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Database\Factories;
 
 use App\Enums\Country;
+use App\Models\Author;
 use App\Models\ElectionDay;
-use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -22,7 +22,7 @@ class PostFactory extends Factory
     public function definition(): array
     {
         return [
-            'author_id' => User::factory(),
+            'author_id' => Author::factory(),
             'election_day_id' => ElectionDay::factory(),
 
             'title' => fake()->sentence(),

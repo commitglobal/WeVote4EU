@@ -34,8 +34,8 @@ return [
     ],
 
     'votemonitor' => [
-        'title' => 'Vote Monitor live data',
-        'description' => '2024 EU Parliament elections are observed by Non-governmental organizations in three EU countries through Vote Monitor App, developed by Commit Global - Code for Romania. [See more about Vote Monitor](https://www.commitglobal.org/en/vote-monitor).',
+        'title' => 'Live Data',
+        'description' => '2024 EU Parliament elections are observed by non-governmental organizations in three EU countries through Vote Monitor App, developed by Commit Global - Code for Romania. [Find out more about Vote Monitor](https://www.commitglobal.org/en/vote-monitor)',
     ],
 
     'newsfeed' => [
@@ -44,7 +44,7 @@ return [
 
         'filters' => [
             'country' => 'Country',
-            'author' => 'Electoral expert',
+            'author' => 'Contributor',
             'day' => 'Election day',
         ],
 

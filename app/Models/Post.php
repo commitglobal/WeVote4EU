@@ -66,7 +66,7 @@ class Post extends Model implements HasMedia
 
     public function author(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'author_id');
+        return $this->belongsTo(Author::class);
     }
 
     public function electionDay(): BelongsTo

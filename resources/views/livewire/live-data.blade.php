@@ -2,11 +2,16 @@
     @if ($this->count)
         <section class="container relative max-w-6xl py-32 md:py-48">
             <div
-                class="prose md:prose-lg lg:prose-xl max-w-none prose-headings:font-semibold prose-a:text-primary-800 prose-a:font-medium hover:prose-a:no-underline">
-                <h2>{{ __('app.votemonitor.title') }}</h2>
+                class="prose md:prose-lg lg:prose-xl max-w-none prose-headings:font-semibold prose-a:text-primary-800 prose-a:font-medium hover:prose-a:no-underline prose-headings:mt-0">
+
+                <h2 class="flex items-center gap-2 sm:gap-4">
+                    <x-icon-votemonitor class="h-12 sm:h-16" />
+                    <span>{{ __('app.votemonitor.title') }}</span>
+                </h2>
                 <div class="mt-6 text-gray-500">
                     {!! Str::markdown(__('app.votemonitor.description')) !!}
                 </div>
+
             </div>
 
             @php

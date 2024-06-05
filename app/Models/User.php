@@ -10,7 +10,6 @@ use Filament\Models\Contracts\HasAvatar;
 use Filament\Models\Contracts\HasName;
 use Filament\Panel;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Arr;
@@ -100,10 +99,5 @@ class User extends Authenticatable implements FilamentUser, HasAvatar, HasName, 
     public function getFilamentName(): string
     {
         return $this->name;
-    }
-
-    public function posts(): HasMany
-    {
-        return $this->hasMany(Post::class, 'author_id');
     }
 }

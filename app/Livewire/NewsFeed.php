@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace App\Livewire;
 
 use App\Enums\Country;
+use App\Models\Author;
 use App\Models\ElectionDay;
 use App\Models\Post;
-use App\Models\User;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -49,7 +49,7 @@ class NewsFeed extends Component implements HasForms
                 Select::make('author')
                     ->label(__('app.newsfeed.filters.author'))
                     ->options(
-                        User::query()
+                        Author::query()
                             ->whereHas('posts')
                             ->pluck('name', 'id')
                     )
@@ -83,7 +83,7 @@ class NewsFeed extends Component implements HasForms
     protected function posts(): LengthAwarePaginator
     {
         return Post::query()
-            ->with('author.media', 'electionDay', 'media')
+            ->with('author', 'electionDay', 'media')
             ->when(data_get($this->filters, 'country'), fn (Builder $query, array $countries) => $query->whereIn('country', $countries))
             ->when(data_get($this->filters, 'author'), fn (Builder $query, array $authors) => $query->whereIn('author_id', $authors))
             ->when(data_get($this->filters, 'day'), fn (Builder $query, array $days) => $query->whereIn('election_day_id', $days))

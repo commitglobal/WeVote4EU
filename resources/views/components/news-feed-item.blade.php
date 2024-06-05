@@ -6,11 +6,15 @@
     class="overflow-hidden bg-white rounded-lg shadow">
     <div class="flex flex-col gap-4 px-4 py-5 sm:p-6">
         <header class="relative flex items-center gap-x-4">
-            <img src="{{ $post->author->getFilamentAvatarUrl() }}"
-                alt="" class="w-10 h-10 rounded-full bg-gray-50">
+            <div title="{{ $post->country->label() }}">
+                <x-dynamic-component
+                    :component="'icon-flags.' . $post->country->value"
+                    class="w-10 h-10 shrink-0" />
+            </div>
+
             <div class="flex-1 text-sm">
                 <p class="text-gray-700" rel="author">
-                    {{ $post->author->name }}
+                    {{ $post->author->name_with_title }}
                 </p>
                 <time
                     pubdate
@@ -19,12 +23,6 @@
                     title="{{ $post->published_at->toDateTimeString() }}">
                     {{ $post->published_at->isoFormat('LLLL') }}
                 </time>
-            </div>
-
-            <div title="{{ $post->country->label() }}">
-                <x-dynamic-component
-                    :component="'icon-flags.' . $post->country->value"
-                    class="w-10 h-10 shrink-0" />
             </div>
 
         </header>
