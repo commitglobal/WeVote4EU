@@ -19,4 +19,8 @@ return [
     'line_2_1' => '**Beslutningstræformat:** Platformen bruger et beslutningstræformat, der guider EU-borgere direkte til de specifikke oplysninger, de har brug for.',
     'line_2_4' => '**Flersproget tilgængelighed:** Vi sørger for, at alle EU-borgere kan få adgang til de oplysninger, de har brug for, på deres eget sprog. Platformen er tilgængelig på 26 sprog, hvor hvert lands beslutningstræ leveres på dets officielle sprog og på engelsk. Dette sikrer, at alle, uanset deres sproglige baggrund, kan navigere i afstemningsprocessen ubesværet.',
     'subtitle_1' => 'Hvad gør denne platform speciel?',
+    'line_4_1_1' => 'Vi er forpligtet til at give realtidsindsigt i udviklingen af valg i hvert EU-land, fremhæve tendenser på valgdagen, væsentlige begivenheder og ekspertkommentarer fra vores civilsamfundspartnere i hele Europa. Bemærk, at de givne kommentarer og oplysninger er strengt ikke-partiske og ikke relateret til nogen politisk kampagne.',
+    'line_4_1_3' => 'Tak for din forståelse og samarbejde om at opretholde integriteten i valgprocessen.',
+    'subtitle_4_1' => 'Meddelelse om valgdagsdækning og overholdelse af reglerne om valgtavshed',
+    'line_4_1_2' => 'Vores partnerorganisationer er blevet informeret om at overholde [EU\'s regler om valgstilhedsperiode] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Eventuelle oplysninger, der overtræder valgstilhedsperioden, vises ikke på vores platform for at sikre, at vi ikke påvirker valgprocessen.',
 ];

@@ -19,4 +19,8 @@ return [
     'subtitle_5' => 'Rinkimų stebėjimas',
     'line_5_2' => 'WeVote4.eu yra platforma, kurią sukūrė ir valdo pirmoji pasaulyje pasaulinė pilietinių technologijų nevyriausybinė organizacija **Commit Global**. “Commit Global”, kurios būstinė yra Hagoje (Nyderlandai), konsoliduoja, prižiūri ir suteikia nemokamą prieigą prie kritinės skaitmeninės “Infrastructure for Good”, pilietinės visuomenės organizacijoms ir nukentėjusiems gyventojams visame pasaulyje. Norėdami gauti daugiau informacijos apie mūsų darbą, apsilankykite mūsų [interneto svetainėje] (https://www.commitglobal.org/en).',
     'subtitle_3' => 'Rinkėjų aktyvumas',
+    'subtitle_4_1' => 'Pranešimas apie rinkimų dienos aprėptį ir rinkimų tylos nuostatų laikymąsi',
+    'line_4_1_1' => 'Esame įsipareigoję realiuoju laiku pateikti įžvalgas apie rinkimų eigą kiekvienoje ES šalyje, pabrėždami rinkimų dienos tendencijas, reikšmingus įvykius ir mūsų pilietinės visuomenės partnerių visoje Europoje ekspertų komentarus. Atkreipiame dėmesį, kad pateiktos pastabos ir informacija yra griežtai nepartinės ir nesusijusios su jokia politine kampanija.',
+    'line_4_1_2' => 'Mūsų partnerių organizacijos buvo informuotos laikytis [ES rinkimų tylos laikotarpio nuostatų] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Bet kokia informacija, pažeidžianti rinkimų tylos laikotarpį, nebus rodoma mūsų platformoje, kad užtikrintume, kad nedarome įtakos rinkimų procesui.',
+    'line_4_1_3' => 'Dėkojame už supratingumą ir bendradarbiavimą išlaikant rinkimų proceso vientisumą.',
 ];

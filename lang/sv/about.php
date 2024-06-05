@@ -19,4 +19,8 @@ return [
     'subtitle_1' => 'Vad gör denna plattform speciell?',
     'line_2_4' => '**Flerspråkig tillgänglighet:** Vi ser till att alla EU-medborgare har tillgång till den information de behöver på sitt eget språk. Plattformen finns tillgänglig på 26 språk, där varje lands beslutsträd tillhandahålls på dess officiella språk och på engelska. Detta säkerställer att alla, oavsett deras språkliga bakgrund, kan navigera i röstningsprocessen utan ansträngning.',
     'line_2_2' => '**Omfattande information:** Den slutliga informationen som tillhandahålls är omfattande och täcker registreringskrav (om sådana finns), olika röstningsmetoder (fullmakt, online, post, vallokal), nödvändig dokumentation för röstning och hjälp för väljare med funktionshinder eller andra begränsningar.',
+    'subtitle_4_1' => 'Meddelande om valdagens täckning och efterlevnad av valtystnadsregler',
+    'line_4_1_1' => 'Vi har åtagit oss att ge insikter i realtid om hur valet fortskrider i varje EU-land, lyfta fram trender på valdagen, viktiga händelser och expertkommentarer från våra partner i det civila samhället i hela Europa. Observera att kommentarerna och informationen är strikt opartiska och inte relaterade till någon politisk kampanj.',
+    'line_4_1_2' => 'Våra partnerorganisationer har informerats om att följa [EU:s regler för tystnadsperiod för val] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). All information som bryter mot valtystnadstiden kommer inte att visas på vår plattform för att säkerställa att vi inte påverkar valprocessen.',
+    'line_4_1_3' => 'Tack för din förståelse och samarbete för att upprätthålla integriteten i valprocessen.',
 ];

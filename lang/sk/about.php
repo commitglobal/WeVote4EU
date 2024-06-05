@@ -19,4 +19,8 @@ return [
     'subtitle_5' => 'Monitorovanie volieb',
     'line_5_2' => 'WeVote4.eu je platforma vytvorená a spravovaná **Commit Global**, prvou globálnou mimovládnou organizáciou pre občianske technológie na svete. So sídlom v Haagu (Holandsko) spoločnosť Commit Global konsoliduje, udržiava a poskytuje voľný prístup k kritickej digitálnej infraštruktúre pre dobro organizáciám občianskej spoločnosti a postihnutým obyvateľstvom na celom svete. Ďalšie informácie o našej práci nájdete na našej [webovej stránke] (https://www.commitglobal.org/en).',
     'subtitle_3' => 'Účasť voličov',
+    'subtitle_4_1' => 'Oznámenie o pokrytí dňa volieb a dodržiavaní predpisov o volebnom mlčaní',
+    'line_4_1_3' => 'Ďakujeme za pochopenie a spoluprácu pri zachovaní integrity volebného procesu.',
+    'line_4_1_1' => 'Zaviazali sme sa poskytovať informácie o pokroku volieb v každej krajine EÚ v reálnom čase, zdôrazňovať trendy v deň volieb, významné udalosti a odborné komentáre našich partnerov občianskej spoločnosti v celej Európe. Upozorňujeme, že poskytnuté pripomienky a informácie sú prísne nestranícke a nesúvisia so žiadnou politickou kampaňou.',
+    'line_4_1_2' => 'Naše partnerské organizácie boli informované, aby dodržiavali [nariadenie EÚ o období volebného ticha] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Akékoľvek informácie, ktoré porušujú obdobie volebného ticha, nebudú zobrazené na našej platforme, aby sme zabezpečili, že neovplyvňujeme volebný proces.',
 ];
