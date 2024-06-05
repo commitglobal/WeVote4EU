@@ -50,6 +50,7 @@ class NewsFeed extends Component implements HasForms
                     ->label(__('app.newsfeed.filters.author'))
                     ->options(
                         User::query()
+                            ->whereHas('posts')
                             ->pluck('name', 'id')
                     )
                     ->multiple()
@@ -59,6 +60,7 @@ class NewsFeed extends Component implements HasForms
                     ->label(__('app.newsfeed.filters.day'))
                     ->options(
                         ElectionDay::query()
+                            ->whereHas('posts')
                             ->get()
                             ->mapWithKeys(fn (ElectionDay $day) => [
                                 $day->id => $day->date->toDateString(),

@@ -49,16 +49,6 @@ class Post extends Model implements HasMedia
             });
     }
 
-    public function author(): BelongsTo
-    {
-        return $this->belongsTo(User::class, 'author_id');
-    }
-
-    public function electionDay(): BelongsTo
-    {
-        return $this->belongsTo(ElectionDay::class);
-    }
-
     protected static function booted(): void
     {
         static::created(function (self $post) {
@@ -72,5 +62,15 @@ class Post extends Model implements HasMedia
         static::deleted(function (self $post) {
             UpdateNewsFeed::dispatch();
         });
+    }
+
+    public function author(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'author_id');
+    }
+
+    public function electionDay(): BelongsTo
+    {
+        return $this->belongsTo(ElectionDay::class);
     }
 }
