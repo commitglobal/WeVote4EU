@@ -78,6 +78,11 @@ class Partners extends Component
                 'logo' => 'MEMO98.png',
                 'url' => 'https://memo98.sk/',
             ],
+            [
+                'name' => 'Fórum 50 %',
+                'logo' => 'Forum-50.png',
+                'url' => 'https://padesatprocent.cz/cz/',
+            ],
         ];
     }
 
