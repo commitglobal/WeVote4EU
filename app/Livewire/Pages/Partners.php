@@ -82,11 +82,6 @@ class Partners extends Component
                         'url' => 'https://www.eklektor.org/',
                         'title' => 'Website',
                     ],
-                    [
-                        'icon' => 'ri-twitter-x-line',
-                        'url' => 'https://x.com/chChr11',
-                        'title' => 'Twitter',
-                    ],
                 ],
             ],
             [

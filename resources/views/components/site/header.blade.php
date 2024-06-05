@@ -10,6 +10,16 @@
                 @foreach ($menuItems as $route => $label)
                     <x-navigation-item :route="$route" :label="$label" />
                 @endforeach
+
+                <a
+                    href="{{ localizedRoute('home') . '#newsfeed' }}"
+                    @class([
+                        'font-medium leading-tight',
+                        'text-primary-900 hover:bg-primary-50',
+                        'px-3 py-2 rounded',
+                    ])>
+                    {{ __('app.newsfeed.title') }}
+                </a>
             </div>
 
             <div x-data="{ langOpen: false }" x-on:click.away="langOpen = false">
@@ -55,6 +65,18 @@
                 @foreach ($menuItems as $route => $label)
                     <li><x-navigation-item mobile :route="$route" :label="$label" /></li>
                 @endforeach
+
+                <li>
+                    <a
+                        href="{{ localizedRoute('home') . '#newsfeed' }}"
+                        @class([
+                            'font-medium leading-tight',
+                            'text-primary-900 hover:bg-primary-50',
+                            'flex px-2 py-3',
+                        ])>
+                        {{ __('app.newsfeed.title') }}
+                    </a>
+                </li>
             </ul>
         </div>
 

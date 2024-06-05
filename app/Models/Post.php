@@ -6,7 +6,7 @@ namespace App\Models;
 
 use App\Concerns\Publishable;
 use App\Enums\Country;
-use App\Events\AnnouncePost;
+use App\Events\UpdateNewsFeed;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -61,20 +61,16 @@ class Post extends Model implements HasMedia
 
     protected static function booted(): void
     {
-        static::created(function (Post $post) {
-            if ($post->published_at?->isPast()) {
-                AnnouncePost::dispatch($post->id);
-            }
+        static::created(function (self $post) {
+            UpdateNewsFeed::dispatch();
         });
 
-        static::updated(function (Post $post) {
-            if ($post->isDirty('published_at') && $post->published_at?->isPast()) {
-                AnnouncePost::dispatch($post->id);
-            }
+        static::updated(function (self $post) {
+            UpdateNewsFeed::dispatch();
         });
 
-        static::deleted(function (Post $post) {
-            AnnouncePost::dispatch($post->id);
+        static::deleted(function (self $post) {
+            UpdateNewsFeed::dispatch();
         });
     }
 }

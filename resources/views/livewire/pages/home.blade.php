@@ -11,6 +11,8 @@
 
         <x-slot name="description">
             <p>{{ __('app.hero.description') }}</p>
+
+            <livewire:stat-votes>
         </x-slot>
 
     </x-hero>

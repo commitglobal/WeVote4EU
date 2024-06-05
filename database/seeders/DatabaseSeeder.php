@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace Database\Seeders;
 
+use App\Enums\StatKey;
 use App\Models\ElectionDay;
 use App\Models\Post;
+use App\Models\Stat;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -22,6 +24,10 @@ class DatabaseSeeder extends Seeder
 
         $electionDays = ElectionDay::factory()
             ->count(4)
+            ->create();
+
+        Stat::factory()
+            ->count(\count(StatKey::values()))
             ->create();
 
         User::factory()

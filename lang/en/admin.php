@@ -6,7 +6,7 @@ return [
 
     'navigation' => [
         'newsfeed' => 'Newsfeed',
-        'counters' => 'Counters',
+        'admin' => 'Admin',
     ],
 
 ];

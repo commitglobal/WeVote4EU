@@ -43,25 +43,28 @@ class NewsFeed extends Component implements HasForms
                     ->options(Country::options())
                     ->enum(Country::class)
                     ->multiple()
-                    ->live(onBlur: true),
+                    ->lazy(),
 
                 Select::make('author')
                     ->label(__('app.newsfeed.filters.author'))
-                    ->options(fn () => User::query()->pluck('name', 'id'))
+                    ->options(
+                        User::query()
+                            ->pluck('name', 'id')
+                    )
                     ->multiple()
-                    ->live(onBlur: true),
+                    ->lazy(),
 
                 Select::make('day')
                     ->label(__('app.newsfeed.filters.day'))
                     ->options(
-                        fn () => ElectionDay::query()
+                        ElectionDay::query()
                             ->get()
                             ->mapWithKeys(fn (ElectionDay $day) => [
                                 $day->id => $day->date->toDateString(),
                             ])
                     )
                     ->multiple()
-                    ->live(onBlur: true),
+                    ->lazy(),
             ])
             ->statePath('filters');
     }
