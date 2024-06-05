@@ -3,7 +3,7 @@
 <div class="relative flex flex-col gap-4">
     <div class="flex items-center justify-center overflow-hidden shadow-lg aspect-square">
         <img src="{{ Vite::asset('resources/images/experts/' . $avatar) }}" alt="{{ $name }}"
-            class="object-contain" />
+            class="object-contain w-full" />
     </div>
 
     <div>

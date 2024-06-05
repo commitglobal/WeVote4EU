@@ -18,7 +18,7 @@
                 {{ __('partners.institutional') }}
             </h1>
 
-            <div class="grid gap-2 sm:gap-5 sm:grid-cols-3">
+            <div class="grid gap-2 sm:gap-5 sm:grid-cols-2 md:grid-cols-4">
                 @foreach ($partners as $partner)
                     <x-partners.institution
                         :name="data_get($partner, 'name')"
@@ -35,7 +35,7 @@
                 {{ __('partners.experts') }}
             </h1>
 
-            <div class="grid gap-2 gap-y-10 sm:gap-x-5 sm:grid-cols-3">
+            <div class="grid gap-2 gap-y-10 sm:gap-x-5 sm:grid-cols-2 md:grid-cols-4">
                 @foreach ($experts as $expert)
                     <x-partners.expert
                         :name="data_get($expert, 'name')"

@@ -34,6 +34,11 @@ class Partners extends Component
                 'url' => 'https://www.genderconcerns.org/',
             ],
             [
+                'name' => 'European Platform for Democratic Elections (EPDE)',
+                'logo' => 'EPDE.png',
+                'url' => 'https://epde.org/',
+            ],
+            [
                 'name' => 'Institute for Public Environment Development (IPED)',
                 'logo' => 'IPED.png',
                 'url' => 'https://iped.bg/en/',
@@ -42,6 +47,21 @@ class Partners extends Component
                 'name' => 'Inter Alia',
                 'logo' => 'Inter-Alia.png',
                 'url' => 'https://interaliaproject.com/',
+            ],
+            [
+                'name' => 'Political Accountability Foundation (PAF)',
+                'logo' => 'PAF.png',
+                'url' => 'https://odpowiedzialnapolityka.pl/',
+            ],
+            [
+                'name' => 'European Exchange',
+                'logo' => 'European-Exchange.png',
+                'url' => 'https://european-exchange.org/',
+            ],
+            [
+                'name' => 'Danes je nov dan',
+                'logo' => 'Danes-je-nov-dan.png',
+                'url' => 'https://danesjenovdan.si/',
             ],
             [
                 'name' => 'Committee for the Defence of Democracy (CDD)',
@@ -75,7 +95,7 @@ class Partners extends Component
             [
                 'name' => 'Christoforos Christoforou',
                 'title' => __('countries.cy'),
-                'avatar' => 'placeholder.png',
+                'avatar' => 'Christoforos-Christoforou.png',
                 'links' => [
                     [
                         'icon' => 'ri-global-line',
