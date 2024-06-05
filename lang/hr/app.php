@@ -19,4 +19,34 @@ return [
     'banner' => 'Commit Global rješenje.',
     'contact' => 'Kontakt',
     'menu' => 'Izbornik',
+    'votemonitor' => [
+        'title' => 'Vote Praćenje podataka uživo',
+        'description' => 'Izbore za Europski parlament 2024. promatraju nevladine organizacije u tri zemlje EU-a putem aplikacije Vote Monitor, koju je razvio Commit Global - Code for Romania. [Pogledajte više o Vote Monitoru] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Živi feed ažuriranja',
+        'filters' => [
+            'country' => 'Zemlja',
+            'author' => 'Izborni stručnjak',
+            'day' => 'Dan izbora',
+        ],
+        'more' => 'Pogledaj više',
+        'updated' => 'Ažuriran je feed vijesti.',
+        'empty' => 'Nema postova koji odgovaraju trenutnim filterima.',
+        'refresh' => 'Osvježi',
+    ],
+    'stats' => [
+        'votes' => 'Glasovi',
+        'observers' => 'Promatrači na terenu',
+        'polling_stations' => 'Biračka mjesta',
+        'started_forms' => 'Pokrenuti obrasci',
+        'questions_answered' => 'Odgovorena pitanja',
+        'flagged_answers' => 'Označeni odgovori',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Administrator',
+            'author' => 'Autor',
+        ],
+    ],
 ];

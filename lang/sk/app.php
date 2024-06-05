@@ -19,4 +19,34 @@ return [
     'banner' => 'Commit Global riešenie.',
     'contact' => 'Kontakt',
     'menu' => 'Ponuka',
+    'votemonitor' => [
+        'title' => 'Hlasovanie Monitorujte živé údaje',
+        'description' => 'Voľby do Európskeho parlamentu v roku 2024 sledujú mimovládne organizácie v troch krajinách EÚ prostredníctvom aplikácie Vote Monitor, ktorú vyvinula Commit Global - Code for Romania. [Pozrite si viac o monitorovaní hlasovania] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Živý informačný kanál aktualizácií',
+        'filters' => [
+            'country' => 'Krajina',
+            'author' => 'Volebný expert',
+            'day' => 'Deň volieb',
+        ],
+        'more' => 'Pozrieť viac',
+        'updated' => 'Aktualizovaný informačný kanál bol aktualizovaný.',
+        'empty' => 'Neexistujú žiadne príspevky zodpovedajúce aktuálnym filtrom.',
+        'refresh' => 'Obnoviť',
+    ],
+    'stats' => [
+        'votes' => 'Hlasovanie',
+        'observers' => 'Pozorovatelia v teréne',
+        'polling_stations' => 'Volebné miesta',
+        'started_forms' => 'Začaté formuláre',
+        'flagged_answers' => 'Označené odpovede',
+        'questions_answered' => 'Odpovede na otázky',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Správca',
+            'author' => 'Autor',
+        ],
+    ],
 ];

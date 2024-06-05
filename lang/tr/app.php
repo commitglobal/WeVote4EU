@@ -19,4 +19,34 @@ return [
     'banner' => 'Bir Commit Global çözümü.',
     'contact' => 'İletişim',
     'menu' => 'Menü',
+    'votemonitor' => [
+        'title' => 'Oy Canlı verileri izleyin',
+        'description' => '2024 AB Parlamentosu seçimleri, Commit Global - Code for Romanya tarafından geliştirilen Vote Monitor Uygulaması aracılığıyla üç AB ülkesindeki sivil toplum kuruluşları tarafından gözlemleniyor. [Oy Monitörü hakkında daha fazla bilgi edinin] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Güncellemelerin canlı akışı',
+        'filters' => [
+            'country' => 'Ülke',
+            'author' => 'Seçim uzmanı',
+            'day' => 'Seçim günü',
+        ],
+        'more' => 'Daha fazla gör',
+        'updated' => 'Haber akışı güncellendi.',
+        'empty' => 'Geçerli filtrelerle eşleşen gönderi yok.',
+        'refresh' => 'Yenile',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Yönetici',
+            'author' => 'Yazar',
+        ],
+    ],
+    'stats' => [
+        'votes' => 'Oylar',
+        'observers' => 'Sahadaki gözlemciler',
+        'polling_stations' => 'Sandık merkezleri',
+        'started_forms' => 'Başlatılan formlar',
+        'questions_answered' => 'Cevaplanan sorular',
+        'flagged_answers' => 'İşaretli cevaplar',
+    ],
 ];

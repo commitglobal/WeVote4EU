@@ -19,4 +19,34 @@ return [
     'banner' => 'Commit Global lahendus.',
     'contact' => 'Kontakt',
     'menu' => 'Menüü',
+    'votemonitor' => [
+        'title' => 'Hääletamine Jälgi otseandmeid',
+        'description' => '2024. aasta ELi parlamendi valimisi jälgivad kolme ELi riigi valitsusvälised organisatsioonid rakenduse Vote Monitor kaudu, mille on välja töötanud Commit Global - Code for Rumeenia. [Vaadake lisateavet Vote Monitori kohta] (https://www.commitglobal.org/en/vote-monitor).',
+    ],
+    'newsfeed' => [
+        'title' => 'Värskenduste reaalajas voog',
+        'filters' => [
+            'country' => 'Riik',
+            'author' => 'Valimisekspert',
+            'day' => 'Valimispäev',
+        ],
+        'more' => 'Vaata rohkem',
+        'updated' => 'Uudistevoog on värskendatud.',
+        'empty' => 'Praegustele filtritele vastavaid postitusi pole.',
+        'refresh' => 'Värskenda',
+    ],
+    'stats' => [
+        'votes' => 'Hääled',
+        'observers' => 'Vaatlejad põllul',
+        'polling_stations' => 'Valimisjaoskonnad',
+        'started_forms' => 'Alustatud vormid',
+        'questions_answered' => 'Vastatud küsimustele',
+        'flagged_answers' => 'Märgistatud vastused',
+    ],
+    'user' => [
+        'role' => [
+            'admin' => 'Administraator',
+            'author' => 'Autor',
+        ],
+    ],
 ];
