@@ -19,4 +19,8 @@ return [
     'line_2_1' => '**Päätöspuumuoto:** Alusta käyttää päätöspuumuotoa, joka ohjaa EU:n kansalaiset suoraan tarvitsemiinsa erityistietoihin.',
     'line_2_4' => '**Monikielinen saavutettavuus:** Varmistamme, että jokainen EU-kansalainen voi saada tarvitsemansa tiedot omalla kielellään. Alusta on saatavilla 26 kielellä, ja kunkin maan päätöksentekopuu toimitetaan sen virallisilla kielillä ja englanniksi. Näin varmistetaan, että jokainen, kielellisestä taustastaan riippumatta, voi navigoida äänestysprosessissa vaivattomasti.',
     'subtitle_1' => 'Mikä tekee tästä alustasta erityisen?',
+    'subtitle_4_1' => 'Ilmoitus vaalipäivän kattavuudesta ja vaalien hiljaisuussääntöjen noudattamisesta',
+    'line_4_1_1' => 'Olemme sitoutuneet tarjoamaan reaaliaikaista tietoa vaalien etenemisestä kussakin EU-maassa, korostamaan vaalipäivän trendejä, merkittäviä tapahtumia ja asiantuntijakommentteja kansalaisyhteiskunnan kumppaneiltamme eri puolilta Eurooppaa. Huomaa, että annetut kommentit ja tiedot ovat ehdottomasti puolueettomia eivätkä liity mihinkään poliittiseen kampanjointiin.',
+    'line_4_1_2' => 'Kumppaniorganisaatioitamme on kehotettu noudattamaan [EU:n vaalien hiljaisuusjaksoa koskevia määräyksiä] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Mitään vaalien hiljaisuusaikaa rikkovia tietoja ei näytetä alustallamme sen varmistamiseksi, ettemme vaikuta vaaliprosessiin.',
+    'line_4_1_3' => 'Kiitos ymmärryksestäsi ja yhteistyöstäsi vaaliprosessin eheyden ylläpitämisessä.',
 ];

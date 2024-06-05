@@ -19,4 +19,8 @@ return [
     'subtitle_3' => 'Opkomst bij de kiezers',
     'subtitle_4' => 'Live-feed',
     'subtitle_2' => 'Begeleiding van kiezers',
+    'subtitle_4_1' => 'Mededeling over de verslaggeving op de verkiezingsdag en de naleving van de regels voor verkiezingsstilte',
+    'line_4_1_3' => 'Bedankt voor uw begrip en medewerking bij het handhaven van de integriteit van het verkiezingsproces.',
+    'line_4_1_1' => 'We streven ernaar om realtime inzicht te geven in de voortgang van de verkiezingen in elk EU-land, waarbij we de nadruk leggen op trends op de verkiezingsdag, belangrijke gebeurtenissen en het commentaar van deskundigen van onze partners uit het maatschappelijk middenveld in heel Europa. Houd er rekening mee dat de verstrekte opmerkingen en informatie strikt onpartijdig zijn en geen verband houden met politieke campagnes.',
+    'line_4_1_2' => 'Onze partnerorganisaties zijn op de hoogte gebracht dat ze zich moeten houden aan de [EU-regelgeving voor de verkiezingsstilteperiode] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Alle informatie die de verkiezingsstilteperiode overtreedt, wordt niet op ons platform weergegeven om ervoor te zorgen dat we het verkiezingsproces niet beïnvloeden.',
 ];

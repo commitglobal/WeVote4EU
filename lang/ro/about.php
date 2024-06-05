@@ -19,4 +19,8 @@ return [
     'subtitle_5' => 'Monitorizarea alegerilor',
     'line_5_2' => 'Wevote4.eu este o platformă creată și administrată de **Commit Global**, primul ONG global de tehnologie civică din lume. Cu sediul central la Haga (Olanda), Commit Global consolidează, menține și oferă acces gratuit la **infrastructura digitală a binelui** organizațiilor societății civile și populațiilor afectate din întreaga lume. Pentru informații suplimentare despre activitatea noastră, vă rugăm să vizitați [site-ul nostru](https://www.commitglobal.org/en).',
     'subtitle_3' => 'Prezența la vot',
+    'subtitle_4_1' => 'Anunț privind acoperirea zilei alegerilor și respectarea regulamentelor privind tăcerea electorală',
+    'line_4_1_1' => 'Ne angajăm să oferim informații în timp real cu privire la evoluția alegerilor din fiecare țară din UE, evidențiind tendințele zilei alegerilor, evenimentele semnificative și comentariile experților din partea partenerilor noștri din societatea civilă din întreaga Europă. Vă rugăm să rețineți că comentariile și informațiile furnizate sunt strict nepartizane și nu au legătură cu nicio campanie politică.',
+    'line_4_1_2' => 'Organizațiile noastre partenere au fost informate să adere la [Regulamentul UE privind perioada de tăcere electorală] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Orice informație care încalcă perioada de tăcere electorală nu va fi afișată pe platforma noastră pentru a ne asigura că nu influențăm procesul electoral.',
+    'line_4_1_3' => 'Vă mulțumim pentru înțelegere și cooperare în menținerea integrității procesului electoral.',
 ];

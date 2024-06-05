@@ -19,4 +19,8 @@ return [
     'subtitle_2' => 'Wytyczne dla wyborców',
     'subtitle_4' => 'Kanał na żywo',
     'subtitle_5' => 'Monitorowanie wyborów',
+    'subtitle_4_1' => 'Zawiadomienie o zasięgu dnia wyborów i przestrzeganiu przepisów dotyczących milczenia wyborczego',
+    'line_4_1_3' => 'Dziękujemy za zrozumienie i współpracę w utrzymaniu integralności procesu wyborczego.',
+    'line_4_1_1' => 'Naszym celem jest dostarczanie informacji w czasie rzeczywistym na temat postępów wyborów w każdym kraju UE, podkreślając trendy w dniu wyborów, znaczące wydarzenia oraz komentarze ekspertów od naszych partnerów społeczeństwa obywatelskiego w całej Europie. Należy pamiętać, że przedstawione komentarze i informacje są ściśle bezpartyjne i nie są związane z żadną kampanią polityczną.',
+    'line_4_1_2' => 'Nasze organizacje partnerskie zostały poinformowane o przestrzeganiu [przepisów UE dotyczących okresu milczenia wyborczego] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Wszelkie informacje, które naruszają okres milczenia wyborczego, nie będą wyświetlane na naszej platformie, aby upewnić się, że nie mamy wpływu na proces wyborczy.',
 ];

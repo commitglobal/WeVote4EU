@@ -19,4 +19,8 @@ return [
     'line_2_4' => '**Višejezična dostupnost:** Osiguravamo da svaki građanin EU-a može pristupiti potrebnim informacijama na svom jeziku. Platforma je dostupna na 26 jezika, a stablo odluka svake zemlje nalazi se na službenim jezicima i na engleskom jeziku. Time se osigurava da svi, bez obzira na jezično podrijetlo, mogu bez napora kretati se procesom glasovanja.',
     'line_2_2' => '**Sveobuhvatne informacije:** Konačne informacije su sveobuhvatne i obuhvaćaju zahtjeve za registraciju (ako ih ima), različite načine glasovanja (punomoćnik, online, poštansko, biračko mjesto), potrebnu dokumentaciju za glasovanje i pomoć biračima s invaliditetom ili drugim ograničenjima.',
     'subtitle_1' => 'Što ovu platformu čini posebnom?',
+    'subtitle_4_1' => 'Obavijest o pokrivanju dana izbora i poštivanju propisa o izbornoj tišini',
+    'line_4_1_1' => 'Predani smo pružanju uvida u stvarnom vremenu o napretku izbora u svakoj zemlji EU-a, ističući trendove na dan izbora, značajne događaje i stručne komentare naših partnera iz civilnog društva diljem Europe. Imajte na umu da su komentari i informacije strogo nestranačke i ne odnose se na bilo kakvu političku kampanju.',
+    'line_4_1_2' => 'Naše partnerske organizacije obaviještene su da se pridržavaju [propisa EU-a o razdoblju izborne šutnje] (https://www.europarl.europa.eu/RegData/etudes/BRIE/2023/751463/EPRS_BRI(2023)751463_EN.pdf). Sve informacije koje krše razdoblje izborne šutnje neće biti prikazane na našoj platformi kako bismo osigurali da ne utječemo na izborni proces.',
+    'line_4_1_3' => 'Hvala vam na razumijevanju i suradnji u održavanju integriteta izbornog procesa.',
 ];
