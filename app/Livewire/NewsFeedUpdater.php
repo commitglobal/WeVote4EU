@@ -8,26 +8,14 @@ use Livewire\Component;
 
 class NewsFeedUpdater extends Component
 {
-    public bool $banner = false;
+    public bool $visible = false;
 
     protected $listeners = [
-        'echo:newsfeed,AnnouncePost' => 'showBanner',
-        'reload' => '$refresh',
+        'echo:newsfeed,UpdateNewsFeed' => 'open',
     ];
 
-    public function showBanner(): void
+    public function open(): void
     {
-        $this->banner = true;
-    }
-
-    public function render()
-    {
-        return view('livewire.news-feed-updater');
-    }
-
-    public function reload(): void
-    {
-        $this->dispatch('reload');
-        $this->banner = false;
+        $this->visible = true;
     }
 }

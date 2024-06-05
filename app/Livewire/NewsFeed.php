@@ -14,6 +14,7 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Livewire\Attributes\Computed;
 use Livewire\Component;
 use Livewire\WithPagination;
 
@@ -69,20 +70,15 @@ class NewsFeed extends Component implements HasForms
             ->statePath('filters');
     }
 
-    public function render()
-    {
-        return view('livewire.news-feed', [
-            'posts' => $this->getPosts(),
-        ]);
-    }
-
     public function reload(): void
     {
         $this->reset('filters');
         $this->resetPage();
+        $this->dispatch('$refresh');
     }
 
-    protected function getPosts(): LengthAwarePaginator
+    #[Computed]
+    protected function posts(): LengthAwarePaginator
     {
         return Post::query()
             ->with('author.media', 'electionDay', 'media')

@@ -15,19 +15,27 @@
             {{ $this->form }}
         </form>
 
-        <div class="grid gap-4 mt-10 sm:gap-8">
+        <div x-on:refresh-feed="$wire.reload()" class="relative grid gap-4 mt-10 sm:gap-8">
             <livewire:news-feed-updater />
 
-            {{ $posts->links(data: ['scrollTo' => false]) }}
+            {{ $this->posts->links(data: ['scrollTo' => false]) }}
 
-            @forelse ($posts as $post)
+            @forelse ($this->posts as $post)
                 <x-news-feed-item :post="$post" />
             @empty
                 <p>{{ __('app.newsfeed.empty') }}</p>
             @endforelse
 
-            {{ $posts->links(data: ['scrollTo' => '#newsfeed']) }}
+            {{ $this->posts->links(data: ['scrollTo' => '#newsfeed']) }}
         </div>
     </div>
+
+    @script
+        <script>
+            $wire.on('$refresh', () => {
+                document.querySelector('#newsfeed').scrollIntoView()
+            });
+        </script>
+    @endscript
 
 </section>
