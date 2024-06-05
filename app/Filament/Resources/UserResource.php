@@ -7,10 +7,15 @@ namespace App\Filament\Resources;
 use App\Enums\UserRole;
 use App\Filament\Resources\UserResource\Pages;
 use App\Models\User;
+use Filament\Forms\Components\Group;
+use Filament\Forms\Components\Select;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
+use Filament\Forms\Components\Split;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\SpatieMediaLibraryImageColumn;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
@@ -20,17 +25,38 @@ class UserResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
+    public static function getNavigationGroup(): ?string
+    {
+        return __('admin.navigation.admin');
+    }
+
     public static function form(Form $form): Form
     {
         return $form
+            ->columns(1)
             ->schema([
-                TextInput::make('name')
-                    ->required(),
+                Split::make([
+                    SpatieMediaLibraryFileUpload::make('avatar')
+                        ->collection('avatar')
+                        ->avatar()
+                        ->grow(false),
 
-                TextInput::make('email')
-                    ->required()
-                    ->unique(ignoreRecord: true),
+                    Group::make()
+                        ->schema([
+                            TextInput::make('name')
+                                ->required(),
 
+                            TextInput::make('email')
+                                ->required()
+                                ->unique(ignoreRecord: true),
+
+                            Select::make('role')
+                                ->options(UserRole::options())
+                                ->enum(UserRole::class)
+                                ->reactive()
+                                ->required(),
+                        ]),
+                ])->from('md'),
             ]);
     }
 
@@ -38,6 +64,12 @@ class UserResource extends Resource
     {
         return $table
             ->columns([
+                SpatieMediaLibraryImageColumn::make('avatar')
+                    ->collection('avatar')
+                    ->conversion('thumb')
+                    ->circular()
+                    ->shrink(),
+
                 TextColumn::make('name')
                     ->searchable(),
 

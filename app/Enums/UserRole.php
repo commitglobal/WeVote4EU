@@ -19,6 +19,6 @@ enum UserRole: string
 
     protected function labelKeyPrefix(): ?string
     {
-        return 'user.role';
+        return 'app.user.role';
     }
 }

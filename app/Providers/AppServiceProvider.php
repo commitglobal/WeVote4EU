@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
         $this->registerCountries();
         $this->registerLanguages();
 
-        Str::macro('initials', fn (string $value) => collect(explode(' ', $value))
+        Str::macro('initials', fn (?string $value) => collect(explode(' ', (string) $value))
             ->map(fn (string $word) => Str::upper(Str::substr($word, 0, 1)))
             ->join(''));
     }

@@ -54,4 +54,11 @@ return [
         'refresh' => 'Refresh',
         'more' => 'See more',
     ],
+
+    'user' => [
+        'role' => [
+            'admin' => 'Administrator',
+            'author' => 'Author',
+        ],
+    ],
 ];

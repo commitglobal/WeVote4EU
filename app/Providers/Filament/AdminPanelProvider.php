@@ -47,7 +47,6 @@ class AdminPanelProvider extends PanelProvider
             ->plugins([
                 BreezyCore::make()
                     ->myProfile(
-                        hasAvatars: true,
                         slug: 'profile',
                     ),
 
