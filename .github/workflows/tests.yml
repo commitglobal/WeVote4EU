@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         php-version:
-          - "8.2"
+          - '8.2'
 
     env:
       extensions: mbstring, sqlite, intl, gd
@@ -64,3 +64,9 @@ jobs:
 
       - name: Run tests
         run: php artisan test
+
+      - name: Upload logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: php-${{ matrix.php-version }}-logs
+          path: storage/logs/laravel.log
