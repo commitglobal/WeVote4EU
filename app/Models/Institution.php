@@ -41,11 +41,6 @@ class Institution extends Model implements HasMedia
                     ->fit(Fit::Crop, 54, 40)
                     ->keepOriginalImageFormat()
                     ->optimize();
-
-                $this->addMediaConversion('large')
-                    ->fit(Fit::Crop, 387, 287)
-                    ->keepOriginalImageFormat()
-                    ->optimize();
             });
     }
 }

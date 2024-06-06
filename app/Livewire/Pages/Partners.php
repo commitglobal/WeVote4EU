@@ -34,7 +34,7 @@ class Partners extends Component
                 ->get()
                 ->map(fn (Institution $institution) => [
                     'name' => $institution->name,
-                    'logo' => $institution->getFirstMediaUrl('logo', 'large'),
+                    'logo' => $institution->getFirstMediaUrl('logo'),
                     'url' => $institution->url,
                 ])
                 ->all();
