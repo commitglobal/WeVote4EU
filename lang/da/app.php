@@ -52,4 +52,5 @@ return [
             'author' => 'Forfatter',
         ],
     ],
+    'stats_disclaimer' => 'Ifølge godkendte officielle offentlige data fra EU-medlemslandene.',
 ];

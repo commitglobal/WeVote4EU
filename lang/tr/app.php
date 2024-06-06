@@ -52,4 +52,5 @@ return [
         'minutes_monitoring' => 'Dakika izleme',
         'ngos' => 'STK\'lar',
     ],
+    'stats_disclaimer' => 'AB üye ülkelerinden onaylanmış resmi kamu verilerine göre.',
 ];

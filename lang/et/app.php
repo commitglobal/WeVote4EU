@@ -52,4 +52,5 @@ return [
             'author' => 'Autor',
         ],
     ],
+    'stats_disclaimer' => 'Vastavalt ELi liikmesriikide heakskiidetud ametlikele avalikele andmetele.',
 ];

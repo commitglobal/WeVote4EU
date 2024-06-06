@@ -52,4 +52,5 @@ return [
             'author' => 'Autorius',
         ],
     ],
+    'stats_disclaimer' => 'Pagal patvirtintus oficialius viešus ES šalių narių duomenis.',
 ];

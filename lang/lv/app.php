@@ -52,4 +52,5 @@ return [
             'admin' => 'Administrators',
         ],
     ],
+    'stats_disclaimer' => 'Saskaņā ar apstiprinātiem oficiāliem publiskiem datiem no ES dalībvalstīm.',
 ];

@@ -52,4 +52,5 @@ return [
             'author' => 'Kirjoittaja',
         ],
     ],
+    'stats_disclaimer' => 'EU:n jäsenmaiden hyväksyttyjen virallisten julkisten tietojen mukaan.',
 ];
