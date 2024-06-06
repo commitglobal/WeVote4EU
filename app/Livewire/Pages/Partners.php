@@ -4,6 +4,11 @@ declare(strict_types=1);
 
 namespace App\Livewire\Pages;
 
+use App\Enums\ExpertLink;
+use App\Models\Expert;
+use App\Models\Institution;
+use Illuminate\Support\Facades\Vite;
+use Illuminate\Support\Str;
 use Livewire\Component;
 
 class Partners extends Component
@@ -15,72 +20,85 @@ class Partners extends Component
             ->description(__('partners.intro_1'));
 
         return view('livewire.pages.partners', [
-            'partners' => $this->getPartners(),
+            'institutions' => $this->getInstitutions(),
             'experts' => $this->getExperts(),
         ]);
     }
 
-    protected function getPartners(): array
+    protected function getInstitutions(): array
     {
+        if (request()->boolean('alt')) {
+            return Institution::query()
+                ->where('enabled', true)
+                ->orderBy('order')
+                ->get()
+                ->map(fn (Institution $institution) => [
+                    'name' => $institution->name,
+                    'logo' => $institution->getFirstMediaUrl('logo', 'large'),
+                    'url' => $institution->url,
+                ])
+                ->all();
+        }
+
         return [
             [
                 'name' => 'Expert Forum (EFOR)',
-                'logo' => 'EFOR.png',
+                'logo' => Vite::asset('resources/images/partners/EFOR.png'),
                 'url' => 'https://expertforum.ro/en/',
             ],
             [
                 'name' => 'Gender Concerns International',
-                'logo' => 'Gender-Concerns-International.png',
+                'logo' => Vite::asset('resources/images/partners/Gender-Concerns-International.png'),
                 'url' => 'https://www.genderconcerns.org/',
             ],
             [
                 'name' => 'European Platform for Democratic Elections (EPDE)',
-                'logo' => 'EPDE.png',
+                'logo' => Vite::asset('resources/images/partners/EPDE.png'),
                 'url' => 'https://epde.org/',
             ],
             [
                 'name' => 'Institute for Public Environment Development (IPED)',
-                'logo' => 'IPED.png',
+                'logo' => Vite::asset('resources/images/partners/IPED.png'),
                 'url' => 'https://iped.bg/en/',
             ],
             [
                 'name' => 'Inter Alia',
-                'logo' => 'Inter-Alia.png',
+                'logo' => Vite::asset('resources/images/partners/Inter-Alia.png'),
                 'url' => 'https://interaliaproject.com/',
             ],
             [
                 'name' => 'Political Accountability Foundation (PAF)',
-                'logo' => 'PAF.png',
+                'logo' => Vite::asset('resources/images/partners/PAF.png'),
                 'url' => 'https://odpowiedzialnapolityka.pl/',
             ],
             [
                 'name' => 'European Exchange',
-                'logo' => 'European-Exchange.png',
+                'logo' => Vite::asset('resources/images/partners/European-Exchange.png'),
                 'url' => 'https://european-exchange.org/',
             ],
             [
                 'name' => 'Danes je nov dan',
-                'logo' => 'Danes-je-nov-dan.png',
+                'logo' => Vite::asset('resources/images/partners/Danes-je-nov-dan.png'),
                 'url' => 'https://danesjenovdan.si/',
             ],
             [
                 'name' => 'Committee for the Defence of Democracy (CDD)',
-                'logo' => 'KOD.png',
+                'logo' => Vite::asset('resources/images/partners/KOD.png'),
                 'url' => 'https://ruchkod.pl/',
             ],
             [
                 'name' => 'Croatian Youth Network',
-                'logo' => 'MMH.png',
+                'logo' => Vite::asset('resources/images/partners/MMH.png'),
                 'url' => 'https://www.mmh.hr/',
             ],
             [
                 'name' => 'Memo 98',
-                'logo' => 'MEMO98.png',
+                'logo' => Vite::asset('resources/images/partners/MEMO98.png'),
                 'url' => 'https://memo98.sk/',
             ],
             [
                 'name' => 'Fórum 50 %',
-                'logo' => 'Forum-50.png',
+                'logo' => Vite::asset('resources/images/partners/Forum-50.png'),
                 'url' => 'https://padesatprocent.cz/cz/',
             ],
         ];
@@ -88,19 +106,45 @@ class Partners extends Component
 
     protected function getExperts(): array
     {
+        if (request()->boolean('alt')) {
+            return Expert::query()
+                ->where('enabled', true)
+                ->orderBy('order')
+                ->get()
+                ->map(fn (Expert $expert) => [
+                    'name' => $expert->name,
+                    'title' => $expert->title,
+                    'country' => $expert->country?->label(),
+                    'avatar' => $expert->getFirstMediaUrl('avatar', 'large'),
+                    'links' => collect($expert->links)
+                        ->map(fn (array $link) => [
+                            'url' => $link['url'],
+                            'title' => Str::ucfirst($link['type']),
+                            'icon' => match (ExpertLink::tryFrom($link['type'])) {
+                                ExpertLink::FACEBOOK => 'ri-facebook-box-fill',
+                                ExpertLink::LINKEDIN => 'ri-linkedin-box-fill',
+                                ExpertLink::TWITTER => 'ri-twitter-x-line',
+                                ExpertLink::WEBSITE => 'ri-global-line',
+                                default => 'ri-link',
+                            },
+                        ]),
+                ])
+                ->all();
+        }
+
         return [
             [
                 'name' => 'Maria Krause',
-                'title' => __('countries.ro'),
-                'avatar' => 'Maria-Krause.jpg',
+                'country' => __('countries.ro'),
+                'avatar' => Vite::asset('resources/images/experts/Maria-Krause.jpg'),
                 'links' => [
 
                 ],
             ],
             [
                 'name' => 'Christoforos Christoforou',
-                'title' => __('countries.cy'),
-                'avatar' => 'Christoforos-Christoforou.png',
+                'country' => __('countries.cy'),
+                'avatar' => Vite::asset('resources/images/experts/Christoforos-Christoforou.png'),
                 'links' => [
                     [
                         'icon' => 'ri-global-line',
@@ -111,8 +155,8 @@ class Partners extends Component
             ],
             [
                 'name' => 'Sabra Bano',
-                'title' => __('countries.nl'),
-                'avatar' => 'Sabra-Bano.jpg',
+                'country' => __('countries.nl'),
+                'avatar' => Vite::asset('resources/images/experts/Sabra-Bano.jpg'),
                 'links' => [
                     [
                         'icon' => 'ri-global-line',

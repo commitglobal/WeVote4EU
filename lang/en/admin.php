@@ -7,6 +7,7 @@ return [
     'navigation' => [
         'newsfeed' => 'Newsfeed',
         'admin' => 'Admin',
+        'partners' => 'Partners',
     ],
 
 ];

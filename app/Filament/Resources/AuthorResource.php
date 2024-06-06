@@ -19,6 +19,8 @@ class AuthorResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-user-group';
 
+    protected static ?int $navigationSort = 11;
+
     public static function getNavigationGroup(): ?string
     {
         return __('admin.navigation.newsfeed');

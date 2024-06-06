@@ -20,6 +20,8 @@ class ElectionDayResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-calendar-days';
 
+    protected static ?int $navigationSort = 12;
+
     public static function getNavigationGroup(): ?string
     {
         return __('admin.navigation.newsfeed');

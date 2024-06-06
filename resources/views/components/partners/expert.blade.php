@@ -1,8 +1,8 @@
-@props(['name' => null, 'title' => null, 'avatar' => null, 'links' => []])
+@props(['name' => null, 'title' => null, 'country' => null, 'avatar' => null, 'links' => []])
 
 <div class="relative flex flex-col gap-4">
     <div class="flex items-center justify-center overflow-hidden shadow-lg aspect-square">
-        <img src="{{ Vite::asset('resources/images/experts/' . $avatar) }}" alt="{{ $name }}"
+        <img src="{{ $avatar }}" alt="{{ $name }}"
             class="object-contain w-full" />
     </div>
 
@@ -11,9 +11,17 @@
             {{ $name }}
         </h2>
 
-        <p class="text-sm font-medium text-gray-500">
-            {{ $title }}
-        </p>
+        @if ($title)
+            <p class="text-sm font-medium text-gray-500">
+                {{ $title }}
+            </p>
+        @endif
+
+        @if ($country)
+            <p class="text-sm font-medium text-gray-500">
+                {{ $country }}
+            </p>
+        @endif
     </div>
 
     @if (filled($links))

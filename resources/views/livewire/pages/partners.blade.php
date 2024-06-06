@@ -12,18 +12,18 @@
         </x-slot>
     </x-hero>
 
-    @if (filled($partners))
+    @if (filled($institutions))
         <section class="container relative max-w-6xl mt-8 mb-32 sm:mb-40">
             <h1 class="mb-5 text-2xl font-bold sm:text-3xl md:text-4xl text-primary-800 sm:mb-10">
                 {{ __('partners.institutional') }}
             </h1>
 
             <div class="grid gap-2 sm:gap-5 sm:grid-cols-2 md:grid-cols-4">
-                @foreach ($partners as $partner)
+                @foreach ($institutions as $institution)
                     <x-partners.institution
-                        :name="data_get($partner, 'name')"
-                        :logo="data_get($partner, 'logo')"
-                        :url="data_get($partner, 'url')" />
+                        :name="data_get($institution, 'name')"
+                        :logo="data_get($institution, 'logo')"
+                        :url="data_get($institution, 'url')" />
                 @endforeach
             </div>
         </section>
@@ -40,6 +40,7 @@
                     <x-partners.expert
                         :name="data_get($expert, 'name')"
                         :title="data_get($expert, 'title')"
+                        :country="data_get($expert, 'country')"
                         :avatar="data_get($expert, 'avatar')"
                         :links="data_get($expert, 'links')" />
                 @endforeach
