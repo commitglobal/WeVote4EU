@@ -33,6 +33,7 @@ class FetchVoteMonitorLiveDataJob implements ShouldQueue, ShouldBeUnique
     public function handle(): void
     {
         $data = Http::acceptJson()
+            ->withUserAgent(config('app.name'))
             ->withToken(config('services.votemonitor.apikey'))
             ->get(config('services.votemonitor.url'))
             ->throw()
