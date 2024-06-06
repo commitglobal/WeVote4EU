@@ -52,4 +52,5 @@ return [
             'author' => 'Auteur',
         ],
     ],
+    'stats_disclaimer' => 'Selon les données publiques officielles approuvées des pays membres de l\'UE.',
 ];

@@ -52,4 +52,5 @@ return [
             'author' => 'Awtur',
         ],
     ],
+    'stats_disclaimer' => 'Skont dejta pubblika uffiċjali approvata mill-pajjiżi membri tal-UE.',
 ];

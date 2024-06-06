@@ -52,4 +52,5 @@ return [
             'author' => 'Szerző',
         ],
     ],
+    'stats_disclaimer' => 'Az EU tagállamainak jóváhagyott hivatalos nyilvános adatai szerint.',
 ];
