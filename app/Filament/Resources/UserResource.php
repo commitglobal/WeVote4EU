@@ -25,6 +25,8 @@ class UserResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
+    protected static ?int $navigationSort = 31;
+
     public static function getNavigationGroup(): ?string
     {
         return __('admin.navigation.admin');
@@ -67,7 +69,6 @@ class UserResource extends Resource
                 SpatieMediaLibraryImageColumn::make('avatar')
                     ->collection('avatar')
                     ->conversion('thumb')
-                    ->circular()
                     ->shrink(),
 
                 TextColumn::make('name')

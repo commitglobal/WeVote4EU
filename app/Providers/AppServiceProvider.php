@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace App\Providers;
 
 use App\Models\ElectionDay;
+use App\Models\Expert;
+use App\Models\Institution;
 use App\Models\Media;
 use App\Models\Post;
 use App\Models\User;
@@ -215,6 +217,8 @@ class AppServiceProvider extends ServiceProvider
         Relation::enforceMorphMap([
             'electionDay' => ElectionDay::class,
             'media' => Media::class,
+            'institution' => Institution::class,
+            'expert' => Expert::class,
             'post' => Post::class,
             'user' => User::class,
         ]);

@@ -7,6 +7,8 @@ namespace Database\Seeders;
 use App\Enums\StatKey;
 use App\Models\Author;
 use App\Models\ElectionDay;
+use App\Models\Expert;
+use App\Models\Institution;
 use App\Models\Post;
 use App\Models\Stat;
 use App\Models\User;
@@ -21,6 +23,14 @@ class DatabaseSeeder extends Seeder
     {
         User::factory(['email' => 'admin@example.com'])
             ->admin()
+            ->create();
+
+        Institution::factory()
+            ->count(12)
+            ->create();
+
+        Expert::factory()
+            ->count(3)
             ->create();
 
         $electionDays = ElectionDay::factory()
