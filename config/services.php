@@ -43,7 +43,6 @@ return [
         'enabled' => env('VOTEMONITOR_ENABLED', false),
         'url' => env('VOTEMONITOR_URL'),
         'apikey' => env('VOTEMONITOR_APIKEY'),
-        'election_round_id' => env('VOTEMONITOR_ELECTION_ROUND_ID'),
     ],
 
 ];

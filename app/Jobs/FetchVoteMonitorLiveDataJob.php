@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Jobs;
 
+use App\Enums\StatKey;
 use App\Models\Stat;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldBeUnique;
@@ -34,18 +35,19 @@ class FetchVoteMonitorLiveDataJob implements ShouldQueue, ShouldBeUnique
     {
         $data = Http::acceptJson()
             ->withUserAgent(config('app.name'))
-            ->withToken(config('services.votemonitor.apikey'))
+            ->withHeader('x-vote-monitor-api-key', config('services.votemonitor.apikey'))
             ->get(config('services.votemonitor.url'))
             ->throw()
             ->json();
 
         Stat::upsert(
-            collect($data)
-                ->map(fn ($value, $key) => [
+            collect(StatKey::values())
+                ->map(fn (string $key) => [
                     'key' => $key,
-                    'value' => $value,
+                    'value' => data_get($data, $key),
                     'updated_at' => now(),
                 ])
+                ->reject(fn (array $item) => blank($item['value']))
                 ->values()
                 ->all(),
             uniqueBy: ['key'],

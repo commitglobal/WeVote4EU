@@ -28,9 +28,12 @@ return [
         'votes' => 'Votes',
         'observers' => 'Observers on field',
         'polling_stations' => 'Polling stations',
+        'visited_polling_stations' => 'Visited polling stations',
         'started_forms' => 'Started forms',
         'questions_answered' => 'Questions answered',
         'flagged_answers' => 'Flagged answers',
+        'minutes_monitoring' => 'Minutes monitoring',
+        'ngos' => 'NGOs',
     ],
 
     'votemonitor' => [
