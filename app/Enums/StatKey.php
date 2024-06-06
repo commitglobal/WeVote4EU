@@ -15,11 +15,15 @@ enum StatKey: string
     use HasLabel;
 
     case VOTES = 'votes';
+
     case OBSERVERS = 'observers';
     case POLLING_STATIONS = 'polling_stations';
+    case VISITED_POLLING_STATIONS = 'visited_polling_stations';
     case STARTED_FORMS = 'started_forms';
     case QUESTIONS_ANSWERED = 'questions_answered';
     case FLAGGED_ANSWERS = 'flagged_answers';
+    case MINUTES_MONITORING = 'minutes_monitoring';
+    case NGOS = 'ngos';
 
     protected function labelKeyPrefix(): ?string
     {
