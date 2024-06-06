@@ -9,5 +9,9 @@
                 <span class="text-xs font-medium sm:text-sm">{{ $this->stat['label'] }}</span>
             </div>
         </div>
+
+        <div class="mt-2 text-sm italic">
+            {{ __('app.stats_disclaimer') }}
+        </div>
     @endif
 </div>

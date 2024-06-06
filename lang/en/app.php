@@ -35,6 +35,7 @@ return [
         'minutes_monitoring' => 'Minutes monitoring',
         'ngos' => 'NGOs',
     ],
+    'stats_disclaimer' => 'According to approved official public data from the EU member countries.',
 
     'votemonitor' => [
         'title' => 'Live Data',
