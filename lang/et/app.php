@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Alustatud vormid',
         'questions_answered' => 'Vastatud küsimustele',
         'flagged_answers' => 'Märgistatud vastused',
+        'visited_polling_stations' => 'Külastatud valimisjaoskonnad',
+        'minutes_monitoring' => 'Minutide jälgimine',
+        'ngos' => 'Vabaühendused',
     ],
     'user' => [
         'role' => [

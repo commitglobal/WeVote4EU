@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Pradėtos formos',
         'questions_answered' => 'Atsakyta į klausimus',
         'flagged_answers' => 'Pažymėti atsakymai',
+        'visited_polling_stations' => 'Aplankytos rinkimų apylinkės',
+        'minutes_monitoring' => 'Minučių stebėjimas',
+        'ngos' => 'NVO',
     ],
     'user' => [
         'role' => [

@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Стартирани формуляри',
         'questions_answered' => 'Отговорени въпроси',
         'flagged_answers' => 'Отговори с маркирани',
+        'visited_polling_stations' => 'Посетени избирателни секции',
+        'minutes_monitoring' => 'Мониторинг на протоколи',
+        'ngos' => 'НПО',
     ],
     'user' => [
         'role' => [

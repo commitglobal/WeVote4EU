@@ -42,6 +42,9 @@ return [
         'flagged_answers' => 'Oznaczone odpowiedzi',
         'observers' => 'Obserwatorzy w terenie',
         'votes' => 'Głosy',
+        'minutes_monitoring' => 'Monitorowanie protokołu',
+        'ngos' => 'Organizacje pozarządowe',
+        'visited_polling_stations' => 'Odwiedzone lokale wyborcze',
     ],
     'user' => [
         'role' => [

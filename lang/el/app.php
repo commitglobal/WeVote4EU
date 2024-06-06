@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Έναρξη φόρμας',
         'questions_answered' => 'Ερωτήσεις απαντήθηκαν',
         'flagged_answers' => 'Σημειωμένες απαντήσεις',
+        'visited_polling_stations' => 'Επισκέφτηκα εκλογικά τμήματα',
+        'minutes_monitoring' => 'Παρακολούθηση λεπτών',
+        'ngos' => 'ΜΚΟ',
     ],
     'user' => [
         'role' => [

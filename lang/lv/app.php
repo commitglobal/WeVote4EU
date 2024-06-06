@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Sāktās formas',
         'questions_answered' => 'Atbildētie jautājumi',
         'flagged_answers' => 'Atbildes ar atzīmēm',
+        'visited_polling_stations' => 'Apmeklēti vēlēšanu iecirk',
+        'minutes_monitoring' => 'Minūšu uzraudzība',
+        'ngos' => 'NVO',
     ],
     'user' => [
         'role' => [

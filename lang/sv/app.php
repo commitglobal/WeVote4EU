@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Startade formulär',
         'questions_answered' => 'Frågor besvarade',
         'flagged_answers' => 'Flaggade svar',
+        'visited_polling_stations' => 'Besökt vallokaler',
+        'minutes_monitoring' => 'Protokoll övervakning',
+        'ngos' => 'icke-statliga organisationer',
     ],
     'user' => [
         'role' => [

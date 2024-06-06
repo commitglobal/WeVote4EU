@@ -48,5 +48,8 @@ return [
         'started_forms' => 'Başlatılan formlar',
         'questions_answered' => 'Cevaplanan sorular',
         'flagged_answers' => 'İşaretli cevaplar',
+        'visited_polling_stations' => 'Ziyaret edilen sandık merkezleri',
+        'minutes_monitoring' => 'Dakika izleme',
+        'ngos' => 'STK\'lar',
     ],
 ];
