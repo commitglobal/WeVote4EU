@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Začaté formuláre',
         'flagged_answers' => 'Označené odpovede',
         'questions_answered' => 'Odpovede na otázky',
+        'visited_polling_stations' => 'Navštívené volebné miesta',
+        'minutes_monitoring' => 'Monitorovanie zápisníc',
+        'ngos' => 'mimovládne organizácie',
     ],
     'user' => [
         'role' => [

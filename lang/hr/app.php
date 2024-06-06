@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Pokrenuti obrasci',
         'questions_answered' => 'Odgovorena pitanja',
         'flagged_answers' => 'Označeni odgovori',
+        'visited_polling_stations' => 'Posjećena biračka mjesta',
+        'minutes_monitoring' => 'Praćenje protokola',
+        'ngos' => 'Nevladine organizacije',
     ],
     'user' => [
         'role' => [

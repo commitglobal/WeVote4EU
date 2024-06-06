@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Formulaires démarrés',
         'questions_answered' => 'Réponses aux questions',
         'flagged_answers' => 'Réponses signalées',
+        'visited_polling_stations' => 'Bureaux de vote visités',
+        'minutes_monitoring' => 'Surveillance des minutes',
+        'ngos' => 'ONG',
     ],
     'user' => [
         'role' => [

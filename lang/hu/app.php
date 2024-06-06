@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Kezdett űrlapok',
         'questions_answered' => 'Megválaszolt kérdések',
         'flagged_answers' => 'Megjelölt válaszok',
+        'visited_polling_stations' => 'Meglátogatott szavazóhelyeket',
+        'minutes_monitoring' => 'Jegyzőkönyvelés',
+        'ngos' => 'NGO-k',
     ],
     'user' => [
         'role' => [

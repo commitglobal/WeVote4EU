@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Aloitetut lomakkeet',
         'questions_answered' => 'Kysymyksiin vastattu',
         'flagged_answers' => 'Merkityt vastaukset',
+        'visited_polling_stations' => 'Vieraillut äänestyspaikat',
+        'minutes_monitoring' => 'Pöytäkirjojen seuranta',
+        'ngos' => 'kansalaisjärjestöt',
     ],
     'user' => [
         'role' => [

@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Formulare începute',
         'questions_answered' => 'Întrebări răspunse',
         'flagged_answers' => 'Răspunsuri marcate',
+        'visited_polling_stations' => 'Secții de votare vizitate',
+        'minutes_monitoring' => 'Minute monitorizate',
+        'ngos' => 'ONG-uri',
     ],
     'user' => [
         'role' => [

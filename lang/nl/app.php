@@ -42,6 +42,9 @@ return [
         'questions_answered' => 'Vragen beantwoord',
         'flagged_answers' => 'Gemarkeerde antwoorden',
         'votes' => 'Stemmen',
+        'ngos' => 'NGO\'s',
+        'visited_polling_stations' => 'Bezochte stembureaus',
+        'minutes_monitoring' => 'Monitoring van minuten',
     ],
     'user' => [
         'role' => [

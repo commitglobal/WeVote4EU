@@ -42,6 +42,9 @@ return [
         'flagged_answers' => 'Tweġibiet immarkati',
         'observers' => 'Osservaturi fuq il-post',
         'votes' => 'Voti',
+        'visited_polling_stations' => 'Stazzjonijiet tal-votazzjoni miżjura',
+        'minutes_monitoring' => 'Monitoraġġ tal-minuti',
+        'ngos' => 'NGOs',
     ],
     'user' => [
         'role' => [

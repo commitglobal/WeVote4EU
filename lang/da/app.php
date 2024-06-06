@@ -42,6 +42,9 @@ return [
         'started_forms' => 'Startede formularer',
         'questions_answered' => 'Spørgsmål besvaret',
         'flagged_answers' => 'Markerede svar',
+        'visited_polling_stations' => 'Besøgte valglokaler',
+        'minutes_monitoring' => 'Protokollovervågning',
+        'ngos' => 'NGO\'er',
     ],
     'user' => [
         'role' => [
