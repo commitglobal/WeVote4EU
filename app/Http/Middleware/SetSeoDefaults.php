@@ -21,8 +21,8 @@ class SetSeoDefaults
         seo()
             ->withUrl()
             ->title(
-                default: __('app.hero.name') . ' - ' . __('app.hero.title'),
-                modifier: fn (string $title) => $title . ' — ' . __('app.hero.name')
+                default: config('app.name') . ' - ' . __('app.hero.title')  . ' ' . __('app.hero.name'),
+                modifier: fn (string $title) => $title . ' — ' . config('app.name')
             )
             ->description(default: __('app.hero.description'))
             ->image(Vite::asset('resources/images/cards/eu.png'));
