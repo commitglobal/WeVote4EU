@@ -26,6 +26,8 @@ class Country extends Component
     {
         $country = $this->loadCountry();
 
+        abort_unless($country, 404);
+
         seo()
             ->title(__("countries.{$country['code']}"))
             ->image(Vite::asset("resources/images/cards/{$country['code']}.png"));
