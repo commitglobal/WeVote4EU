@@ -29,6 +29,7 @@ class Partners extends Component
         return Institution::query()
             ->where('enabled', true)
             ->orderBy('order')
+            ->with('media')
             ->get()
             ->map(fn (Institution $institution) => [
                 'name' => $institution->name,
@@ -43,6 +44,7 @@ class Partners extends Component
         return Expert::query()
             ->where('enabled', true)
             ->orderBy('order')
+            ->with('media')
             ->get()
             ->map(fn (Expert $expert) => [
                 'name' => $expert->name,
