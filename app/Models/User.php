@@ -63,7 +63,7 @@ class User extends Authenticatable implements FilamentUser, HasAvatar, HasName, 
     {
         $this->addMediaCollection('avatar')
             ->useFallbackUrl(
-                sprintf(
+                \sprintf(
                     'https://ui-avatars.com/api/?%s',
                     Arr::query([
                         'name' => Str::initials($this->name),

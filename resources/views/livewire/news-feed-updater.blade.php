@@ -8,7 +8,7 @@
                 $wire.$parent.reload();
             }
         }"
-        class="p-4 border-l-4 shadow border-secondary-600 bg-secondary-100">
+        class="p-4 border-l-4 shadow-sm border-secondary-600 bg-secondary-100">
         <div class="flex gap-3">
             <x-ri-information-fill class="w-5 h-5 text-secondary-500 shrink-0" />
 

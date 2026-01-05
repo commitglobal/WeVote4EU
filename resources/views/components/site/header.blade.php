@@ -16,7 +16,7 @@
                     @class([
                         'font-medium leading-tight',
                         'text-primary-900 hover:bg-primary-50',
-                        'px-3 py-2 rounded',
+                        'px-3 py-2 rounded-sm',
                     ])>
                     {{ __('app.newsfeed.title') }}
                 </a>
@@ -24,7 +24,7 @@
 
             <div x-data="{ langOpen: false }" x-on:click.away="langOpen = false">
                 <button
-                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight rounded text-primary-900 hover:bg-primary-50 focus:bg-primary-100 focus:outline-none"
+                    class="flex items-center gap-1 px-3 py-2 font-light leading-tight rounded-sm text-primary-900 hover:bg-primary-50 focus:bg-primary-100 focus:outline-hidden"
                     x-on:click="langOpen = !langOpen">
                     <x-ri-translate class="w-5 h-5" />
                     <span class="font-medium">{{ currentLocale()['nativeName'] }}</span>
@@ -40,7 +40,7 @@
                         @foreach ($alternateUrls as $locale => $item)
                             <li class="text-sm">
                                 <a
-                                    class="flex px-2 py-2 rounded sm:px-3 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none"
+                                    class="flex px-2 py-2 rounded-sm sm:px-3 hover:bg-gray-100 focus:bg-gray-200 focus:outline-hidden"
                                     hreflang="{{ $locale }}"
                                     href="{{ $item['url'] }}"
                                     wire:navigate>

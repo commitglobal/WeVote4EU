@@ -62,6 +62,6 @@ class Country extends Component
             return $dates->first()->isoFormat('D MMMM YYYY');
         }
 
-        return sprintf('%s–%s', $dates->first()->isoFormat('D'), $dates->last()->isoFormat('D MMMM YYYY'));
+        return \sprintf('%s–%s', $dates->first()->isoFormat('D'), $dates->last()->isoFormat('D MMMM YYYY'));
     }
 }
