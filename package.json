@@ -15,7 +15,7 @@
         "postcss": "^8.5.6",
         "postcss-nesting": "^13.0.2",
         "prettier": "^3.7.4",
-        "pusher-js": "^8.4.0-rc2",
+        "pusher-js": "^8.4.0",
         "tailwindcss": "^4.1.18",
         "vite": "^7.3.0"
     }
