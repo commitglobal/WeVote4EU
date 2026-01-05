@@ -7,8 +7,8 @@
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.11",
+        "@tailwindcss/postcss": "^4.1.18",
         "@tailwindcss/typography": "^0.5.19",
-        "autoprefixer": "^10.4.23",
         "axios": "^1.13.2",
         "laravel-echo": "^2.2.7",
         "laravel-vite-plugin": "^2.0.1",
@@ -16,7 +16,7 @@
         "postcss-nesting": "^13.0.2",
         "prettier": "^3.7.4",
         "pusher-js": "^8.4.0-rc2",
-        "tailwindcss": "^3.4.3",
+        "tailwindcss": "^4.1.18",
         "vite": "^7.3.0"
     }
 }

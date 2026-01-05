@@ -13,14 +13,14 @@
 @endphp
 
 <{{ $tag }}
-    {{ $attributes->class(['relative flex flex-col gap-4 group focus:outline-none'])->merge([
+    {{ $attributes->class(['relative flex flex-col gap-4 group focus:outline-hidden'])->merge([
         'href' => $url,
         'target' => $target,
         'rel' => $rel,
     ]) }}>
 
     <div
-        class="flex items-center justify-center p-6 overflow-hidden shadow sm:p-4 md:p-8 aspect-square ring-1 ring-primary-800">
+        class="flex items-center justify-center p-6 overflow-hidden shadow-sm sm:p-4 md:p-8 aspect-square ring-1 ring-primary-800">
         <img src="{{ $logo }}" alt="{{ $name }}" class="object-contain" />
     </div>
 

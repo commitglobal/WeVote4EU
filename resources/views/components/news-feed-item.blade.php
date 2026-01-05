@@ -3,7 +3,7 @@
 <article
     wire:key="news-feed-item-{{ $post->id }}"
     x-data="{ more: false }"
-    class="overflow-hidden bg-white rounded-lg shadow">
+    class="overflow-hidden bg-white rounded-lg shadow-sm">
     <div class="flex flex-col gap-4 px-4 py-5 sm:p-6">
         <header class="relative flex items-center gap-x-4">
             <div title="{{ $post->country->label() }}">
@@ -44,7 +44,7 @@
             @foreach ($post->media as $media)
                 <a href="{{ $media->getUrl() }}"
                     target="_blank"
-                    class="shadow-sm hover:shadow-lg focus">
+                    class="shadow-xs hover:shadow-lg focus">
                     <img src="{{ $media->getUrl('thumb') }}"
                         alt="{{ $media->name }}"
                         class="aspect-square" />
@@ -57,7 +57,7 @@
         <button type="button"
             @click.prevent="more = !more"
 
-            class="px-2.5 py-1.5 text-sm gap-x-1.5 inline-flex items-center font-semibold rounded shadow-sm text-primary-900 bg-secondary-500 hover:bg-secondary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-600">
+            class="px-2.5 py-1.5 text-sm gap-x-1.5 inline-flex items-center font-semibold rounded-sm shadow-xs text-primary-900 bg-secondary-500 hover:bg-secondary-400 focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-600">
             <span>{{ __('app.newsfeed.more') }}</span>
 
             <x-ri-arrow-down-s-line class="-me-0.5 h-5 w-5" />

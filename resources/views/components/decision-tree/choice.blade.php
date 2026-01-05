@@ -8,7 +8,7 @@
         'ring-2 ring-inset ring-transparent',
 
         'hover:ring-secondary-500',
-        'focus:ring-secondary-500 focus:outline-none',
+        'focus:ring-secondary-500 focus:outline-hidden',
         'active:bg-secondary-100',
     ];
 @endphp

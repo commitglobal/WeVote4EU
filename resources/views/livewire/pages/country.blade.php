@@ -96,7 +96,7 @@
                         </div>
                     @else
                         <div
-                            class="max-w-3xl mx-auto prose md:prose-lg lg:prose-xl prose-a:text-primary-500 prose-a:font-medium hover:prose-a:no-underline">
+                            class="max-w-3xl mx-auto prose md:prose-lg lg:prose-xl prose-a:text-primary-500 prose-a:font-medium prose-a:hover:no-underline">
                             {!! __("country-{$country}.$id") !!}
                         </div>
                     @endif

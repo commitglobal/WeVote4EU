@@ -1,7 +1,7 @@
 <section id="newsfeed" class="relative py-32 bg-primary-50 md:py-48">
     <div class="container max-w-6xl">
         <div
-            class="prose md:prose-lg lg:prose-xl max-w-none prose-headings:font-semibold prose-a:text-primary-800 prose-a:font-medium hover:prose-a:no-underline">
+            class="prose md:prose-lg lg:prose-xl max-w-none prose-headings:font-semibold prose-a:text-primary-800 prose-a:font-medium prose-a:hover:no-underline">
             <h2 class="flex items-center gap-3 sm:gap-6">
                 <span>{{ __('app.newsfeed.title') }}</span>
                 <x-ri-rfid-line class="w-8 md:w-12" />
