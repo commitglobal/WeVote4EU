@@ -8,18 +8,21 @@ use App\Enums\Country;
 use App\Models\Author;
 use App\Models\ElectionDay;
 use App\Models\Post;
+use Filament\Actions\Concerns\InteractsWithActions;
+use Filament\Actions\Contracts\HasActions;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
-use Filament\Forms\Form;
+use Filament\Schemas\Schema;
 use Illuminate\Contracts\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Livewire\Attributes\Computed;
 use Livewire\Component;
 use Livewire\WithPagination;
 
-class NewsFeed extends Component implements HasForms
+class NewsFeed extends Component implements HasForms, HasActions
 {
+    use InteractsWithActions;
     use InteractsWithForms;
     use WithPagination;
 
@@ -34,11 +37,11 @@ class NewsFeed extends Component implements HasForms
         $this->form->fill();
     }
 
-    public function form(Form $form): Form
+    public function form(Schema $schema): Schema
     {
-        return $form
+        return $schema
             ->columns(3)
-            ->schema([
+            ->components([
                 Select::make('country')
                     ->label(__('app.newsfeed.filters.country'))
                     ->options(Country::options())
