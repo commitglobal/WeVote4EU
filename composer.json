@@ -11,7 +11,7 @@
         "php": "^8.4",
         "andreiio/blade-remix-icon": "^3.9",
         "archtechx/laravel-seo": "^0.10",
-        "blade-ui-kit/blade-icons": "^1.8",
+        "blade-ui-kit/blade-icons": "^1.9",
         "filament/filament": "^4.0",
         "filament/spatie-laravel-media-library-plugin": "^4.0",
         "jeffgreco13/filament-breezy": "^3.1",
