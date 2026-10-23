@@ -65,7 +65,7 @@ class ContentImport implements ToCollection, SkipsEmptyRows, WithEvents, WithHea
         $this->output->title("Importing sheet {$this->sheet}...");
     }
 
-    public function collection(Collection $collection)
+    public function collection(Collection $collection): void
     {
         [$country, $date] = explode(' - ', $this->sheet);
 

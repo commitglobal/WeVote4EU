@@ -4,7 +4,7 @@
             <span class="text-3xl font-bold tracking-widest sm:text-5xl">{{ $this->stat['value'] }}</span>
 
             <div class="flex flex-col items-center leading-none">
-                <x-fas-vote-yea class="w-4 h-4 sm:w-6 sm:h-6" />
+                <x-icon-vote class="w-4 h-4 sm:w-6 sm:h-6" />
 
                 <span class="text-xs font-medium sm:text-sm">{{ $this->stat['label'] }}</span>
             </div>
