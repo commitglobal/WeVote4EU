@@ -16,7 +16,7 @@
         "filament/spatie-laravel-media-library-plugin": "^5.10",
         "jeffgreco13/filament-breezy": "^3.2",
         "laravel/framework": "^13.38",
-        "laravel/pulse": "^1.8",
+        "laravel/pulse": "^1.9",
         "laravel/reverb": "^1.13",
         "laravel/tinker": "^3.1",
         "league/flysystem-aws-s3-v3": "^3.35",

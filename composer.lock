@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "592c82923a0e5fad6ec7b101d08e9183",
+    "content-hash": "f81594772870c4d87906fd42d6d8722f",
     "packages": [
         {
             "name": "andreiio/blade-remix-icon",
@@ -3441,16 +3441,16 @@
         },
         {
             "name": "laravel/pulse",
-            "version": "v1.8.1",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pulse.git",
-                "reference": "0f828f61f92656de7f0d0bc83bacbf6908ed8460"
+                "reference": "a4f0bdc93d93f7a8c08367748b6415ff90842c0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pulse/zipball/0f828f61f92656de7f0d0bc83bacbf6908ed8460",
-                "reference": "0f828f61f92656de7f0d0bc83bacbf6908ed8460",
+                "url": "https://api.github.com/repos/laravel/pulse/zipball/a4f0bdc93d93f7a8c08367748b6415ff90842c0b",
+                "reference": "a4f0bdc93d93f7a8c08367748b6415ff90842c0b",
                 "shasum": ""
             },
             "require": {
@@ -3526,7 +3526,7 @@
                 "issues": "https://github.com/laravel/pulse/issues",
                 "source": "https://github.com/laravel/pulse"
             },
-            "time": "2026-08-20T10:00:14+00:00"
+            "time": "2026-11-06T19:06:20+00:00"
         },
         {
             "name": "laravel/reverb",
